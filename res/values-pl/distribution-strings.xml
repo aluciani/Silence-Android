@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Z łatwością szyfruj rozmowy przez SMS/MMS!</string>
+  <string name="Distribution_description">Silence jest aplikacją SMS/MMS, która pozwoli Ci chronić Twoją prywatność podczas rozmów z przyjaciółmi.</string>
+  <string name="Distribution_long_description">
+Silence jest aplikacją SMS/MMS, która pozwoli Ci chronić Twoją prywatność podczas rozmów z przyjaciółmi.
+Za pomocą aplikacji Silence możesz wysyłać wiadomości SMS i dzielić się multimediami z zachowaniem prywatności.
+
+Możliwości:
+* Prostota. Silence działa jak każda inna aplikacja SMS. Ty i Twoi przyjaciele nie muszą się nigdzie rejestrować.
+* Niezawodność. Silence komunikuje się przez szyfrowane wiadomości SMS. Nie są wymagane żadne serwery, ani połączenie z Internetem.
+* Prywatność. Silence oferuje pełne (ang. end-to-end) szyfrowanie Twoich wiadomości używając starannie opracowanego protokołu szyfrującego aplikacji Signal.
+* Bezpieczeństwo. Wszystkie wiadomości są szyfrowane lokalnie, więc jeżeli Twój telefon zaginie lub zostanie skradziony Twoje wiadomości pozostaną bezpieczne.
+* Otwarty kod. Silence jest wolnym i otwartoźródłowym oprogramowaniem, każdy może sprawdzić jego bezpieczeństwo analizując kod źródłowy.
+
+Prosimy zgłaszać błędy, lub proponować nowe funkcje:
+https://git.silence.dev/Silence/Silence-Android/issues
+
+Kod źródłowy:
+https://git.silence.dev/Silence/Silence-Android
+
+Więcej informacji:
+https://silence.im
+
+Polityka prywatności:
+https://silence.im/privacy</string>
+</resources>

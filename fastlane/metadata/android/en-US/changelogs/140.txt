@@ -1,0 +1,2 @@
+- Fixed persistent crash when downloading some MMS messages
+- Updated translations

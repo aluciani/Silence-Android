@@ -1,0 +1,9 @@
+- Added missing emojis flags
+- Added widget with unread messages count
+- Added support for image keyboard
+- Added Android N bundled notifications and quick reply
+- Added support for direct share targets
+- Added sticky date headers
+- Added scroll-to-bottom button
+- Updated translations
+- Minor bugs fixes

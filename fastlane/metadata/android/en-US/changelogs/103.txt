@@ -1,0 +1,4 @@
+- Added support for Android Wear
+- Added support for Lollipop-style notifications
+- Improved encrypted message detection (for using as non-default SMS app)
+- Fixed bugs

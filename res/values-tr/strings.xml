@@ -1,0 +1,773 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Evet</string>
+    <string name="no">Hayır</string>
+    <string name="delete">Sil</string>
+    <string name="please_wait">Lütfen bekleyin...</string>
+    <!--AbstractNotificationBuilder-->
+    <string name="AbstractNotificationBuilder_new_message">Yeni mesaj</string>
+    <!--ApplicationPreferencesActivity-->
+    <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Henüz bir parola belirlemediniz!</string>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="one">sohbet başına 1 mesaj</item>
+        <item quantity="other">Sohbet başına %d mesaj</item>
+    </plurals>
+    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Tüm eski mesajlar silinsin mi?</string>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="one">Bu seçenek tüm sohbetleri son gelen mesaj ile sınırlayacaktır.</item>
+        <item quantity="other">Bu seçenek tüm sohbetleri son gelen %d mesaj ile sınırlayacaktır.</item>
+    </plurals>
+    <string name="ApplicationPreferencesActivity_delete">Sil</string>
+    <string name="ApplicationPreferencesActivity_disable_storage_encryption">Saklama alanı şifrelemesi devre dışı bırakılsın mı?</string>
+    <string name="ApplicationPreferencesActivity_warning_this_will_disable_storage_encryption_for_all_messages">
+        Uyarı, bu seçenek tüm mesajlar ve anahtarlar için şifrelemeyi devre dışı bırakacaktır. Şifreli oturumlarınız
+        olduğu gibi devam edecektir, fakat cihazınıza fiziksel erişimi olan herhangi biri
+        okuyabilecektir.
+    </string>
+    <string name="ApplicationPreferencesActivity_disable">Devre dışı bırak</string>
+    <string name="ApplicationPreferencesActivity_sms_enabled">SMS alımı etkinleştirildi</string>
+    <string name="ApplicationPreferencesActivity_tap_to_change_your_default_sms_app">Öntanımlı SMS uygulamanızı değiştirmek için buraya dokunun</string>
+    <string name="ApplicationPreferencesActivity_sms_disabled">SMS alımı devre dışı bırakıldı</string>
+    <string name="ApplicationPreferencesActivity_tap_to_make_silence_your_default_sms_app">Silence\'ı varsayılan SMS uygulamanız yapmak için buraya dokunun</string>
+    <string name="ApplicationPreferencesActivity_on">açık</string>
+    <string name="ApplicationPreferencesActivity_On">Açık</string>
+    <string name="ApplicationPreferencesActivity_off">kapalı</string>
+    <string name="ApplicationPreferencesActivity_Off">Kapalı</string>
+    <string name="ApplicationPreferencesActivity_sms">SMS</string>
+    <string name="ApplicationPreferencesActivity_mms">MMS</string>
+    <string name="ApplicationPreferencesActivity_incoming_summary">Mesaj alımı %s</string>
+    <string name="ApplicationPreferencesActivity_privacy_summary">Parola %1$s, Ekran güvenliği %2$s</string>
+    <string name="ApplicationPreferencesActivity_appearance_summary">Tema %1$s, Dil %2$s</string>
+    <!--AppProtectionPreferenceFragment-->
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="one">1 dakika</item>
+        <item quantity="other">%d dakika</item>
+    </plurals>
+    <!--DraftDatabase-->
+    <string name="DraftDatabase_Draft_image_snippet">(resim)</string>
+    <string name="DraftDatabase_Draft_audio_snippet">(ses)</string>
+    <string name="DraftDatabase_Draft_video_snippet">(görüntü)</string>
+    <!--AttchmentManager-->
+    <string name="AttachmentManager_cant_open_media_selection">Medya seçilecek uygulama bulunamadı.</string>
+    <!--AttachmentTypeSelectorAdapter-->
+    <string name="AttachmentTypeSelectorAdapter_camera">Kamera</string>
+    <string name="AttachmentTypeSelectorAdapter_picture">Resim</string>
+    <string name="AttachmentTypeSelectorAdapter_video">Görüntü</string>
+    <string name="AttachmentTypeSelectorAdapter_audio">Ses</string>
+    <string name="AttachmentTypeSelectorAdapter_contact">Kişi bilgisi</string>
+    <!--AudioSlidePlayer-->
+    <string name="AudioSlidePlayer_error_playing_audio">Ses oynatılırken hata!</string>
+    <!--BlockedContactsActivity-->
+    <string name="BlockedContactsActivity_blocked_contacts">Engellenen kişiler</string>
+    <!--ConversationItem-->
+    <string name="ConversationItem_message_size_d_kb">Mesaj boyutu: %d KB</string>
+    <string name="ConversationItem_expires_s">Ömrü: %s</string>
+    <string name="ConversationItem_error_not_delivered">İletilmedi</string>
+    <string name="ConversationItem_view_secure_media_question">Güvenli medyayı görüntüle?</string>
+    <string name="ConversationItem_this_media_has_been_stored_in_an_encrypted_database_external_viewer_warning">Bu medya şifrelenmiş veritabanında depolanmakta. Ne yazık ki farklı içerik görüntüleyicilerinde görüntülemek için verilerin geçici olarak deşifrelenip depolamaya yazılması gerekli. Bu eylemi gerçekleştirmek istediğinizden emin misiniz?</string>
+    <string name="ConversationItem_error_received_stale_key_exchange_message">Eski anahtar takas mesajı alındı.</string>
+    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Anahtar takas mesajı alındı, işlemek için dokunun.</string>
+    <string name="ConversationItem_group_action_left">%1$s gruptan ayrıldı.</string>
+    <string name="ConversationItem_click_for_details">Ayrıntılar için dokunun</string>
+    <string name="ConversationItem_unable_to_open_media">Bu medyayı açabilecek bir uygulama bulunamadı.</string>
+    <string name="ConversationItem_xmpp_address_update_silence">XMPP adresi. Bu özelliği etkinleştirmek için Silence\'ı güncelleyin.</string>
+    <!--ConversationActivity-->
+    <string name="ConversationActivity_initiate_secure_session_question">Güvenli oturum başlatılsın mı?</string>
+    <string name="ConversationActivity_initiate_secure_session_with_s_question">%s ile güvenli oturum başlat?</string>
+    <string name="ConversationActivity_detected_silence_initiate_session_question">Silence kullanıcısından mesaj alındı, şifreli oturum başlat?</string>
+    <string name="ConversationActivity_abort_secure_session_confirmation">Güvenli oturumu bitir?</string>
+    <string name="ConversationActivity_are_you_sure_that_you_want_to_abort_this_secure_session_question">Bu güvenli oturumu sonlandırmak istediğinizden emin misiniz?</string>
+    <string name="ConversationActivity_delete_thread_question">Sohbeti sil?</string>
+    <string name="ConversationActivity_this_will_permanently_delete_all_messages_in_this_conversation">Bu seçenek bu sohbetteki tüm mesajları silecektir.</string>
+    <string name="ConversationActivity_add_attachment">Ek ekle</string>
+    <string name="ConversationActivity_select_contact_info">Kişi bilgisi seç</string>
+    <string name="ConversationActivity_compose_message">Mesaj yaz</string>
+    <string name="ConversationActivity_sorry_there_was_an_error_adding_your_attachment">Üzgünüz, eklentinizi eklerken hata oluştu.</string>
+    <string name="ConversationActivity_the_gif_you_selected_was_too_big">Seçtiğiniz GIF çok büyük!</string>
+    <string name="ConversationActivity_sorry_the_selected_video_exceeds_message_size_restrictions">Üzgünüz, seçilen görüntü mesaj boyutu limitini aşıyor (%1$skB).</string>
+    <string name="ConversationActivity_sorry_the_selected_audio_exceeds_message_size_restrictions">Üzgünüz, seçilen ses mesaj boyutu limitini aşıyor (%1$skB).</string>
+    <string name="ConversationActivity_recipient_is_not_a_valid_sms_or_email_address_exclamation">Alıcı, geçerli bir SMS veya eposta adresi değil!</string>
+    <string name="ConversationActivity_message_is_empty_exclamation">Göndermeye çalıştığınız mesaj boş!</string>
+    <string name="ConversationActivity_group_members">Grup üyeleri</string>
+    <string name="ConversationActivity_group_conversation">Grup sohbeti</string>
+    <string name="ConversationActivity_unnamed_group">Adlandırılmamış grup</string>
+    <plurals name="ConversationActivity_d_recipients_in_group">
+        <item quantity="one">1 üye</item>
+        <item quantity="other"> %d üye</item>
+    </plurals>
+    <string name="ConversationActivity_saved_draft">Kaydedilmiş taslak</string>
+    <string name="ConversationActivity_invalid_recipient">Geçersiz alıcı!</string>
+    <string name="ConversationActivity_calls_not_supported">Aramalar desteklenmiyor</string>
+    <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Bu cihaz arama işlemlerini destekliyor gibi görünmüyor.</string>
+    <string name="ConversationActivity_cant_open_link">Bu bağlantıyı açabilecek bir uygulama bulunamadı.</string>
+    <string name="ConversationActivity_transport_insecure_sms">Güvensiz SMS</string>
+    <string name="ConversationActivity_transport_insecure_mms">Güvensiz MMS</string>
+    <string name="ConversationActivity_transport_secure_sms">Güvenli SMS</string>
+    <string name="ConversationActivity_transport_secure_mms">Güvenli MMS</string>
+    <string name="ConversationActivity_install_smssecure">Güvenli mesajlaşalım: %s</string>
+    <string name="ConversationActivity_recipient_self">Güvenli oturumlar sadece diğer kişilerle başlatılabilir.</string>
+    <string name="ConversationActivity_mms_not_supported_title">MMS desteklenmiyor</string>
+    <string name="ConversationActivity_mms_not_supported_message">Operatörünüz MMS desteklemediği için bu mesaj gönderilemez.</string>
+    <string name="ConversationActivity_specify_recipient">Lütfen bir kişi seçin</string>
+    <string name="ConversationActivity_attachment_exceeds_size_limits">Eklenti, boyut sınırlarını aşıyor.</string>
+    <!--ConversationAdapter-->
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="one">%d okunmamış mesaj</item>
+        <item quantity="other">%d okunmamış mesaj</item>
+    </plurals>
+    <!--ConversationFragment-->
+    <string name="ConversationFragment_message_details">Mesaj detayları</string>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="one">Seçilen mesajı sil?</item>
+        <item quantity="other">Seçilen mesajları sil?</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="one">Bu seçenek, seçilen mesajı silecektir.</item>
+        <item quantity="other">Bu seçenek, seçilen %1$d mesajları silecektir.</item>
+    </plurals>
+    <string name="ConversationFragment_save_to_sd_card">Depolama alanına kaydedilsin mi?</string>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="one">Bu medyayı depolamaya kaydetmek başka uygulamalar tarafından da erişilebilir olacağı anlamına gelmekte.\n\nDevam et?</item>
+        <item quantity="other">%1$d medyayı depolamaya kaydetmek başka uygulamalar tarafından da erişilebilir olacağı anlamına gelmekte.\n\nDevam et?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="one">Eklenti depolamaya kaydedilirken hata oluştu!</item>
+        <item quantity="other">Eklentiler depolamaya kaydedilirken hata oluştu!</item>
+    </plurals>
+    <plurals name="ConversationFragment_files_saved_successfully">
+        <item quantity="one">Dosya başarıyla kaydedildi.</item>
+        <item quantity="other">Dosyalar başarıyla kaydedildi.</item>
+    </plurals>
+    <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">Depolama alanına yazılamıyor!</string>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="one">Eklenti kaydediliyor</item>
+        <item quantity="other">%1$d eklenti kaydediliyor</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="one">Eklenti depolamaya kaydediliyor…</item>
+        <item quantity="other">%1$d eklenti depolamaya kaydediliyor…</item>
+    </plurals>
+    <string name="ConversationFragment_collecting_attahments">Eklentiler toplanıyor…</string>
+    <string name="ConversationFragment_pending">Beklemede…</string>
+    <string name="ConversationFragment_mms">MMS</string>
+    <string name="ConversationFragment_sms">SMS</string>
+    <string name="ConversationFragment_deleting">Siliniyor…</string>
+    <string name="ConversationFragment_deleting_messages">Mesajlar siliniyor…</string>
+    <!--ConversationListActivity-->
+    <string name="ConversationListActivity_search">Ara</string>
+    <!--ConversationListFragment-->
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="one">Seçilen sohbeti sil?</item>
+        <item quantity="other">Seçilen sohbetleri sil?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="one">Bu seçenek, seçilen sohbeti silecektir.</item>
+        <item quantity="other">Bu seçenek, seçilen %1$d sohbeti silecektir.</item>
+    </plurals>
+    <string name="ConversationListFragment_deleting">Siliniyor</string>
+    <string name="ConversationListFragment_deleting_selected_conversations">Seçilen sohbetler siliniyor…</string>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="one">Sohbet arşivlendi</item>
+        <item quantity="other">%d sohbet arşivlendi</item>
+    </plurals>
+    <string name="ConversationListFragment_undo">GERİ AL</string>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="one">Sohbet gelen kutusuna taşındı</item>
+        <item quantity="other">%d sohbet gelen kutusuna taşındı</item>
+    </plurals>
+    <string name="ConversationListFragment_send_drafts">Taslakları gönder</string>
+    <string name="ConversationListFragment_this_will_send_drafts_of_selected_conversations">Bu seçenek, seçili sohbetlerin taslaklarını gönderecektir.</string>
+    <string name="ConversationListFragment_send">Gönder</string>
+    <string name="ConversationListFragment_sending">Gönderiliyor</string>
+    <string name="ConversationListFragment_sending_selected_drafts">Seçilen taslaklar gönderiliyor…</string>
+    <!--ConversationListItemAction-->
+    <string name="ConversationListItemAction_archived_conversations_d">Arşivlenen sohbetler (%d)</string>
+    <!--CustomDefaultPreference-->
+    <string name="CustomDefaultPreference_using_custom">Özel ayar kullanılıyor: %s</string>
+    <string name="CustomDefaultPreference_using_default">Varsayılan kullanılıyor: %s</string>
+    <string name="CustomDefaultPreference_none">Hiçbiri</string>
+    <!--DateUtils-->
+    <string name="DateUtils_now">Şimdi</string>
+    <string name="DateUtils_minutes_ago">%d dakika</string>
+    <string name="DateUtils_today">Bugün</string>
+    <string name="DateUtils_yesterday">Dün</string>
+    <!--DualSimUtil-->
+    <string name="DualSimUtil__new_sim_card_detected">Yeni SIM kart tespit edildi</string>
+    <string name="DualSimUtil__a_new_key_has_been_generated">Yeni anahtar oluşturuldu.</string>
+    <string name="DualSimUtil__a_new_key_has_been_generated_for_that_new_sim_card">Yeni anahtar o SIM kartı için oluşturuldu.</string>
+    <!--ShareActivity-->
+    <string name="ShareActivity_share_with">Paylaşılan kişi</string>
+    <!--WelcomeActivity-->
+    <!--ExportFragment-->
+    <string name="ExportFragment_export">Dışa aktar</string>
+    <string name="ExportFragment_export_plaintext_to_storage">Şifrelenmemiş metin yedeğini dışa aktar?</string>
+    <string name="ExportFragment_warning_this_will_export_the_contents_of_your_messages_to_storage_in_plaintext">Dikkat, bu seçenek Silence mesajlarınızı şifrelenmemiş metin dosyasına aktaracaktır.</string>
+    <string name="ExportFragment_cancel">İptal</string>
+    <string name="ExportFragment_exporting">Dışa aktarılıyor</string>
+    <string name="ExportFragment_exporting_plaintext_to_storage">Şifrelenmemiş metin yedeği dışa aktarılıyor…</string>
+    <string name="ExportFragment_error_unable_to_write_to_storage">Hata, depolamaya yazılamadı.</string>
+    <string name="ExportFragment_error_while_writing_to_storage">Depolamaya yazılırken hata.</string>
+    <string name="ExportFragment_export_successful">Dışa aktarma başarılı.</string>
+    <string name="ExportFragment_export_encrypted_backup">Şifrelenmiş yedeği dışa aktar?</string>
+    <string name="ExportFragment_this_will_export_your_encrypted_keys_settings_and_messages">Bu seçenek anahtarlarınızı, ayarlarınızı ve mesajlarınızı depolamaya aktaracaktır.</string>
+    <string name="ExportFragment_exporting_keys_settings_and_messages">Anahtarlar, ayarlar ve mesajlar şifreli olarak dışa aktarılıyor…</string>
+    <!--GroupCreateActivity-->
+    <string name="GroupCreateActivity_actionbar_title">Yeni grup</string>
+    <string name="GroupCreateActivity_actionbar_update_title">Grubu güncelle</string>
+    <string name="GroupCreateActivity_actionbar_mms_title">Yeni MMS grubu</string>
+    <string name="GroupCreateActivity_contacts_mms_exception">Beklenmedik bir hatadan dolayı grup oluşturulamadı.</string>
+    <string name="GroupCreateActivity_contacts_no_members">Grubunuzda en az bir kişi olmalıdır.</string>
+    <string name="GroupCreateActivity_menu_create_title">Grup oluştur</string>
+    <!--GroupMembersDialog-->
+    <string name="GroupMembersDialog_me">Ben</string>
+    <!--ImportExportActivity-->
+    <string name="ImportExportActivity_import">İçe aktar</string>
+    <string name="ImportExportActivity_export">Dışa aktar</string>
+    <!--ImportFragment-->
+    <string name="ImportFragment_import_system_sms_database">Sistem SMS veritabanı içe aktarılsın mı?</string>
+    <string name="ImportFragment_this_will_import_messages_from_the_system">Bu seçenek
+        sistemin varsayılan SMS veritabanındaki mesajları Silence\'a aktarır. Eğer sistem SMS veritabanını önceden içeri aktardıysanız,
+        tekrar içeri aktarmak mesajlarınızı çift gösterecektir.
+    </string>
+    <string name="ImportFragment_import">İçe aktar</string>
+    <string name="ImportFragment_cancel">İptal</string>
+    <string name="ImportFragment_restore_encrypted_backup">Şifrelenmiş yedeği yükle?</string>
+    <string name="ImportFragment_restoring_an_encrypted_backup_will_completely_replace_your_existing_keys">Şifrelenmiş yedeği yüklemek, şu anda bulunan tüm anahtarlarınızı, seçeneklerinizi ve mesajlarınızın üzerine yazılacaktır. Bu Silence yüklemenizdeki tüm veriler kaybolacak ve yedektekiler yüklenecektir. Silence içe aktarma tamamlandığında kapanacaktır.</string>
+    <string name="ImportFragment_import_plaintext_backup">Şifrelenmemiş metin yedeği içe aktarılsın mı?</string>
+    <string name="ImportFragment_this_will_import_messages_from_a_plaintext_backup">Bu seçenek
+        şifresiz bir yedekten mesajlarınızı içe aktarır. Eğer bu yedeği önceden içeri aktardıysanız,
+        tekrar içeri aktarmak mesajlarınızı çift gösterecektir.
+    </string>
+    <string name="ImportFragment_importing">İçe aktarılıyor</string>
+    <string name="ImportFragment_import_plaintext_backup_elipse">Şifrelenmemiş metin içe aktarılıyor…</string>
+    <string name="ImportFragment_no_plaintext_backup_found">Şifrelenmemiş metin yedeği bulunamadı!</string>
+    <string name="ImportFragment_error_importing_backup">Yedek içe aktarılırken hata!</string>
+    <string name="ImportFragment_import_complete">İçe aktarma tamamlandı!</string>
+    <string name="ImportFragment_restoring_encrypted_backup">Şifrelenmiş yedek yükleniyor…</string>
+    <string name="ImportFragment_no_encrypted_backup_found">Şifrelenmiş yedek bulunamadı!</string>
+    <!--KeyScanningActivity-->
+    <string name="KeyScanningActivity_no_scanned_key_found_exclamation">Taralı anahtar bulunamadı!</string>
+    <string name="KeyScanningActivity_install_barcode_Scanner">Barcode Scanner kurulsun mu?</string>
+    <string name="KeyScanningActivity_this_application_requires_barcode_scanner_would_you_like_to_install_it">Silence QR kodlar için Barcode Scanner gerektirir.</string>
+    <!--MessageDetailsRecipient-->
+    <string name="MessageDetailsRecipient_failed_to_send">Gönderilemedi</string>
+    <string name="MessageDetailsRecipient_new_identity">Yeni kimlik</string>
+    <!--MmsDownloader-->
+    <string name="MmsDownloader_error_storing_mms">MMS depolama hatası!</string>
+    <string name="MmsDownloader_error_connecting_to_mms_provider">MMS sağlayıcısına bağlanılamadı</string>
+    <string name="MmsDownloader_error_reading_mms_settings">Kablosuz MMS sağlayıcı ayarları okunamadı</string>
+    <!--NotificationMmsMessageRecord-->
+    <string name="NotificationMmsMessageRecord_multimedia_message">Multimedya mesajı</string>
+    <!--MessageRecord-->
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Artık desteklenmeyen bir Silence sürümü ile şifrelenmiş mesaj alındı. Lütfen göndericiden Silence\'ın son sürümüne güncellemesini ve mesajı tekrar göndermesini isteyin.</string>
+    <string name="MessageRecord_the_exchange_message_you_got_came_from_a_version_of_silence_that_is_too_outdated">Takas mesajı sizinle iletişim kuramayacak kadar eski bir Silence sürümünden gelmiş. Güvenli oturumu başlatmak için kendiniz göndermeniz gerekiyor. Anahtar takası mesajını göndermek için dokunun.</string>
+    <string name="MessageRecord_left_group">Gruptan ayrıldınız.</string>
+    <string name="MessageRecord_updated_group">Grubu güncelle.</string>
+    <string name="MessageRecord_key_exchange_message">Anahtar takas mesajı</string>
+    <!--PassphraseChangeActivity-->
+    <string name="PassphraseChangeActivity_passphrases_dont_match_exclamation">Parolalar uyuşmuyor!</string>
+    <string name="PassphraseChangeActivity_incorrect_old_passphrase_exclamation">Yanlış eski şifre!</string>
+    <string name="PassphraseChangeActivity_enter_new_passphrase_exclamation">Şifre girilmedi!</string>
+    <!--PassphrasePromptActivity-->
+    <string name="PassphrasePromptActivity_enter_passphrase">Parola Girin</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Silence ikonu</string>
+    <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Geçersiz Parola!</string>
+    <!--ReceiveKeyActivity-->
+    <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_different">Bu
+        anahtar takasında alınan imza, 
+        bu kişi için daha önce alınandan farklı. Bu, ya birisi iletişiminizi dinlemeye çalıştığının ya da
+        iletişim kurduğunuz kişi Silence\'ı yeniden kurmuş olduğu için yeni kimlik anahtarı aldığının göstergesidir. 
+    </string>
+    <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_trusted_but">Bu anahtar takasındaki
+        imza güvenilir, fakat \'anahtar takaslarını otomatik olarak tamamla\'
+        ayarını devre dışı bırakmışsınız.
+    </string>
+    <string name="ReceiveKeyActivity_processing">İşleniyor</string>
+    <string name="ReceiveKeyActivity_processing_key_exchange">Anahtar takası işleniyor...</string>
+    <string name="ConfirmIdentityDialog_you_may_wish_to_verify_this_contact">Bu kişinin kimliğini onaylamalısınız.</string>
+    <!--RecipientPreferencesActivity-->
+    <string name="RecipientPreferenceActivity_block_this_contact_question">Kişiyi engelle?</string>
+    <string name="RecipientPreferenceActivity_you_will_no_longer_see_messages_from_this_user">Bundan sonra bu kullanıcıdan gelen mesajları görmeyeceksiniz</string>
+    <string name="RecipientPreferenceActivity_block">Engelle</string>
+    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Bu kişinin engeli kaldırılsın mı?</string>
+    <string name="RecipientPreferenceActivity_are_you_sure_you_want_to_unblock_this_contact">Bu kişinin engelini kaldırmak istediğinizden emin misiniz?</string>
+    <string name="RecipientPreferenceActivity_unblock">Engeli kaldır</string>
+    <string name="RecipientPreferenceActivity_enabled">Etkin</string>
+    <string name="RecipientPreferenceActivity_disabled">Devre dışı</string>
+    <!--Slide-->
+    <string name="Slide_image">Fotoğraf</string>
+    <string name="Slide_audio">Ses</string>
+    <string name="Slide_video">Video</string>
+    <!--SmsMessageRecord-->
+    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Bozulmuş anahtar
+        takas mesajı alındı!
+    </string>
+    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">
+        Geçersiz protokol sürümü için anahtar takas mesajı alındı.
+    </string>
+    <string name="SmsMessageRecord_received_message_with_unknown_identity_key_tap_to_process">Bilinmeyen kimlik anahtarı içeren bir mesaj alındı. İşlemek ve görüntülemek için dokunun.</string>
+    <string name="SmsMessageRecord_received_updated_but_unknown_identity_information">Güncellenmiş fakat bilinmeyen bir kimlik bilgisi alındı. Kimlik doğrulaması için haififçe vurun.</string>
+    <string name="SmsMessageRecord_secure_session_ended">Güvenli oturum sona erdi.</string>
+    <string name="SmsMessageRecord_duplicate_message">Çift mesaj.</string>
+    <!--ThreadRecord-->
+    <string name="ThreadRecord_left_the_group">Gruptan ayrıldı</string>
+    <string name="ThreadRecord_draft">Taslak:</string>
+    <string name="ThreadRecord_media_message">Medya mesajı</string>
+    <!--TransportOptions-->
+    <string name="TransportOptions_sms_disabled">SMS mesajları devre dışı bırakıldı</string>
+    <string name="TransportOptions_no_sim_card_found">SIM kart bulunamadı</string>
+    <!--VerifyIdentityActivity-->
+    <string name="VerifyIdentityActivity_you_do_not_have_an_identity_key">Kimlik anahtarınız yok.</string>
+    <string name="VerifyIdentityActivity_recipient_has_no_identity_key">Alıcının kimlik anahtarı yok.</string>
+    <string name="VerifyIdentityActivity_scan_contacts_qr_code">Kişinin QR kodunu tara</string>
+    <string name="VerifyIdentityActivity_display_your_qr_code">QR kodunu göster</string>
+    <string name="VerifyIdentityActivity_warning_the_scanned_key_does_not_match_please_check_the_fingerprint_text_carefully">UYARI, taranan anahtar EŞLEŞMİYOR! Parmak izi metnini dikkatlice inceleyin.</string>
+    <string name="VerifyIdentityActivity_not_verified_exclamation">DOĞRULANMADI!</string>
+    <string name="VerifyIdentityActivity_their_key_is_correct_it_is_also_necessary_to_verify_your_key_with_them_as_well">Kişinin anahtarı doğru. Kendi anahtarınızı da doğrulatmanız gerekiyor.</string>
+    <string name="VerifyIdentityActivity_verified_exclamation">Doğrulandı!</string>
+    <!--ViewIdentityActivity-->
+    <string name="ViewIdentityActivity_scan_contacts_qr_code">Kişinin QR kodunu tara</string>
+    <string name="ViewIdentityActivity_display_your_qr_code">QR kodunu göster</string>
+    <string name="ViewIdentityActivity_warning_the_scanned_key_does_not_match_exclamation">UYARI, taranan anahtar EŞLEŞMİYOR!</string>
+    <string name="ViewIdentityActivity_the_scanned_key_matches_exclamation">Taranan anahtar eşleşiyor!</string>
+    <string name="ViewIdentityActivity_your_identity_fingerprint">Kimliğinizin parmak izi</string>
+    <!--KeyExchangeInitiator-->
+    <string name="KeyExchangeInitiator_initiate_despite_existing_request_question">Varolan isteğe rağmen başlat?</string>
+    <string name="KeyExchangeInitiator_youve_already_sent_a_session_initiation_request_to_this_recipient_are_you_sure">Bu alıcıya zaten bir oturum açma isteği gönderdiniz, bir tane daha göndermek istediğinize emin misiniz? Bu ilk isteği geçersiz kılacaktır.</string>
+    <string name="KeyExchangeInitiator_send">Gönder</string>
+    <!--MessageDisplayHelper-->
+    <string name="MessageDisplayHelper_bad_encrypted_message">Kötü şifrelenmiş mesaj</string>
+    <string name="MessageDisplayHelper_decrypting_please_wait">Deşifreleniyor, lütfen bekleyin…</string>
+    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Mesaj var olmayan oturum için şifrelenmiş</string>
+    <string name="MessageDisplayHelper_end_session_encrypted_for_non_existing_session">Var olmayan oturumu sonlandırma isteği</string>
+    <!--EncryptingSmsDatabase-->
+    <string name="EncryptingSmsDatabase_error_decrypting_message">Mesaj deşifrelenirken hata.</string>
+    <!--MmsDatabase-->
+    <string name="MmsDatabase_connecting_to_mms_server">MMS sunucusuna bağlanılıyor…</string>
+    <string name="MmsDatabase_downloading_mms">MMS indiriliyor…</string>
+    <string name="MmsDatabase_mms_download_failed">MMS indirme başarısız!</string>
+    <string name="MmsDatabase_downloading">İndiriliyor…</string>
+    <string name="MmsDatabase_mms_pending_download">İndirmeye devam etmek için dokunun ve MMS ayarlarını yapılandırın.</string>
+    <string name="MmsDatabase_error_decrypting_message">Mesaj deşifrelenirken hata.</string>
+    <!--MmsMessageRecord-->
+    <string name="MmsMessageRecord_decrypting_mms_please_wait">MMS deşifreleniyor, lütfen bekleyin…</string>
+    <string name="MmsMessageRecord_bad_encrypted_mms_message">Kötü şifrelenmiş MMS mesajı</string>
+    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS mesajı var olmayan oturum için şifrelenmiş</string>
+    <!--MuteDialog-->
+    <string name="MuteDialog_mute_notifications">Bildirimleri sessize al</string>
+    <!--ApplicationMigrationService-->
+    <string name="ApplicationMigrationService_import_in_progress">İçe aktarma sürüyor</string>
+    <string name="ApplicationMigrationService_importing_text_messages">Mesajlar içe aktarılıyor</string>
+    <string name="ApplicationMigrationService_import_complete">İçe aktarma tamamlandı</string>
+    <string name="ApplicationMigrationService_system_database_import_is_complete">Sistem veritabanı içe aktarıldı.</string>
+    <!--KeyCachingService-->
+    <string name="KeyCachingService_silence_passphrase_cached">Açmak için dokunun.</string>
+    <string name="KeyCachingService_silence_passphrase_cached_with_lock">Açmak için dokunun, kapatmak için kilide dokunun.</string>
+    <string name="KeyCachingService_passphrase_cached">Silence açık</string>
+    <string name="KeyCachingService_lock">Parola ile kilitle</string>
+    <!--MessageNotifier-->
+    <string name="MessageNotifier_d_new_messages_in_d_conversations">%2$d sohbetten %1$d yeni mesaj</string>
+    <string name="MessageNotifier_most_recent_from_s">En yeni mesaj: %1$s</string>
+    <string name="MessageNotifier_encrypted_message">Şifreli mesaj</string>
+    <string name="MessageNotifier_media_message_with_text">Medya mesajı: %s</string>
+    <string name="MessageNotifier_no_subject">(Konusuz)</string>
+    <string name="MessageNotifier_message_delivery_failed">Mesaj iletimi başarısız.</string>
+    <string name="MessageNotifier_failed_to_deliver_message">Mesaj iletilemedi.</string>
+    <string name="MessageNotifier_error_delivering_message">Mesaj iletilirken hata.</string>
+    <string name="MessageNotifier_mark_all_as_read">Tümünü okundu işaretle</string>
+    <string name="MessageNotifier_mark_read">Okundu olarak işaretle</string>
+    <string name="MessageNotifier_media_message">Medya mesajı</string>
+    <string name="MessageNotifier_message_received">Mesaj %s tarafından geldi.</string>
+    <string name="MessageNotifier_reply">Yanıtla</string>
+    <!--QuickResponseService-->
+    <string name="QuickResponseService_quick_response_unavailable_when_Silence_is_locked">Silence kitliyken hızlı yanıt kullanılamaz!</string>
+    <string name="QuickResponseService_problem_sending_message">Mesaj gönderilirken hata!</string>
+    <!--SingleRecipientNotificationBuilder-->
+    <string name="SingleRecipientNotificationBuilder_silence">Silence</string>
+    <string name="SingleRecipientNotificationBuilder_new_message">Yeni mesaj</string>
+    <!--SubscriptionInfoCompat-->
+    <string name="SubscriptionInfoCompat_slot">Yuva %1$s</string>
+    <string name="SubscriptionInfoCompat_display_name">%1$s (yuva %2$s)</string>
+    <!--change_passphrase_activity-->
+    <string name="change_passphrase_activity__old_passphrase">Eski parola</string>
+    <string name="change_passphrase_activity__new_passphrase">Yeni parola</string>
+    <string name="change_passphrase_activity__repeat_new_passphrase">Yeni parolayı tekrarla</string>
+    <!--contact_selection_activity-->
+    <string name="contact_selection_activity__enter_name_or_number">İsim ya da numara girin</string>
+    <!--contact_selection_group_activity-->
+    <string name="contact_selection_group_activity__no_contacts">Kişi yok.</string>
+    <string name="contact_selection_group_activity__finding_contacts">Kişiler yükleniyor...</string>
+    <!--single_contact_selection_activity-->
+    <string name="SingleContactSelectionActivity_contact_photo">Kişi Fotoğrafı</string>
+    <!--ContactSelectionListFragment-->
+    <string name="ContactSelectionlistFragment_select_for">Seç</string>
+    <!--blocked_contacts_fragment-->
+    <string name="blocked_contacts_fragment__no_blocked_contacts">Engellenen kişi yok</string>
+    <!--contact_selection_recent_activity-->
+    <string name="contact_selection_recent_activity__no_recent_calls">Yakın zamanda arama yok.</string>
+    <!--contact_selection_list_fragment-->
+    <!--conversation_title_view-->
+    <string name="conversation_title_view__conversation_muted">Sohbet sessize alındı</string>
+    <!--conversation_activity-->
+    <string name="conversation_activity__type_message_sms_secure">Güvenli SMS gönder</string>
+    <string name="conversation_activity__type_message_sms_insecure">Güvensiz SMS gönder</string>
+    <string name="conversation_activity__type_message_mms_secure">Güvenli MMS gönder</string>
+    <string name="conversation_activity__type_message_mms_insecure">Güvensiz MMS gönder</string>
+    <string name="conversation_activity__send">Gönder</string>
+    <string name="conversation_activity__remove">Kaldır</string>
+    <string name="conversation_activity__window_description">%1$s ile sohbet</string>
+    <string name="conversation_activity__compose_description">Mesaj yazma</string>
+    <string name="conversation_activity__emoji_toggle_description">Emoji klavyesini göster/gizle</string>
+    <string name="conversation_activity__attachment_thumbnail">Eklenti Önizlemesi</string>
+    <!--conversation_item-->
+    <string name="conversation_item__mms_downloading_description">Medya mesajı indiriliyor</string>
+    <string name="conversation_item__mms_image_description">Medya mesajı</string>
+    <string name="conversation_item__secure_message_description">Güvenli mesaj</string>
+    <!--conversation_item_sent-->
+    <string name="conversation_item_sent__download">İndir</string>
+    <string name="conversation_item_sent__downloading">İndiriliyor</string>
+    <string name="conversation_item_sent__send_failed_indicator_description">Gönderme Başarısız</string>
+    <string name="conversation_item_sent__pending_approval_description">Onay Bekliyor</string>
+    <string name="conversation_item_sent__delivered_description">İletildi</string>
+    <!--conversation_item_received-->
+    <string name="conversation_item_received__download">İndir</string>
+    <string name="conversation_item_received__contact_photo_description">Kişi Fotoğrafı</string>
+    <string name="conversation_item_received__downloading">İndiriliyor</string>
+    <!--audio_view-->
+    <string name="audio_view__play_accessibility_description">Oynat</string>
+    <string name="audio_view__pause_accessibility_description">Duraklat</string>
+    <string name="audio_view__download_accessibility_description">İndir</string>
+    <!--conversation_fragment_cab-->
+    <string name="conversation_fragment_cab__batch_selection_mode">Toplu seçim modu</string>
+    <string name="conversation_fragment_cab__batch_selection_amount">%s seçildi</string>
+    <!--conversation_fragment-->
+    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Aşağıya git</string>
+    <!--import_export_fragment-->
+    <string name="import_export_fragment__export">Dışa aktar</string>
+    <string name="import_export_fragment__import">İçe aktar</string>
+    <!--log_submit_activity-->
+    <string name="log_submit_activity__log_fetch_failed">Cihazınızdaki kayıt okunamadı. Hata ayıklama kaydını almak için ADB kullanabilirsiniz.</string>
+    <string name="log_submit_activity__thanks">Yardımınız için teşekkürler!</string>
+    <string name="log_submit_activity__submitting">Gönderiliyor</string>
+    <string name="log_submit_activity__posting_logs">Kayıtlar gist\'e gönderiliyor…</string>
+    <!--database_migration_activity-->
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Varolan mesajlarınızı Silence\'ın şifreli veritabanına aktarmak ister misiniz?</string>
+    <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Öntanımlı sistem veritabanı hiçbir şekilde değiştirilmeyecektir.</string>
+    <string name="database_migration_activity__skip">Atla</string>
+    <string name="database_migration_activity__import">İçe aktar</string>
+    <string name="database_migration_activity__this_could_take_a_moment_please_be_patient">Bu biraz zaman olabilir. Lütfen bekleyin, içe aktarma tamamlandığında bilgilendirileceksiniz.</string>
+    <string name="database_migration_activity__importing">İÇE AKTARILIYOR</string>
+    <!--database_upgrade_activity-->
+    <string name="database_upgrade_activity__updating_database">Veritabanı güncelleniyor…</string>
+    <string name="export_fragment__export_plaintext_backup">Şifrelenmemiş metin yedeğini dışa aktar</string>
+    <string name="export_fragment__export_a_plaintext_backup_compatible_with">\'SMS Backup &amp; Restore.\' ile uyumlu şifrelenmemiş metin yedeğini dışarı aktar</string>
+    <string name="import_fragment__import_system_sms_database">Sistem SMS veritabanını içe aktar</string>
+    <string name="import_fragment__import_the_database_from_the_default_system">Varsayılan sistem mesaj uygulamasından veritabanını içe aktar</string>
+    <string name="import_fragment__restore_encrypted_backup">Şifrelenmiş yedeği yükle</string>
+    <string name="import_fragment__restore_a_previously_exported_encrypted_backup">Önceden dışa aktarılan şifrelenmiş yedeği yükle</string>
+    <string name="import_fragment__import_plaintext_backup">Şifrelenmemiş metin yedeğini içe aktar</string>
+    <string name="import_fragment__import_a_plaintext_backup_file">\'SMS Backup &amp; Restore.\' ile uyumlu şifrelenmemiş metin yedeğini içeri aktar.</string>
+    <string name="export_fragment__export_encrypted_backup">Şifreli yedeği dışa aktar</string>
+    <string name="export_fragment__export_an_encrypted_backup_to_storage">Şifrelenmiş yedeği depolamaya aktar</string>
+    <!--load_more_header-->
+    <string name="load_more_header__see_full_conversation">Tüm sohbeti görüntüle</string>
+    <!--media_overview_activity-->
+    <string name="media_overview_activity__no_images">Resim yok</string>
+    <!--message_recipients_list_item-->
+    <string name="message_recipients_list_item__verify">DOĞRULA</string>
+    <string name="message_recipients_list_item__resend">TEKRAR GÖNDER</string>
+    <!--prompt_passphrase_activity-->
+    <string name="prompt_passphrase_activity__unlock">Kilidi aç</string>
+    <!--prompt_mms_activity-->
+    <string name="prompt_mms_activity__silence_requires_mms_settings_to_deliver_media_and_group_messages">Silence medya ve grup mesajlarını kablosuz operatörünüz üzerinden göndermek için MMS ayarlarına ihtiyaç duyar. Cihazınız bu ayarları sunmamakta, bu nadir de olsa kilitli cihazlar ve kısıtlayıcı yapılandırmalardan dolayıdır.</string>
+    <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Medya ve grup mesajları göndermek için, \'TAMAM\'a basın ve istenen ayarları tamamlayın. Operatörünüzün MMS ayarları genellikle \'operatörünüz APN\' şeklinde arama yapılarak bulunabilir. Bunu bir kere yapmanız gereklidir.</string>
+    <!--recipient_preferences_activity-->
+    <string name="recipient_preference_activity__blocked">ENGELLENDİ</string>
+    <!--recipient_preferences-->
+    <string name="recipient_preferences__mute_conversation">Sohbeti sessize al</string>
+    <string name="recipient_preferences__disable_notifications_for_this_conversation">Bu sohbet için bildirimleri devre dışı bırak</string>
+    <string name="recipient_preferences__notification_sound">Bildirim sesi</string>
+    <string name="recipient_preferences__vibrate">Titret</string>
+    <string name="recipient_preferences__block">Engelle</string>
+    <string name="recipient_preferences__color">Renk</string>
+    <string name="recipient_preferences__color_for_this_contact">Bu kişinin rengi</string>
+    <!--receive_key_dialog-->
+    <string name="receive_key_activity__complete">Tamamlandı</string>
+    <!--recipients_panel-->
+    <string name="recipients_panel__to"><small>Bir isim ya da numara girin</small></string>
+    <string name="recipients_panel__add_member">Üye ekle</string>
+    <!--verify_identity_activity-->
+    <string name="verify_identity_activity__their_identity_they_read">Onların kimliği (onların okuduğu):</string>
+    <string name="verify_identity_activity__your_identity_you_read">Sizin kimliğiniz (sizin okuduğunuz):</string>
+    <!--message_details_header-->
+    <string name="message_details_header__issues_need_your_attention">Bazı sorunlarla ilgilenmeniz gerekiyor</string>
+    <string name="message_details_header__sent">Gönderildi</string>
+    <string name="message_details_header__received">Alındı</string>
+    <!--AndroidManifest.xml-->
+    <string name="AndroidManifest__create_passphrase">Anahtar parolası oluştur</string>
+    <string name="AndroidManifest__enter_passphrase">Parola Girin</string>
+    <string name="AndroidManifest__select_contacts">Kişileri seç</string>
+    <string name="AndroidManifest__public_identity_key">Açık kimlik anahtar</string>
+    <string name="AndroidManifest__change_passphrase">Parola Değiştir</string>
+    <string name="AndroidManifest__verify_identity">Kimliği doğrula</string>
+    <string name="AndroidManifest__complete_key_exchange">Anahtar takasını tamamla</string>
+    <string name="AndroidManifest__log_submit">Hata ayıklama kaydını gönder</string>
+    <string name="AndroidManifest__media_preview">Medya önizlemesi</string>
+    <string name="AndroidManifest__media_overview">Tüm resimler</string>
+    <string name="AndroidManifest__media_overview_named">%1$s ile tüm resimler</string>
+    <string name="AndroidManifest__message_details">Mesaj detayları</string>
+    <string name="AndroidManifest_archived_conversations">Arşivlenen sohbetler</string>
+    <string name="AndroidManifest_configure_mms_settings">MMS Ayarlarını Değiştir</string>
+    <!--arrays.xml-->
+    <string name="arrays__import_export">İçe / Dışa Aktar</string>
+    <string name="arrays__your_identity_key">Kimlik anahtarınız</string>
+    <string name="arrays__use_default">Varsayılanı kullan</string>
+    <string name="arrays__use_custom">Özel ayar kullan</string>
+    <string name="arrays__mute_for_one_hour">1 saat sessiz</string>
+    <string name="arrays__mute_for_two_hours">2 saat sessiz</string>
+    <string name="arrays__mute_for_one_day">1 gün sessiz</string>
+    <string name="arrays__mute_for_seven_days">7 gün sessiz</string>
+    <string name="arrays__mute_for_one_year">1 yıl sessiz</string>
+    <string name="arrays__settings_default">Varsayılan ayarlar</string>
+    <string name="arrays__enabled">Etkin</string>
+    <string name="arrays__disabled">Devre dışı</string>
+    <string name="arrays__name_and_message">İsim ve mesaj</string>
+    <string name="arrays__name_only">Yalnız isim</string>
+    <string name="arrays__no_name_or_message">Ne isim ne de mesaj</string>
+    <string name="arrays__enter_key">Enter tuşunu göster</string>
+    <string name="arrays__emoji_key">Emoji tuşunu göster</string>
+    <string name="arrays__send_key">Gönder tuşunu göster</string>
+    <!--plurals.xml-->
+    <plurals name="hours_ago">
+        <item quantity="one">%d saat</item>
+        <item quantity="other">%d saat</item>
+    </plurals>
+    <!--preferences.xml-->
+    <string name="preferences__general">Genel</string>
+    <string name="preferences__sms_mms">SMS ve MMS</string>
+    <string name="preferences__pref_all_sms_title">Tüm SMS\'leri al</string>
+    <string name="preferences__pref_all_mms_title">Tüm MMS\'leri al</string>
+    <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_text_messages">Gelen tüm mesajları okumak ve saklamak için Silence\'ı kullan</string>
+    <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_multimedia_messages">Gelen tüm çokluortam mesajlarını okumak ve saklamak için Silence\'ı kullan</string>
+    <string name="preferences__keyboard_settings">Klavye seçenekleri</string>
+    <string name="preferences__disable_emoji_drawer">Emoji çekmecesini devre dışı bırak</string>
+    <string name="preferences__enable_this_option_if_your_keyboard_supports_emojis">Kullandığınız klavyenin emoji desteği varsa bu seçeneği etkin hale getirin</string>
+    <string name="preferences__display_settings">Ekran ayarları</string>
+    <string name="preferences__choose_your_contact_entry_from_the_contacts_list">Kişi girdinizi kişi listesinden seçin.</string>
+    <string name="preferences__change_passphrase">Parola Değiştir</string>
+    <string name="preferences__change_your_passphrase">Parolanızı değiştirin</string>
+    <string name="preferences__complete_key_exchanges">Anahtar takaslarını tamamla</string>
+    <string name="preferences__enable_passphrase">Parola etkinleştir</string>
+    <string name="preferences__enable_local_encryption_of_messages_and_keys">Mesajların ve anahtarların yerel olarak şifrelenmesini etkinleştir</string>
+    <string name="preferences__screen_security">Ekran güvenliği</string>
+    <string name="preferences__automatically_complete_key_exchanges_for_new_sessions_or_for_existing_sessions_with_the_same_identity_key">Yeni veya aynı kimlik anahtarına sahip oturumlar için otomatik olarak anahtar takası gerçekleştir</string>
+    <string name="preferences__disable_screen_security_to_allow_screen_shots">Son uygulamalarda ve uygulamanın içinde ekran görüntüsü alınmasını engelle</string>
+    <string name="preferences__forget_passphrase_from_memory_after_some_interval">Belirlenen süre sonunda mesajlara erişim için parola iste.</string>
+    <string name="preferences__timeout_passphrase">Parola zaman aşımı</string>
+    <string name="preferences__pref_timeout_interval_dialogtitle">Parola zaman aşımını seçin</string>
+    <string name="preferences__pref_timeout_interval_title">Zaman aşımı süresi</string>
+    <string name="preferences__the_amount_of_time_to_wait_before_forgetting_passphrase">Hafızadaki parolanın unutulması için geçmesi gereken zaman miktarı</string>
+    <string name="preferences__notifications">Bildirimler</string>
+    <string name="preferences__enable_message_notifications">Mesaj bildirimlerini etkinleştir</string>
+    <string name="preferences__led_color">LED rengi</string>
+    <string name="preferences__led_color_unknown">Bilinmiyor</string>
+    <string name="preferences__pref_led_blink_title">LED yanıp sönme şekli</string>
+    <string name="preferences__pref_led_blink_custom_pattern_title">Özel LED yanıp sönme şekli belirle</string>
+    <string name="preferences__pref_led_blink_custom_pattern_on_for">Şunlar için açık:</string>
+    <string name="preferences__pref_led_blink_custom_pattern_off_for">Şunlar için kapalı:</string>
+    <string name="preferences__pref_led_blink_custom_pattern_set">Özel LED yanıp sönme şekli belirlendi!</string>
+    <string name="preferences__sound">Ses</string>
+    <string name="preferences__change_notification_sound">Bildirim sesini değiştir</string>
+    <string name="preferences__silent">Sessiz</string>
+    <string name="preferences__in_conversation_notifications">Sohbet içi bildirimler</string>
+    <string name="preferences__play_inthread_notifications">Aktif bir sohbet görüntülenirken bildirim sesi çal</string>
+    <string name="preferences__repeat_alerts">Uyarıları tekrarla</string>
+    <string name="preferences__never">Asla</string>
+    <string name="preferences__one_time">Bir kez</string>
+    <string name="preferences__two_times">İki kez</string>
+    <string name="preferences__three_times">Üç kez</string>
+    <string name="preferences__five_times">Beş kez</string>
+    <string name="preferences__ten_times">On kez</string>
+    <string name="preferences__vibrate">Titret</string>
+    <string name="preferences__also_vibrate_when_notified">Bildirildiğinde de titret</string>
+    <string name="preferences__minutes">dakika</string>
+    <string name="preferences__hours">saat</string>
+    <string name="preferences__green">Yeşil</string>
+    <string name="preferences__red">Kırmızı</string>
+    <string name="preferences__blue">Mavi</string>
+    <string name="preferences__orange">Turuncu</string>
+    <string name="preferences__cyan">Cam Göbeği</string>
+    <string name="preferences__magenta">Magenta</string>
+    <string name="preferences__white">Beyaz</string>
+    <string name="preferences__none">Hiçbiri</string>
+    <string name="preferences__fast">Hızlı</string>
+    <string name="preferences__normal">Normal</string>
+    <string name="preferences__slow">Yavaş</string>
+    <string name="preferences__custom">Özel</string>
+    <string name="preferences__advanced">Gelişmiş</string>
+    <string name="preferences__privacy">Gizlilik</string>
+    <string name="preferences__mms_user_agent">MMS Kullanıcı Aracısı</string>
+    <string name="preferences__advanced_mms_access_point_names">Manüel MMS ayarları</string>
+    <string name="preferences__enable_manual_mms">Manüel MMS ayarlarını kullan</string>
+    <string name="preferences__override_system_mms_settings">Sistem MMS ayarları yerine aşağıda bilgileri kullan.</string>
+    <string name="preferences__mmsc_url">MMSC URL</string>
+    <string name="preferences__mms_proxy_host">MMS Vekil Sunucusu</string>
+    <string name="preferences__mms_proxy_port">MMS Vekil Portu</string>
+    <string name="preferences__mmsc_username">MMSC Kullanıcı adı</string>
+    <string name="preferences__mmsc_password">MMSC Parolası</string>
+    <string name="preferences__sms_delivery_reports">SMS iletim raporları</string>
+    <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">Gönderdiğiniz her SMS mesajı için iletim raporu iste</string>
+    <string name="preferences__sms_delivery_reports_notification">SMS iletim raporu bildirimi</string>
+    <string name="preferences__display_a_notification_when_a_delivery_report_is_received">İletim raporu alındığında bildirim görüntüle</string>
+    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Belirlenen uzunluk aşıldığında eski mesajları otomatik olarak sil.</string>
+    <string name="preferences__delete_old_messages">Eski mesajları sil</string>
+    <string name="preferences__chats">Konuşmalar ve medya</string>
+    <string name="preferences__conversation_length_limit">Sohbet uzunluk sınırı</string>
+    <string name="preferences__trim_all_conversations_now">Tüm sohbetleri kırp</string>
+    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Tüm sohbetleri tara ve sohbet uzunluk sınırını uygula</string>
+    <string name="preferences__light_theme">Açık</string>
+    <string name="preferences__dark_theme">Koyu</string>
+    <string name="preferences__appearance">Görünüm</string>
+    <string name="preferences__theme">Tema</string>
+    <string name="preferences__default">Öntanımlı</string>
+    <string name="preferences__language">Dil</string>
+    <string name="preferences__make_default_sms_app">Öntanımlı SMS uygulaması olarak ayarla</string>
+    <string name="preferences__make_silence_the_default_sms_mms_app">Silence\'ı sistemdeki öntanımlı SMS/MMS uygulaması yap.</string>
+    <string name="preferences__submit_debug_log">Hata ayıklama kaydı gönder</string>
+    <string name="preferences__support_wifi_calling">\'Wi-Fi Araması\' uyumluluk modu</string>
+    <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Eğer cihazınız SMS/MMS aktarımını Wi-Fi üzerinden yapıyorsa (\'Wi-Fi Araması\' etkin ise\") etkinleştirin.</string>
+    <string name="preferences__about">Silence hakkında</string>
+    <string name="preferences__about_version">Sürüm %s</string>
+    <string name="preferences__privacy_policy">Gizlilik ilkesi</string>
+    <string name="preferences__incognito_keyboard">Gizli klavye</string>
+    <string name="preferences__request_keyboard_to_disable_personalized_learning">Gizli mod açık ise, klavye yazdığınız kelimeleri hatırlamayacak, öğrenmeyecek veya depolamayacaktır.</string>
+    <string name="preferences_app_protection__blocked_contacts">Engellenen kişiler</string>
+    <string name="preferences_notifications__display_in_notifications">Bildirimlerde göster</string>
+    <string name="preferences__show_sent_time">Gönderilen zamanı göster</string>
+    <string name="preferences__show_sent_time_instead_of_received_time_in_conversations">Gelen mesajlarda alındığı zaman yerine gönderildiği zamanı göster</string>
+    <string name="preferences__hide_unread_message_divider">Okunmamış mesaj ayracını gizle</string>
+    <string name="preferences_chats__mms">MMS</string>
+    <string name="preferences__auto_retrieve">Otomatik alma</string>
+    <string name="preferences__automatically_retrieve_mms_messages">MMS mesajlarını otomatik olarak al</string>
+    <string name="preferences__roaming_auto_retrieve">Otomatik alma (Dolaşım)</string>
+    <string name="preferences__automatically_retrieve_mms_when_roaming">Dolaşımdayken MMSleri otomatik olarak al</string>
+    <string name="preferences_chats__message_trimming">Mesaj kırpma</string>
+    <string name="preferences_advanced__use_system_emoji">Sistem emojilerini kullan</string>
+    <string name="preferences_advanced__disable_silences_built_in_emoji_support">Silence\'ın emoji desteğini devre dışı bırak</string>
+    <!--****************************************-->
+    <!--menus-->
+    <!--****************************************-->
+    <!--contact_selection_list-->
+    <string name="contact_selection_list__menu_select_all">Hepsini seç</string>
+    <string name="contact_selection_list__menu_unselect_all">Tüm seçimleri kaldır</string>
+    <string name="contact_selection_list__header">TÜM KİŞİLER</string>
+    <string name="contact_selection_list__unknown_contact">Yeni mesaj...</string>
+    <!--contact_selection-->
+    <string name="contact_selection__menu_finished">Tamamlandı</string>
+    <!--refreshing push directory from menu-->
+    <string name="push_directory__menu_refresh">Kişi listesini tazele</string>
+    <!--conversation_button_context-->
+    <string name="conversation_button_context__send_secure_sms">Güvenli SMS gönder</string>
+    <string name="conversation_button_context__send_insecure_sms">Güvensiz SMS gönder</string>
+    <string name="conversation_button_context__send_secure_mms">Güvenli MMS gönder</string>
+    <string name="conversation_button_context__send_insecure_mms">Güvensiz MMS gönder</string>
+    <!--conversation_callable-->
+    <string name="conversation_callable__menu_call">Arama</string>
+    <!--conversation_context-->
+    <string name="conversation_context__menu_message_details">Mesaj detayları</string>
+    <string name="conversation_context__menu_copy_text">Metni kopyala</string>
+    <string name="conversation_context__menu_delete_message">Mesajı sil</string>
+    <string name="conversation_context__menu_forward_message">Mesajı yönlendir</string>
+    <string name="conversation_context__menu_resend_message">Mesajı tekrar gönder</string>
+    <!--conversation_context_image-->
+    <string name="conversation_context_image__save_attachment">Eki kaydet</string>
+    <!--conversation_insecure-->
+    <string name="conversation_insecure__invite">Davet et</string>
+    <!--conversation_insecure_no_push-->
+    <string name="conversation_insecure__menu_start_secure_session">Güvenli oturum başlat</string>
+    <string name="conversation_insecure__security">Güvenlik</string>
+    <!--conversation_list_batch-->
+    <string name="conversation_list_batch__menu_delete_selected">Seçileni sil</string>
+    <string name="conversation_list_batch__menu_select_all">Hepsini seç</string>
+    <string name="conversation_list_batch__menu_send_drafts">Seçilen taslakları gönder</string>
+    <string name="conversation_list_batch_archive__menu_archive_selected">Seçilenleri arşivle</string>
+    <string name="conversation_list_batch_unarchive__menu_unarchive_selected">Seçilenleri arşivden çıkar</string>
+    <!--conversation_list-->
+    <string name="conversation_list__menu_search">Ara</string>
+    <!--conversation_list_item_view-->
+    <string name="conversation_list_item_view__contact_photo_image">Kişi resmi</string>
+    <string name="conversation_list_item_view__error_alert">Hata uyarısı</string>
+    <string name="conversation_list_item_view__archived">Arşivlendi</string>
+    <!--conversation_list_fragment-->
+    <string name="conversation_list_fragment__fab_content_description">Yeni sohbet</string>
+    <!--conversation_secure_verified-->
+    <string name="conversation_secure_verified__menu_security">Güvenlik</string>
+    <string name="conversation_secure_verified__menu_verify_identity">Kimliği doğrula</string>
+    <string name="conversation_secure_verified__menu_abort_secure_session">Güvenli oturumu sonlandır</string>
+    <!--conversation_muted-->
+    <string name="conversation_muted__unmute">Sesini aç</string>
+    <!--conversation_unmuted-->
+    <string name="conversation_unmuted__mute_notifications">Bildirimleri sessize al</string>
+    <!--conversation-->
+    <string name="conversation__menu_add_attachment">Eklenti ekle</string>
+    <string name="conversation__menu_delete_conversation">Sohbeti sil</string>
+    <string name="conversation__menu_archive_conversation">Sohbeti arşivle</string>
+    <string name="conversation__menu_unarchive_conversation">Sohbeti arşivden çıkar</string>
+    <string name="conversation__menu_view_media">Tüm resimler</string>
+    <string name="conversation__menu_conversation_settings">Sohbet seçenekleri</string>
+    <!--conversation_popup-->
+    <string name="conversation_popup__menu_expand_popup">Genişlet</string>
+    <!--conversation_callable-->
+    <string name="conversation_add_to_contacts__menu_add_to_contacts">Kişilere ekle</string>
+    <!--conversation_group_options-->
+    <string name="convesation_group_options__recipients_list">Alıcı listesi</string>
+    <string name="conversation_group_options__delivery">Teslim</string>
+    <string name="conversation_group_options__conversation">Sohbet</string>
+    <string name="conversation_group_options__broadcast">Yayın</string>
+    <!--key_scanning-->
+    <string name="key_scanning__menu_compare">Karşılaştır</string>
+    <string name="key_scanning__menu_display_your_qr_code">QR kodunu göster</string>
+    <string name="key_scanning__menu_scan_contacts_qr_code">Kişinin QR kodunu tara</string>
+    <!--text_secure_normal-->
+    <string name="text_secure_normal__menu_new_message">Yeni mesaj</string>
+    <string name="text_secure_normal__menu_new_group">Yeni grup</string>
+    <string name="text_secure_normal__menu_settings">Ayarlar</string>
+    <string name="text_secure_normal__menu_clear_passphrase">Kilitle</string>
+    <string name="text_secure_normal__mark_all_as_read">Tümünü okundu işaretle</string>
+    <string name="text_secure_normal__menu_archived_conversations">Arşivlenen sohbetler</string>
+    <!--reminder_header-->
+    <string name="reminder_header_sms_default_title">Öntanımlı SMS uygulaması olarak kullanılsın mı?</string>
+    <string name="reminder_header_sms_default_text_mandatory">Silence mesajları almak için varsayılan SMS/MMS uygulaması olması gerekli.</string>
+    <string name="reminder_header_sms_default_button">AYARLA</string>
+    <string name="reminder_header_sms_import_title">Sistem SMS içe aktarılsın mı?</string>
+    <string name="reminder_header_sms_import_text">Telefonunuzdaki SMS mesajlarınızı Silence\'ın şifreli veritabanına kopyalamak için dokunun.</string>
+    <string name="reminder_header_sms_import_button">İÇE AKTAR</string>
+    <string name="reminder_header_rate_title">Uygulamayı değerlendir</string>
+    <string name="reminder_header_rate_text">Uygulamayı sevdiyseniz lütfen değerlendirmek için zaman ayırarak bize yardım edin.</string>
+    <string name="reminder_header_rate_button">ŞİMDİ DEĞERLENDİR!</string>
+    <string name="reminder_header_delivery_reports_title">İletim raporlarını etkinleştir?</string>
+    <string name="reminder_header_delivery_reports_text">İletim raporları gönderdiğiniz mesajların alıcıya ulaştığına dair bilgi verir. Bazı operatörler ek ücret yansıtabilir.</string>
+    <string name="reminder_header_delivery_reports_button">ETKİNLEŞTİR</string>
+    <string name="reminder_header_close_button">KAPAT</string>
+    <!--MediaPreviewActivity-->
+    <string name="MediaPreviewActivity_you">Siz</string>
+    <string name="MediaPreviewActivity_cant_display">Bu resmin önizlemesi başarısız oldu</string>
+    <string name="MediaPreviewActivity_unssuported_media_type">Desteklenmeyen medya türü</string>
+    <string name="MediaPreviewActivity_draft">Taslak</string>
+    <!--media_preview-->
+    <string name="media_preview__save_title">Kaydet</string>
+    <string name="media_preview__forward_title">Yönlendir</string>
+    <string name="media_preview__overview_title">Tüm resimler</string>
+    <!--media_overview-->
+    <string name="media_overview__save_all">Tümünü kaydet</string>
+    <!--media_preview_activity-->
+    <string name="media_preview_activity__image_content_description">Resim önizlemesi</string>
+    <!--Trimmer-->
+    <string name="trimmer__deleting">Siliniyor…</string>
+    <string name="trimmer__deleting_old_messages">Eski mesajlar siliniyor…</string>
+    <string name="trimmer__old_messages_successfully_deleted">Eski mesajlar başarıyla silindi</string>
+    <!--transport_selection_list_item-->
+    <string name="transport_selection_list_item__transport_icon">Aktarma ikonu</string>
+    <!--EOF-->
+    <string name="AttachmentManager_silence_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">Silence, fotoğraf, video veya ses eklemek için Harici Depolama iznine ihtiyaç duyar, ancak kalıcı olarak reddedilmiştir. Lütfen uygulama ayarları menüsüne gidin, \"İzinler\"i seçin ve \"Depolama\"yı etkinleştirin.</string>
+</resources>

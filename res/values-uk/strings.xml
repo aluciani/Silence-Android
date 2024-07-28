@@ -1,0 +1,788 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="yes">Так</string>
+  <string name="no">Ні</string>
+  <string name="delete">Видалити</string>
+  <string name="please_wait">Будь ласка, зачекайте…</string>
+  <!--AbstractNotificationBuilder-->
+  <string name="AbstractNotificationBuilder_new_message">Нове повідомлення</string>
+  <!--ApplicationPreferencesActivity-->
+  <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Ви ще не вказали фразу-пароль!</string>
+  <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+    <item quantity="one">1 повідомлення на розмову</item>
+    <item quantity="few">%d повідомлення на розмову</item>
+    <item quantity="many">%d повідомлень на розмову</item>
+    <item quantity="other">%d повідомлень на розмову</item>
+  </plurals>
+  <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Вилучити всі старі повідомлення зараз?</string>
+  <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+    <item quantity="one">Це одразу вкоротить усі розмови до найновішого повідомлення.</item>
+    <item quantity="few">Це одразу вкоротить усі розмови до %d найновіших повідомлень.</item>
+    <item quantity="many">Це одразу вкоротить усі розмови до %d найновіших повідомлень.</item>
+    <item quantity="other">Це одразу вкоротить усі розмови до %d найновіших повідомлень.</item>
+  </plurals>
+  <string name="ApplicationPreferencesActivity_delete">Видалити</string>
+  <string name="ApplicationPreferencesActivity_disable_storage_encryption">Вимкнути шифрування сховища?</string>
+  <string name="ApplicationPreferencesActivity_warning_this_will_disable_storage_encryption_for_all_messages">Увага, це відключить шифрування для всіх повідомлень і ключів. Ваші шифровані сесії продовжать працювати, але будь-яка особа з фізичним доступом до вашого пристрою може переглянути їх.</string>
+  <string name="ApplicationPreferencesActivity_disable">Вимкнути</string>
+  <string name="ApplicationPreferencesActivity_sms_enabled">Вхідні SMS увімкнено</string>
+  <string name="ApplicationPreferencesActivity_tap_to_change_your_default_sms_app">Торкніться, щоб змінити основну програму для SMS</string>
+  <string name="ApplicationPreferencesActivity_sms_disabled">Вхідні SMS вимкнено</string>
+  <string name="ApplicationPreferencesActivity_tap_to_make_silence_your_default_sms_app">Торкніться, щоб зробити Сайленс основною програмою для SMS</string>
+  <string name="ApplicationPreferencesActivity_on">увімкнено</string>
+  <string name="ApplicationPreferencesActivity_On">Увімкнено</string>
+  <string name="ApplicationPreferencesActivity_off">вимкнено</string>
+  <string name="ApplicationPreferencesActivity_Off">Вимкнено</string>
+  <string name="ApplicationPreferencesActivity_sms">SMS</string>
+  <string name="ApplicationPreferencesActivity_mms">MMS</string>
+  <string name="ApplicationPreferencesActivity_incoming_summary">Вхідні %s</string>
+  <string name="ApplicationPreferencesActivity_privacy_summary">Фраза-пароль %1$s, Безпека екрану %2$s</string>
+  <string name="ApplicationPreferencesActivity_appearance_summary">Тема %1$s, Мова %2$s</string>
+  <!--AppProtectionPreferenceFragment-->
+  <plurals name="AppProtectionPreferenceFragment_minutes">
+    <item quantity="one">1 хвилина</item>
+    <item quantity="few">%d хвилини</item>
+    <item quantity="many">%d хвилин</item>
+    <item quantity="other">%d хвилин</item>
+  </plurals>
+  <!--DraftDatabase-->
+  <string name="DraftDatabase_Draft_image_snippet">(зображення)</string>
+  <string name="DraftDatabase_Draft_audio_snippet">(звукозапис)</string>
+  <string name="DraftDatabase_Draft_video_snippet">(відеозапис)</string>
+  <!--AttchmentManager-->
+  <string name="AttachmentManager_cant_open_media_selection">Не можу знайти програму для вибору фото чи відео</string>
+  <!--AttachmentTypeSelectorAdapter-->
+  <string name="AttachmentTypeSelectorAdapter_camera">Камера</string>
+  <string name="AttachmentTypeSelectorAdapter_picture">Зображення</string>
+  <string name="AttachmentTypeSelectorAdapter_video">Відео</string>
+  <string name="AttachmentTypeSelectorAdapter_audio">Аудіо</string>
+  <string name="AttachmentTypeSelectorAdapter_contact">Контактна інформація</string>
+  <!--AudioSlidePlayer-->
+  <string name="AudioSlidePlayer_error_playing_audio">Помилка при програванні аудіозапису!</string>
+  <!--BlockedContactsActivity-->
+  <string name="BlockedContactsActivity_blocked_contacts">Заблоковані контакти</string>
+  <!--ConversationItem-->
+  <string name="ConversationItem_message_size_d_kb">Розмір повідомленя: %d KБ</string>
+  <string name="ConversationItem_expires_s">Минає: %s</string>
+  <string name="ConversationItem_error_not_delivered">Не доставлено</string>
+  <string name="ConversationItem_view_secure_media_question">Переглянути захищений медіа-файл?</string>
+  <string name="ConversationItem_this_media_has_been_stored_in_an_encrypted_database_external_viewer_warning">Це фото чи відео запис було збережено в зашифрованій базі даних. На жаль, щоб переглянути його в сторонній програмі, потрібно тимчасово розшифрувати дані й зберегти на пристрій. Ви впевнені, що хочете це зробити?</string>
+  <string name="ConversationItem_error_received_stale_key_exchange_message">Помилка, отримано застаріле повідомлення обміну ключами.</string>
+  <string name="ConversationItem_received_key_exchange_message_tap_to_process">Отримано повідомлення обміну ключами, торкніться, щоб обробити.</string>
+  <string name="ConversationItem_group_action_left">%1$s більше не в групі.</string>
+  <string name="ConversationItem_click_for_details">Торкніться, щоб дізнатися більше</string>
+  <string name="ConversationItem_unable_to_open_media">Не можу знайти програму, яка б відкрила цей файл.</string>
+  <string name="ConversationItem_xmpp_address_update_silence">Адреса XMPP. Оновіть Сайленс, щоб увімкнути таку можливість.</string>
+  <!--ConversationActivity-->
+  <string name="ConversationActivity_initiate_secure_session_question">Розпочати шифрований обмін повідомленнями?</string>
+  <string name="ConversationActivity_initiate_secure_session_with_s_question">Почати захищений сеанс зв’язку з %s?</string>
+  <string name="ConversationActivity_detected_silence_initiate_session_question">Отримано повідомлення від когось, хто також користується Сайленс. Розпочати шифрований обмін повідомленнями?</string>
+  <string name="ConversationActivity_abort_secure_session_confirmation">Завершити шифрований обмін повідомленнями?</string>
+  <string name="ConversationActivity_are_you_sure_that_you_want_to_abort_this_secure_session_question">Ви впевнені, що хочете завершити цей захищений сеанс зв’язку?</string>
+  <string name="ConversationActivity_delete_thread_question">Видалити розмову?</string>
+  <string name="ConversationActivity_this_will_permanently_delete_all_messages_in_this_conversation">Це остаточно видалить усі повідомлення з цієї розмови.</string>
+  <string name="ConversationActivity_add_attachment">Додати прикріплення</string>
+  <string name="ConversationActivity_select_contact_info">Виберіть контакт</string>
+  <string name="ConversationActivity_compose_message">Скласти повідомлення</string>
+  <string name="ConversationActivity_sorry_there_was_an_error_adding_your_attachment">Пробачте, сталася помилка при спробі додати Ваше вкладення.</string>
+  <string name="ConversationActivity_the_gif_you_selected_was_too_big">Обрана Вами GIF надто велика!</string>
+  <string name="ConversationActivity_sorry_the_selected_video_exceeds_message_size_restrictions">Даруйте, вибране відео завелике (перевищує %1$sкБ )</string>
+  <string name="ConversationActivity_sorry_the_selected_audio_exceeds_message_size_restrictions">Даруйте, вибране аудіо завелике (перевищує %1$s кБ )</string>
+  <string name="ConversationActivity_recipient_is_not_a_valid_sms_or_email_address_exclamation">Адреса отримувача не допустима для SMS чи електронної пошти!</string>
+  <string name="ConversationActivity_message_is_empty_exclamation">Повідомлення, яке Ви намагаєтеся відправити, порожнє!</string>
+  <string name="ConversationActivity_group_members">Учасники групи</string>
+  <string name="ConversationActivity_group_conversation">Групова розмова</string>
+  <string name="ConversationActivity_unnamed_group">Група без назви</string>
+  <plurals name="ConversationActivity_d_recipients_in_group">
+    <item quantity="one">1 учасник</item>
+    <item quantity="few">%d учасники</item>
+    <item quantity="many">%d учасників</item>
+    <item quantity="other">%d учасників</item>
+  </plurals>
+  <string name="ConversationActivity_saved_draft">Проект збережено</string>
+  <string name="ConversationActivity_invalid_recipient">Неприпустимий отримувач!</string>
+  <string name="ConversationActivity_calls_not_supported">Дзвінки не підтримуються</string>
+  <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Ваше пристрій мабуть не підтримує голосові дзвінки.</string>
+  <string name="ConversationActivity_cant_open_link">Не вдалося знайти програму, яка б могла відкрити це посилання</string>
+  <string name="ConversationActivity_transport_insecure_sms">Незашифроване SMS</string>
+  <string name="ConversationActivity_transport_insecure_mms">Незашифроване MMS</string>
+  <string name="ConversationActivity_transport_secure_sms">Зашифроване SMS</string>
+  <string name="ConversationActivity_transport_secure_mms">Зашифроване MMS</string>
+  <string name="ConversationActivity_install_smssecure">Давайте обмінюватися повідомленнями приватно: %s</string>
+  <string name="ConversationActivity_recipient_self">Зашифровані сеанси можна створювати лише з іншими людьми.</string>
+  <string name="ConversationActivity_mms_not_supported_title">MMS не підтримується</string>
+  <string name="ConversationActivity_mms_not_supported_message">Це повідомлення неможливо відправити, оскільки оператор мобільної мережі не підтримує MMS.</string>
+  <string name="ConversationActivity_specify_recipient">Будь ласка, виберіть контакт</string>
+  <string name="ConversationActivity_attachment_exceeds_size_limits">Вкладення завелике</string>
+  <!--ConversationAdapter-->
+  <plurals name="ConversationAdapter_n_unread_messages">
+    <item quantity="one">%dнепрочитане повідомлення</item>
+    <item quantity="few">%dнепрочитані повідомлення</item>
+    <item quantity="many">%dнепрочитаних повідомлень</item>
+    <item quantity="other">%dнепрочитаних повідомлень</item>
+  </plurals>
+  <!--ConversationFragment-->
+  <string name="ConversationFragment_message_details">Деталі повідомлення</string>
+  <plurals name="ConversationFragment_delete_selected_messages">
+    <item quantity="one">Видалити вибране повідомлення?</item>
+    <item quantity="few">Видалити вибрані повідомлення?</item>
+    <item quantity="many">Видалити вибрані повідомлення?</item>
+    <item quantity="other">Видалити вибрані повідомлення?</item>
+  </plurals>
+  <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+    <item quantity="one">Це остаточно видалить вибране повідомлення.</item>
+    <item quantity="few">Це остаточно видалить усі %1$d вибрані повідомлення.</item>
+    <item quantity="many">Це остаточно видалить усі %1$d вибраних повідомлень.</item>
+    <item quantity="other">Це остаточно видалить усі %1$d вибраних повідомлень.</item>
+  </plurals>
+  <string name="ConversationFragment_save_to_sd_card">Зберегти на пристрій?</string>
+  <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+    <item quantity="one">Збереження цього файла на пристрій дозволить будь-якому додатку на Вашому пристрої отримати доступ до нього.\n\Продовжити?</item>
+    <item quantity="few">Збереження всіх %1$d файлів на пристрій дозволить будь-якому додатку на Вашому пристрої отримати доступ до них.\n\Продовжити?</item>
+    <item quantity="many">Збереження всіх %1$d файлів на пристрій дозволить будь-якому додатку на Вашому пристрої отримати доступ до них.\n\Продовжити?</item>
+    <item quantity="other">Збереження всіх %1$d файлів на пристрій дозволить будь-якому додатку на Вашому пристрої отримати доступ до них.\n\Продовжити?</item>
+  </plurals>
+  <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+    <item quantity="one">Помилка при спробі збереження вкладення на пристрій!</item>
+    <item quantity="few">Помилка при спробі збереження вкладень на пристрій!</item>
+    <item quantity="many">Помилка при спробі збереження вкладень на пристрій!</item>
+    <item quantity="other">Помилка при спробі збереження вкладень на пристрій!</item>
+  </plurals>
+  <plurals name="ConversationFragment_files_saved_successfully">
+    <item quantity="one">Файл успішно збережено.</item>
+    <item quantity="few">Файли успішно збережено.</item>
+    <item quantity="many">Файли успішно збережено.</item>
+    <item quantity="other">Файли успішно збережено.</item>
+  </plurals>
+  <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">Не можу записувати на пристрій!</string>
+  <plurals name="ConversationFragment_saving_n_attachments">
+    <item quantity="one">Збереження вкладення</item>
+    <item quantity="few">Збереження %1$d вкладень</item>
+    <item quantity="many">Збереження %1$d вкладень</item>
+    <item quantity="other">Збереження %1$d вкладень</item>
+  </plurals>
+  <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+    <item quantity="one">Збереження вкладення на пристрій…</item>
+    <item quantity="few">Збереження %1$d вкладень на пристрій…</item>
+    <item quantity="many">Збереження %1$d вкладень на пристрій…</item>
+    <item quantity="other">Збереження %1$d вкладень на пристрій…</item>
+  </plurals>
+  <string name="ConversationFragment_collecting_attahments">Збираю вкладення…</string>
+  <string name="ConversationFragment_pending">У черзі…</string>
+  <string name="ConversationFragment_mms">MMS</string>
+  <string name="ConversationFragment_sms">SMS</string>
+  <string name="ConversationFragment_deleting">Видаляю…</string>
+  <string name="ConversationFragment_deleting_messages">Видаляю повідомлення…</string>
+  <!--ConversationListActivity-->
+  <string name="ConversationListActivity_search">Пошук</string>
+  <!--ConversationListFragment-->
+  <plurals name="ConversationListFragment_delete_selected_conversations">
+    <item quantity="one">Видалити вибрану розмову?</item>
+    <item quantity="few">Видалити вибрані розмови?</item>
+    <item quantity="many">Видалити вибрані розмови?</item>
+    <item quantity="other">Видалити вибрані розмови?</item>
+  </plurals>
+  <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+    <item quantity="one">Вибрану розмову буде остаточно видалено.</item>
+    <item quantity="few">Усі %1$d вибрані розмови буде остаточно видалено.</item>
+    <item quantity="many">Усі %1$d вибраних розмов буде остаточно видалено.</item>
+    <item quantity="other">Усі %1$d вибраних розмов буде остаточно видалено.</item>
+  </plurals>
+  <string name="ConversationListFragment_deleting">Видалення</string>
+  <string name="ConversationListFragment_deleting_selected_conversations">Видалення вибраних розмов…</string>
+  <plurals name="ConversationListFragment_conversations_archived">
+    <item quantity="one">Розмову архівовано</item>
+    <item quantity="few">%d розмови архівовано</item>
+    <item quantity="many">%d розмов архівовано</item>
+    <item quantity="other">%d розмов архівовано</item>
+  </plurals>
+  <string name="ConversationListFragment_undo">СКАСУВАТИ</string>
+  <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+    <item quantity="one">Розмову переміщено до вхідних</item>
+    <item quantity="few">%d розмови переміщено до вхідних</item>
+    <item quantity="many">%d розмов переміщено до вхідних</item>
+    <item quantity="other">%d розмов переміщено до вхідних</item>
+  </plurals>
+  <string name="ConversationListFragment_send_drafts">Відправити заготовки</string>
+  <string name="ConversationListFragment_this_will_send_drafts_of_selected_conversations">Це відправить проекти до вибраних розмов.</string>
+  <string name="ConversationListFragment_send">Відправити</string>
+  <string name="ConversationListFragment_sending">Відправляю</string>
+  <string name="ConversationListFragment_sending_selected_drafts">Відправляю вибрані проекти…</string>
+  <!--ConversationListItemAction-->
+  <string name="ConversationListItemAction_archived_conversations_d">Архів розмов (%d)</string>
+  <!--CustomDefaultPreference-->
+  <string name="CustomDefaultPreference_using_custom">Використання користувацького: %s</string>
+  <string name="CustomDefaultPreference_using_default">Використання за замовчуванням: %s</string>
+  <string name="CustomDefaultPreference_none">Жодного</string>
+  <!--DateUtils-->
+  <string name="DateUtils_now">Зараз</string>
+  <string name="DateUtils_minutes_ago">%d хвилин</string>
+  <string name="DateUtils_today">Сьогодні</string>
+  <string name="DateUtils_yesterday">Учора</string>
+  <!--DualSimUtil-->
+  <string name="DualSimUtil__new_sim_card_detected">Помічено нову SIM карту</string>
+  <string name="DualSimUtil__a_new_key_has_been_generated">Згенеровано новий ключ.</string>
+  <string name="DualSimUtil__a_new_key_has_been_generated_for_that_new_sim_card">Згенеровано новий ключ для цієї SIM карти.</string>
+  <!--ShareActivity-->
+  <string name="ShareActivity_share_with">Поділитися з</string>
+  <!--WelcomeActivity-->
+  <!--ExportFragment-->
+  <string name="ExportFragment_export">Експортувати</string>
+  <string name="ExportFragment_export_plaintext_to_storage">Зберегти незашифрований текст на пристрій?</string>
+  <string name="ExportFragment_warning_this_will_export_the_contents_of_your_messages_to_storage_in_plaintext">Зверніть увагу, що вміст повідомлень буде вивантажено з Сайленс на пристрій незашифрованим.</string>
+  <string name="ExportFragment_cancel">Скасувати</string>
+  <string name="ExportFragment_exporting">Експортування</string>
+  <string name="ExportFragment_exporting_plaintext_to_storage">Вивантаження незашифрованого тексту на пристрій…</string>
+  <string name="ExportFragment_error_unable_to_write_to_storage">Помилка, не можу записати на пристрій.</string>
+  <string name="ExportFragment_error_while_writing_to_storage">Під час запису на пристрій сталася помилка.</string>
+  <string name="ExportFragment_export_successful">Успішно вивантажено.</string>
+  <string name="ExportFragment_export_encrypted_backup">Зберегти зашифровану резервну копію?</string>
+  <string name="ExportFragment_this_will_export_your_encrypted_keys_settings_and_messages">Це збереже Ваші зашифровані ключі, налаштування й повідомлення на пристрій.</string>
+  <string name="ExportFragment_exporting_keys_settings_and_messages">Вивантаження зашифрованих ключів, налаштувань і повідомлень…</string>
+  <!--GroupCreateActivity-->
+  <string name="GroupCreateActivity_actionbar_title">Нова група</string>
+  <string name="GroupCreateActivity_actionbar_update_title">Оновити групу</string>
+  <string name="GroupCreateActivity_actionbar_mms_title">Нова група MMS</string>
+  <string name="GroupCreateActivity_contacts_mms_exception">Не зміг створити групу через неочікувану помилку</string>
+  <string name="GroupCreateActivity_contacts_no_members">Для групи потрібна щонайменше одна особа!</string>
+  <string name="GroupCreateActivity_menu_create_title">Створити групу</string>
+  <!--GroupMembersDialog-->
+  <string name="GroupMembersDialog_me">Я</string>
+  <!--ImportExportActivity-->
+  <string name="ImportExportActivity_import">Імпортувати</string>
+  <string name="ImportExportActivity_export">Експортувати</string>
+  <!--ImportFragment-->
+  <string name="ImportFragment_import_system_sms_database">Завантажити SMS із бази системи?</string>
+  <string name="ImportFragment_this_will_import_messages_from_the_system">Це завантажить
+        повідомлення з основної  бази SMS у системі до бази Сайленс. Якщо Ви вже імпортували
+        SMS з бази системи раніше, то повторне завантаження призведе до того, що одні й ті самі повідомлення будуть збережені в кількох екземплярах.
+    </string>
+  <string name="ImportFragment_import">Імпортувати</string>
+  <string name="ImportFragment_cancel">Скасувати</string>
+  <string name="ImportFragment_restore_encrypted_backup">Відновити зашифровану резервну копію?</string>
+  <string name="ImportFragment_restoring_an_encrypted_backup_will_completely_replace_your_existing_keys">Відновлення зашифрованої резервної копії повністю замінить Ваші поточні ключі, налаштування й повідомлення. Ви втратите всю інформацію з Вашої поточної інсталяції Сайленс, крім наявної в резервній копії. Сайленс зупиниться після завантаження даних з резервної копії.</string>
+  <string name="ImportFragment_import_plaintext_backup">Завантажити резервну копію незашифрованого тексту?</string>
+  <string name="ImportFragment_this_will_import_messages_from_a_plaintext_backup">Це імпортує повідомлення з текстової резервної копії. Якщо ви до цього імпортували SMS з системної бази даних, повторний імпорт призведе до дублювання повідомлень.</string>
+  <string name="ImportFragment_importing">Імпортування</string>
+  <string name="ImportFragment_import_plaintext_backup_elipse">Завантаження з незашифрованої текстової резервної копії…</string>
+  <string name="ImportFragment_no_plaintext_backup_found">Незашифрована резервна копія не знайдена!</string>
+  <string name="ImportFragment_error_importing_backup">Помилка при імпорті!</string>
+  <string name="ImportFragment_import_complete">Імпортування завершено!</string>
+  <string name="ImportFragment_restoring_encrypted_backup">Відновлення з зашифрованої резервної копії…</string>
+  <string name="ImportFragment_no_encrypted_backup_found">Зашифрована резервна копія не знайдена!</string>
+  <!--KeyScanningActivity-->
+  <string name="KeyScanningActivity_no_scanned_key_found_exclamation">При скануванні ключ невиявлений!</string>
+  <string name="KeyScanningActivity_install_barcode_Scanner">Встановити програму для сканування QR-кодів?</string>
+  <string name="KeyScanningActivity_this_application_requires_barcode_scanner_would_you_like_to_install_it">Сайленс потрібна програма для сканування QR-кодів.</string>
+  <!--MessageDetailsRecipient-->
+  <string name="MessageDetailsRecipient_failed_to_send">Не зміг надіслати</string>
+  <string name="MessageDetailsRecipient_new_identity">Нова ідентичність</string>
+  <!--MmsDownloader-->
+  <string name="MmsDownloader_error_storing_mms">Помилка при збереженні MMS!</string>
+  <string name="MmsDownloader_error_connecting_to_mms_provider">Помилка при підключенні до постачальника MMS</string>
+  <string name="MmsDownloader_error_reading_mms_settings">Помилка читання налаштувань бездротового постачальника MMS</string>
+  <!--NotificationMmsMessageRecord-->
+  <string name="NotificationMmsMessageRecord_multimedia_message">Мультимедійне повідомлення</string>
+  <!--MessageRecord-->
+  <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Отримане повідомлення зашифроване з використанням старішої версії Сайленс, яка більше не підтримується. Будь ласка, попросіть відправника оновити програму до останньої версії й надіслати повідомлення повторно.</string>
+  <string name="MessageRecord_the_exchange_message_you_got_came_from_a_version_of_silence_that_is_too_outdated">Повідомлення для обміну ключами, яке Ви отримали, було створене версією Сайленс, яка надто стара, щоб обмінюватися повідомленнями з Вашою версією. Вам потрібно надіслати його вручну, щоб розпочати зашифровану сесію. Торкніться тут, щоб надіслати повідомлення для обміну ключами.</string>
+  <string name="MessageRecord_left_group">Ви вийшли з групи.</string>
+  <string name="MessageRecord_updated_group">Групу оновлено.</string>
+  <string name="MessageRecord_key_exchange_message">Повідомлення про обмін ключами.</string>
+  <!--PassphraseChangeActivity-->
+  <string name="PassphraseChangeActivity_passphrases_dont_match_exclamation">Фраза-пароль не збігається!</string>
+  <string name="PassphraseChangeActivity_incorrect_old_passphrase_exclamation">Невірна стара фраза!</string>
+  <string name="PassphraseChangeActivity_enter_new_passphrase_exclamation">Фразу-пароль не введено!</string>
+  <!--PassphrasePromptActivity-->
+  <string name="PassphrasePromptActivity_enter_passphrase">Уведіть фразу-пароль</string>
+  <string name="PassphrasePromptActivity_watermark_content_description">Іконка Сайленс</string>
+  <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Неприпустима фраза-пароль!</string>
+  <!--ReceiveKeyActivity-->
+  <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_different">Підпис на цьому обміні ключами відрізняється від того, який Ви отримували від цього контакту раніше. Це може означати, що хтось намагається перехопити Ваші повідомлення, або що контакт просто перевстановив Сайленс і тепер має новий ключ ідентифікації.</string>
+  <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_trusted_but">Підпис цього обміну ключами довірений, але ви відключили настройку \'автоматично завершувати обмін ключами\'.</string>
+  <string name="ReceiveKeyActivity_processing">Обробка</string>
+  <string name="ReceiveKeyActivity_processing_key_exchange">Виконується обмін ключами...</string>
+  <string name="ConfirmIdentityDialog_you_may_wish_to_verify_this_contact">Можливо, вам потрібно перевірити цей контакт.</string>
+  <!--RecipientPreferencesActivity-->
+  <string name="RecipientPreferenceActivity_block_this_contact_question">Заблокувати цей контакт?</string>
+  <string name="RecipientPreferenceActivity_you_will_no_longer_see_messages_from_this_user">Ви більше не будете бачити повідомлення, які надсилатиме цей користувач.</string>
+  <string name="RecipientPreferenceActivity_block">Заблокувати</string>
+  <string name="RecipientPreferenceActivity_unblock_this_contact_question">Розблокувати цей контакт?</string>
+  <string name="RecipientPreferenceActivity_are_you_sure_you_want_to_unblock_this_contact">Ви певні, що хочете розблокувати цей контакт?</string>
+  <string name="RecipientPreferenceActivity_unblock">Розблокувати</string>
+  <string name="RecipientPreferenceActivity_enabled">Увімкнено</string>
+  <string name="RecipientPreferenceActivity_disabled">Вимкнено</string>
+  <!--Slide-->
+  <string name="Slide_image">Зображення</string>
+  <string name="Slide_audio">Аудіо</string>
+  <string name="Slide_video">Відео</string>
+  <!--SmsMessageRecord-->
+  <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Отримано пошкоджене повідомлення обміну ключами!</string>
+  <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">Отримано повідомлення обміну ключами для неправильної версії протоколу.</string>
+  <string name="SmsMessageRecord_received_message_with_unknown_identity_key_tap_to_process">Отримано повідомлення з незнайомими ключем ідентифікації. Торкніться, щоб обробити й переглянути.</string>
+  <string name="SmsMessageRecord_received_updated_but_unknown_identity_information">Отримав оновлення для незнайомої інформації ідентифікації. Торкніться для підтвердження особи.</string>
+  <string name="SmsMessageRecord_secure_session_ended">Захищений сеанс завершено.</string>
+  <string name="SmsMessageRecord_duplicate_message">Повтор повідомлення.</string>
+  <!--ThreadRecord-->
+  <string name="ThreadRecord_left_the_group">Вийшов з групи</string>
+  <string name="ThreadRecord_draft">Проект:</string>
+  <string name="ThreadRecord_media_message">Мультимедійне повідомлення</string>
+  <!--TransportOptions-->
+  <string name="TransportOptions_sms_disabled">SMS повідомлення вимкнено</string>
+  <string name="TransportOptions_no_sim_card_found">Не знайдено SIM карти</string>
+  <!--VerifyIdentityActivity-->
+  <string name="VerifyIdentityActivity_you_do_not_have_an_identity_key">У вас немає особистого ключа.</string>
+  <string name="VerifyIdentityActivity_recipient_has_no_identity_key">У одержувача немає особистого ключа.</string>
+  <string name="VerifyIdentityActivity_scan_contacts_qr_code">Відсканувати QR-код контакту</string>
+  <string name="VerifyIdentityActivity_display_your_qr_code">Показати Ваш QR-код</string>
+  <string name="VerifyIdentityActivity_warning_the_scanned_key_does_not_match_please_check_the_fingerprint_text_carefully">УВАГА, просканований ключ НЕ СПІВПАДАЄ! Уважно перевірте текст відбитка.</string>
+  <string name="VerifyIdentityActivity_not_verified_exclamation">НЕ перевірено!</string>
+  <string name="VerifyIdentityActivity_their_key_is_correct_it_is_also_necessary_to_verify_your_key_with_them_as_well">Ключ співрозмовника вірний. Також необхідно, щоб співрозмовник підтвердив ваш ключ.</string>
+  <string name="VerifyIdentityActivity_verified_exclamation">Перевірено!</string>
+  <!--ViewIdentityActivity-->
+  <string name="ViewIdentityActivity_scan_contacts_qr_code">Відсканувати QR-код контакту</string>
+  <string name="ViewIdentityActivity_display_your_qr_code">Показати Ваш QR-код</string>
+  <string name="ViewIdentityActivity_warning_the_scanned_key_does_not_match_exclamation">УВАГА, просканований ключ НЕ СПІВПАДАЄ!</string>
+  <string name="ViewIdentityActivity_the_scanned_key_matches_exclamation">Просканований ключ збігається!</string>
+  <string name="ViewIdentityActivity_your_identity_fingerprint">Відбиток Вашої особи</string>
+  <!--KeyExchangeInitiator-->
+  <string name="KeyExchangeInitiator_initiate_despite_existing_request_question">Розпочати не зважаючи на наявний запит?</string>
+  <string name="KeyExchangeInitiator_youve_already_sent_a_session_initiation_request_to_this_recipient_are_you_sure">Ви вже відправили цьому співрозмовнику запит на початок сеансу. Ви впевнені, що хочете відправити ще один? Попередній буде анульовано.</string>
+  <string name="KeyExchangeInitiator_send">Відправити</string>
+  <!--MessageDisplayHelper-->
+  <string name="MessageDisplayHelper_bad_encrypted_message">Погане шифроване повідомлення</string>
+  <string name="MessageDisplayHelper_decrypting_please_wait">Розшифрування, будь ласка, зачекайте…</string>
+  <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Повідомлення зашифроване для сеансу, який не існує</string>
+  <string name="MessageDisplayHelper_end_session_encrypted_for_non_existing_session">Запит на припинення сеансу, який не існує</string>
+  <!--EncryptingSmsDatabase-->
+  <string name="EncryptingSmsDatabase_error_decrypting_message">Помилка при розшифруванні повідомлення.</string>
+  <!--MmsDatabase-->
+  <string name="MmsDatabase_connecting_to_mms_server">Підключення до MMS сервера…</string>
+  <string name="MmsDatabase_downloading_mms">Завантаження MMS…</string>
+  <string name="MmsDatabase_mms_download_failed">Не вдалося завантажити MMS!</string>
+  <string name="MmsDatabase_downloading">Завантаження…</string>
+  <string name="MmsDatabase_mms_pending_download">Торкніться аби підлаштувати параметри MMS та продовжити завантаження.</string>
+  <string name="MmsDatabase_error_decrypting_message">Помилка розшифрування повідомлення.</string>
+  <!--MmsMessageRecord-->
+  <string name="MmsMessageRecord_decrypting_mms_please_wait">Розшифрування MMS, будь ласка, зачекайте…</string>
+  <string name="MmsMessageRecord_bad_encrypted_mms_message">Погане зашифроване MMS</string>
+  <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS зашифроване для сеансу, який не існує</string>
+  <!--MuteDialog-->
+  <string name="MuteDialog_mute_notifications">Вимкнути сповіщення</string>
+  <!--ApplicationMigrationService-->
+  <string name="ApplicationMigrationService_import_in_progress">Триває імпортування</string>
+  <string name="ApplicationMigrationService_importing_text_messages">Завантаження текстових повідомлень</string>
+  <string name="ApplicationMigrationService_import_complete">Завантаження завершене</string>
+  <string name="ApplicationMigrationService_system_database_import_is_complete">Завантаження бази з системи завершено.</string>
+  <!--KeyCachingService-->
+  <string name="KeyCachingService_silence_passphrase_cached">Торкніться, щоб відкрити.</string>
+  <string name="KeyCachingService_silence_passphrase_cached_with_lock">Торкніться, щоб відкрити, або торкніться замка, щоб закрити.</string>
+  <string name="KeyCachingService_passphrase_cached">Сайленс розблоковано</string>
+  <string name="KeyCachingService_lock">Закрити з фразою-паролем</string>
+  <!--MessageNotifier-->
+  <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d нових повідомлень у %2$d розмовах</string>
+  <string name="MessageNotifier_most_recent_from_s">Найновіше від: %1$s</string>
+  <string name="MessageNotifier_encrypted_message">Зашифроване повідомлення</string>
+  <string name="MessageNotifier_media_message_with_text">Мультимедійне повідомлення: %s</string>
+  <string name="MessageNotifier_no_subject">(Немає теми)</string>
+  <string name="MessageNotifier_message_delivery_failed">Збій доставки повідомлення.</string>
+  <string name="MessageNotifier_failed_to_deliver_message">Не вдалось доставити повідомлення.</string>
+  <string name="MessageNotifier_error_delivering_message">Помилка доставки повідомлення.</string>
+  <string name="MessageNotifier_mark_all_as_read">Позначити все як прочитане</string>
+  <string name="MessageNotifier_mark_read">Позначити прочитаним</string>
+  <string name="MessageNotifier_media_message">Мультимедійне повідомлення</string>
+  <string name="MessageNotifier_message_received">Повідомлення отримане %s.</string>
+  <string name="MessageNotifier_reply">Відповісти</string>
+  <!--QuickResponseService-->
+  <string name="QuickResponseService_quick_response_unavailable_when_Silence_is_locked">Не можна швидко відповісти, коли Сайленс заблоковано!</string>
+  <string name="QuickResponseService_problem_sending_message">Проблема з відправленням повідомлення!</string>
+  <!--SingleRecipientNotificationBuilder-->
+  <string name="SingleRecipientNotificationBuilder_silence">Сайленс</string>
+  <string name="SingleRecipientNotificationBuilder_new_message">Нове повідомлення</string>
+  <!--SubscriptionInfoCompat-->
+  <string name="SubscriptionInfoCompat_slot">Комірка %1$s</string>
+  <string name="SubscriptionInfoCompat_display_name">%1$s (комірка %2$s)</string>
+  <!--change_passphrase_activity-->
+  <string name="change_passphrase_activity__old_passphrase">Стара фраза-пароль</string>
+  <string name="change_passphrase_activity__new_passphrase">Нова фраза-пароль</string>
+  <string name="change_passphrase_activity__repeat_new_passphrase">Повторіть нову фразу-пароль</string>
+  <!--contact_selection_activity-->
+  <string name="contact_selection_activity__enter_name_or_number">Уведіть ім\'я або номер</string>
+  <!--contact_selection_group_activity-->
+  <string name="contact_selection_group_activity__no_contacts">Контактів не знайдено.</string>
+  <string name="contact_selection_group_activity__finding_contacts">Завантаження контактів…</string>
+  <!--single_contact_selection_activity-->
+  <string name="SingleContactSelectionActivity_contact_photo">Фото контакта</string>
+  <!--ContactSelectionListFragment-->
+  <string name="ContactSelectionlistFragment_select_for">Вибрати для</string>
+  <!--blocked_contacts_fragment-->
+  <string name="blocked_contacts_fragment__no_blocked_contacts">Немає заблокованих контактів</string>
+  <!--contact_selection_recent_activity-->
+  <string name="contact_selection_recent_activity__no_recent_calls">Останнім часом ви нікому не телефонували.</string>
+  <!--contact_selection_list_fragment-->
+  <!--conversation_title_view-->
+  <string name="conversation_title_view__conversation_muted">Вимкнено сповіщення для розмови</string>
+  <!--conversation_activity-->
+  <string name="conversation_activity__type_message_sms_secure">Відправити зашифроване SMS</string>
+  <string name="conversation_activity__type_message_sms_insecure">Відправити незашифроване SMS</string>
+  <string name="conversation_activity__type_message_mms_secure">Відправите зашифроване MMS</string>
+  <string name="conversation_activity__type_message_mms_insecure">Відправити незашифроване MMS</string>
+  <string name="conversation_activity__send">Надіслати</string>
+  <string name="conversation_activity__remove">Вилучити</string>
+  <string name="conversation_activity__window_description">Розмова з %1$s</string>
+  <string name="conversation_activity__compose_description">Створення повідомлення</string>
+  <string name="conversation_activity__emoji_toggle_description">Перемкнути емодзі клавіатуру</string>
+  <string name="conversation_activity__attachment_thumbnail">Іконка вкладення</string>
+  <!--conversation_item-->
+  <string name="conversation_item__mms_downloading_description">Завантаження мультимедійного повідомлення</string>
+  <string name="conversation_item__mms_image_description">Мультимедійне повідомлення</string>
+  <string name="conversation_item__secure_message_description">Приватне повідомлення</string>
+  <!--conversation_item_sent-->
+  <string name="conversation_item_sent__download">Завантажити</string>
+  <string name="conversation_item_sent__downloading">Завантаження</string>
+  <string name="conversation_item_sent__send_failed_indicator_description">Не вдалося відправити</string>
+  <string name="conversation_item_sent__pending_approval_description">Очікування підтвердження</string>
+  <string name="conversation_item_sent__delivered_description">Доставлено</string>
+  <!--conversation_item_received-->
+  <string name="conversation_item_received__download">Завантажити</string>
+  <string name="conversation_item_received__contact_photo_description">Фотографія контакта</string>
+  <string name="conversation_item_received__downloading">Завантаження</string>
+  <!--audio_view-->
+  <string name="audio_view__play_accessibility_description">Грати</string>
+  <string name="audio_view__pause_accessibility_description">Пауза</string>
+  <string name="audio_view__download_accessibility_description">Завантажити</string>
+  <!--conversation_fragment_cab-->
+  <string name="conversation_fragment_cab__batch_selection_mode">Режим вибору кількох елементів</string>
+  <string name="conversation_fragment_cab__batch_selection_amount">%s вибрано</string>
+  <!--conversation_fragment-->
+  <string name="conversation_fragment__scroll_to_the_bottom_content_description">Прокрутити в кінець</string>
+  <!--import_export_fragment-->
+  <string name="import_export_fragment__export">Вивантажити</string>
+  <string name="import_export_fragment__import">Завантажити</string>
+  <!--log_submit_activity-->
+  <string name="log_submit_activity__log_fetch_failed">Не вдалося прочитати журнал на Вашому пристрої. Ви ще можете скористатися ADB, щоб натомість отримати журнал налагодження.</string>
+  <string name="log_submit_activity__thanks">Дякуємо за вашу допомогу!</string>
+  <string name="log_submit_activity__submitting">Відправлення</string>
+  <string name="log_submit_activity__posting_logs">Публікація журналів…</string>
+  <!--database_migration_activity-->
+  <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Бажаєте завантажити Ваші наявні текстові повідомлення до зашифрованої бази Сайленс?</string>
+  <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Системна база даних не буде порушена.</string>
+  <string name="database_migration_activity__skip">Пропустити</string>
+  <string name="database_migration_activity__import">Імпортувати</string>
+  <string name="database_migration_activity__this_could_take_a_moment_please_be_patient">Це може тривати деякий час. Будь ласка, будьте терплячими, Вам повідомлять, коли завантаження завершиться.</string>
+  <string name="database_migration_activity__importing">ІМПОРТУВАННЯ</string>
+  <!--database_upgrade_activity-->
+  <string name="database_upgrade_activity__updating_database">Оновлення бази…</string>
+  <string name="export_fragment__export_plaintext_backup">Вивантажити резервну копію звичайного тексту</string>
+  <string name="export_fragment__export_a_plaintext_backup_compatible_with">Вивантажити резервну копію звичайного тексту, сумісну з програмою \'SMS Backup &amp; Restore\' на пристрій</string>
+  <string name="import_fragment__import_system_sms_database">Завантажити SMS з бази системи</string>
+  <string name="import_fragment__import_the_database_from_the_default_system">Завантажити базу з основної програми для повідомлень у системі</string>
+  <string name="import_fragment__restore_encrypted_backup">Відновити зашифровану резервну копію</string>
+  <string name="import_fragment__restore_a_previously_exported_encrypted_backup">Відновити раніше вивантажену зашифровану резервну копію</string>
+  <string name="import_fragment__import_plaintext_backup">Завантажити резервну копію простого тексту</string>
+  <string name="import_fragment__import_a_plaintext_backup_file">Імпортувати з незашифрованої резервної копії. Сумісно з додатком \'SMSBackup And Restore\'.</string>
+  <string name="export_fragment__export_encrypted_backup">Вивантажити зашифровану резервну копію</string>
+  <string name="export_fragment__export_an_encrypted_backup_to_storage">Вивантажити зашифровану резервну копію на пристрій</string>
+  <!--load_more_header-->
+  <string name="load_more_header__see_full_conversation">Подивитися всю розмову</string>
+  <!--media_overview_activity-->
+  <string name="media_overview_activity__no_images">Немає зображень</string>
+  <!--message_recipients_list_item-->
+  <string name="message_recipients_list_item__verify">ПЕРЕВІРИТИ</string>
+  <string name="message_recipients_list_item__resend">НАДІСЛАТИ ПОВТОРНО</string>
+  <!--prompt_passphrase_activity-->
+  <string name="prompt_passphrase_activity__unlock">Розблокувати</string>
+  <!--prompt_mms_activity-->
+  <string name="prompt_mms_activity__silence_requires_mms_settings_to_deliver_media_and_group_messages">Сайленс потребує налаштувать MMS, щоб доставляти мультимедія і групові повідомлення через мережу оператора. Ваш пристрій не надає цієї інформації, що іноді трапляється із заблокованими пристроями й іншими обмежувальними налаштуваннями.</string>
+  <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Щоб відправляти медіа й групові повідомлення, торкніться «OK» і заповніть необхідні налаштування. Налаштування MMS Вашого оператора можна, зазвичай, знайти пошукавши «налаштування точки доступу». Вам потрібно буде зробити це лише раз.</string>
+  <!--recipient_preferences_activity-->
+  <string name="recipient_preference_activity__blocked">ЗАБЛОКОВАНО</string>
+  <!--recipient_preferences-->
+  <string name="recipient_preferences__mute_conversation">Вимкнути сповіщення для розмови</string>
+  <string name="recipient_preferences__disable_notifications_for_this_conversation">Вимкнути сповіщення для цієї розмови</string>
+  <string name="recipient_preferences__notification_sound">Звук сповіщення</string>
+  <string name="recipient_preferences__vibrate">Вібрація</string>
+  <string name="recipient_preferences__block">Блокувати</string>
+  <string name="recipient_preferences__color">Колір</string>
+  <string name="recipient_preferences__color_for_this_contact">Колір для цього контакта</string>
+  <!--receive_key_dialog-->
+  <string name="receive_key_activity__complete">Виконати</string>
+  <!--recipients_panel-->
+  <string name="recipients_panel__to"><small>Уведіть ім\'я чи номер</small></string>
+  <string name="recipients_panel__add_member">Додати учасника</string>
+  <!--verify_identity_activity-->
+  <string name="verify_identity_activity__their_identity_they_read">Cпіврозмовник (він читає):</string>
+  <string name="verify_identity_activity__your_identity_you_read">Ви (ви читаєте):</string>
+  <!--message_details_header-->
+  <string name="message_details_header__issues_need_your_attention">Деякі проблеми потребують Вашої уваги</string>
+  <string name="message_details_header__sent">Відправлено</string>
+  <string name="message_details_header__received">Отримано</string>
+  <!--AndroidManifest.xml-->
+  <string name="AndroidManifest__create_passphrase">Створити фразу-пароль</string>
+  <string name="AndroidManifest__enter_passphrase">Увести фразу-пароль</string>
+  <string name="AndroidManifest__select_contacts">Вибрати контакти</string>
+  <string name="AndroidManifest__public_identity_key">Публічний ключ ідентифікації</string>
+  <string name="AndroidManifest__change_passphrase">Змінити фразу-ключ</string>
+  <string name="AndroidManifest__verify_identity">Перевірити особу</string>
+  <string name="AndroidManifest__complete_key_exchange">Завершити обмін ключами</string>
+  <string name="AndroidManifest__log_submit">Надати журнал налагодження</string>
+  <string name="AndroidManifest__media_preview">Попередній перегляд мультимедія</string>
+  <string name="AndroidManifest__media_overview">Усі зображення</string>
+  <string name="AndroidManifest__media_overview_named">Усі зображення з %1$s</string>
+  <string name="AndroidManifest__message_details">Деталі повідомлень</string>
+  <string name="AndroidManifest_archived_conversations">Заархівовані розмови</string>
+  <string name="AndroidManifest_configure_mms_settings">Налаштувати MMS</string>
+  <!--arrays.xml-->
+  <string name="arrays__import_export">Завантажити чи вивантажити</string>
+  <string name="arrays__your_identity_key">Ваш ключ ідентифікації</string>
+  <string name="arrays__use_default">Використовувати той, що за замовчуванням</string>
+  <string name="arrays__use_custom">Використовувати вибраний вручну</string>
+  <string name="arrays__mute_for_one_hour">Вимкнути сповіщення на 1 годину</string>
+  <string name="arrays__mute_for_two_hours">Вимкнути сповіщення на 2 години</string>
+  <string name="arrays__mute_for_one_day">Вимкнути сповіщення на 1 день</string>
+  <string name="arrays__mute_for_seven_days">Вимкнути сповіщення на 7 днів</string>
+  <string name="arrays__mute_for_one_year">Вимкнути сповіщення на 1 рік</string>
+  <string name="arrays__settings_default">Налаштування замовчування</string>
+  <string name="arrays__enabled">Увімкнено</string>
+  <string name="arrays__disabled">Вимкнено</string>
+  <string name="arrays__name_and_message">Ім\'я й повідомлення</string>
+  <string name="arrays__name_only">Лише ім\'я</string>
+  <string name="arrays__no_name_or_message">Без імені чи повідомлення</string>
+  <string name="arrays__enter_key">Показати клавішу «ввести»</string>
+  <string name="arrays__emoji_key">Показувати клавішу емодзі</string>
+  <string name="arrays__send_key">Показати клавішу «відправити»</string>
+  <!--plurals.xml-->
+  <plurals name="hours_ago">
+    <item quantity="one">%d година</item>
+    <item quantity="few">%d години</item>
+    <item quantity="many">%d годин</item>
+    <item quantity="other">%d годин</item>
+  </plurals>
+  <!--preferences.xml-->
+  <string name="preferences__general">Загальні</string>
+  <string name="preferences__sms_mms">SMS і MMS</string>
+  <string name="preferences__pref_all_sms_title">Отримати всі SMS</string>
+  <string name="preferences__pref_all_mms_title">Отримати всі MMS</string>
+  <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_text_messages">Використовувати Сайленс для перегляду й збереження всіх вхідних текстових повідомлень</string>
+  <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_multimedia_messages">Використовувати Сайленс для перегляду й збереження всіх вхідних мультимедійних повідомлень</string>
+  <string name="preferences__keyboard_settings">Налаштування клавіатури</string>
+  <string name="preferences__disable_emoji_drawer">Вимкнути вкладку емодзі</string>
+  <string name="preferences__enable_this_option_if_your_keyboard_supports_emojis">Виберіть це, якщо Ваша клавіатура підтримує емодзі</string>
+  <string name="preferences__display_settings">Показати налаштування</string>
+  <string name="preferences__choose_your_contact_entry_from_the_contacts_list">Виберіть себе із списку контактів.</string>
+  <string name="preferences__change_passphrase">Змінити фразу-ключ</string>
+  <string name="preferences__change_your_passphrase">Змінити Вашу фразу-пароль</string>
+  <string name="preferences__complete_key_exchanges">Виконувати обміни ключами</string>
+  <string name="preferences__enable_passphrase">Увімкнути фразу-пароль</string>
+  <string name="preferences__enable_local_encryption_of_messages_and_keys">Увімкнути шифрування повідомлень і ключів на присторї</string>
+  <string name="preferences__screen_security">Безпека екрану</string>
+  <string name="preferences__automatically_complete_key_exchanges_for_new_sessions_or_for_existing_sessions_with_the_same_identity_key">Автоматично завершувати обмін ключами для нових або ж існуючих сесій з тими ж ключами ідентифікації</string>
+  <string name="preferences__disable_screen_security_to_allow_screen_shots">Блокувати спроби робити знімки екрану в переліку недавніх програм й усередині програми</string>
+  <string name="preferences__forget_passphrase_from_memory_after_some_interval">Стирати з пам’яті фразу-ключ через деякий час</string>
+  <string name="preferences__timeout_passphrase">Забувати фразу-ключ</string>
+  <string name="preferences__pref_timeout_interval_dialogtitle">Вибрати строк дії для фрази-пароля</string>
+  <string name="preferences__pref_timeout_interval_title">Термін зберігання</string>
+  <string name="preferences__the_amount_of_time_to_wait_before_forgetting_passphrase">Час, після якого фраза-пароль буде стерта з пам’яті</string>
+  <string name="preferences__notifications">Сповіщення</string>
+  <string name="preferences__enable_message_notifications">Увімкнути сповіщення про повідомлення</string>
+  <string name="preferences__led_color">Колір LED</string>
+  <string name="preferences__led_color_unknown">Невідомо</string>
+  <string name="preferences__pref_led_blink_title">Шаблон мерехтіння LED</string>
+  <string name="preferences__pref_led_blink_custom_pattern_title">Вибрати послідовність блимання LED</string>
+  <string name="preferences__pref_led_blink_custom_pattern_on_for">Увімкнено протягом:</string>
+  <string name="preferences__pref_led_blink_custom_pattern_off_for">Вимкнено протягом:</string>
+  <string name="preferences__pref_led_blink_custom_pattern_set">Власний шаблон мерехтіння LED задано!</string>
+  <string name="preferences__sound">Звук</string>
+  <string name="preferences__change_notification_sound">Змінити звук сповіщення</string>
+  <string name="preferences__silent">Сайлент</string>
+  <string name="preferences__in_conversation_notifications">Сповіщення в програмі</string>
+  <string name="preferences__play_inthread_notifications">Програвати мелодію сповіщень навіть під час активного листування.</string>
+  <string name="preferences__repeat_alerts">Повторювати попередження</string>
+  <string name="preferences__never">Ніколи</string>
+  <string name="preferences__one_time">Один раз</string>
+  <string name="preferences__two_times">Двічі</string>
+  <string name="preferences__three_times">Тричі</string>
+  <string name="preferences__five_times">П\'ять разів</string>
+  <string name="preferences__ten_times">Десять разів</string>
+  <string name="preferences__vibrate">Вібрувати</string>
+  <string name="preferences__also_vibrate_when_notified">Також вібрувати під час сповіщення</string>
+  <string name="preferences__minutes">хвилин</string>
+  <string name="preferences__hours">годин</string>
+  <string name="preferences__green">Зелений</string>
+  <string name="preferences__red">Червоний</string>
+  <string name="preferences__blue">Синій</string>
+  <string name="preferences__orange">Помаранчевий</string>
+  <string name="preferences__cyan">Ціан</string>
+  <string name="preferences__magenta">Пурпуровий</string>
+  <string name="preferences__white">Білий</string>
+  <string name="preferences__none">Жодного</string>
+  <string name="preferences__fast">Швидко</string>
+  <string name="preferences__normal">Звичайний</string>
+  <string name="preferences__slow">Повільно</string>
+  <string name="preferences__custom">Користувацький</string>
+  <string name="preferences__advanced">Додаткові функції</string>
+  <string name="preferences__privacy">Приватність</string>
+  <string name="preferences__mms_user_agent">MMS User Agent</string>
+  <string name="preferences__advanced_mms_access_point_names">Налаштувати MMS вручну</string>
+  <string name="preferences__enable_manual_mms">Використовувати ручні налаштування MMS</string>
+  <string name="preferences__override_system_mms_settings">Перезаписати системні налаштування MMS вказаними нижче.</string>
+  <string name="preferences__mmsc_url">MMSC URL</string>
+  <string name="preferences__mms_proxy_host">MMS проксі сервер</string>
+  <string name="preferences__mms_proxy_port">MMS проксі порт</string>
+  <string name="preferences__mmsc_username">MMSC ім\'я користувача</string>
+  <string name="preferences__mmsc_password">MMSC пароль</string>
+  <string name="preferences__sms_delivery_reports">Звіти про доставку SMS</string>
+  <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">Запитувати звіт про доставку для кожного відісланого вами SMS</string>
+  <string name="preferences__sms_delivery_reports_notification">Налаштування сповіщень звітів про доставлення SMS</string>
+  <string name="preferences__display_a_notification_when_a_delivery_report_is_received">Показувати сповіщення, коли отримано звіт про доставлення</string>
+  <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Автоматично видаляти старіші повідомлення, щойно розмова перевищить встановлену довжину</string>
+  <string name="preferences__delete_old_messages">Вилучати старі повідомлення</string>
+  <string name="preferences__chats">Розмови й медія</string>
+  <string name="preferences__conversation_length_limit">Обмеження довжини розмови</string>
+  <string name="preferences__trim_all_conversations_now">Обітнути всі розмови зараз</string>
+  <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Знайти всі розмови й застосувати до них обмеження за довжиною</string>
+  <string name="preferences__light_theme">Світла</string>
+  <string name="preferences__dark_theme">Темна</string>
+  <string name="preferences__appearance">Вигляд</string>
+  <string name="preferences__theme">Тема</string>
+  <string name="preferences__default">Типово</string>
+  <string name="preferences__language">Мова</string>
+  <string name="preferences__make_default_sms_app">Встановити типовою програмою для SMS</string>
+  <string name="preferences__make_silence_the_default_sms_mms_app">Зробити Сайленс основною програмою для SMS і MMS в системі</string>
+  <string name="preferences__submit_debug_log">Відіслати журнал відлагодження</string>
+  <string name="preferences__support_wifi_calling">Режим сумісності з «Wi-Fi Calling»</string>
+  <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Увімкніть, якщо Ваш пристрій доставляє SMS і MMS через Wi-Fi (вмикайте лише, коли «Wi-Fi Calling» увімкнено на Вашому пристрої).</string>
+  <string name="preferences__about">Про Сайленс</string>
+  <string name="preferences__about_version">Версія %s</string>
+  <string name="preferences__privacy_policy">Політика конфіденційності</string>
+  <string name="preferences__incognito_keyboard">Клавіатура інкогніто</string>
+  <string name="preferences__request_keyboard_to_disable_personalized_learning">Якщо увімкнути режим інкогніто, клавіатура не запам\'ятовуватиме, не тренуватиметься й не зберігатиме будь-які слова, які Ви вводите</string>
+  <string name="preferences_app_protection__blocked_contacts">Заблоковані контакти</string>
+  <string name="preferences_notifications__display_in_notifications">Показувати сповіщення</string>
+  <string name="preferences__show_sent_time">Показувати час відправлення</string>
+  <string name="preferences__show_sent_time_instead_of_received_time_in_conversations">Показувати час відправлення замість часу отримання для вхідних повідомлень</string>
+  <string name="preferences__hide_unread_message_divider">Приховати роздільник нових повідомлень</string>
+  <string name="preferences_chats__mms">MMS</string>
+  <string name="preferences__auto_retrieve">Отримувати автоматично</string>
+  <string name="preferences__automatically_retrieve_mms_messages">Отримувати MMS автоматично</string>
+  <string name="preferences__roaming_auto_retrieve">Отримувати автоматично в роумінгу</string>
+  <string name="preferences__automatically_retrieve_mms_when_roaming">Отримувати MMS автоматично в роумінгу</string>
+  <string name="preferences_chats__message_trimming">Обтинання повідомлень</string>
+  <string name="preferences_advanced__use_system_emoji">Використовувати емодзі системи</string>
+  <string name="preferences_advanced__disable_silences_built_in_emoji_support">Вимкнути вбудовану в Сайленс підтримку емодзі</string>
+  <!--****************************************-->
+  <!--menus-->
+  <!--****************************************-->
+  <!--contact_selection_list-->
+  <string name="contact_selection_list__menu_select_all">Вибрати все</string>
+  <string name="contact_selection_list__menu_unselect_all">Зняти вибір з усього</string>
+  <string name="contact_selection_list__header">УСІ КОНТАКТИ</string>
+  <string name="contact_selection_list__unknown_contact">Нове повідомлення до…</string>
+  <!--contact_selection-->
+  <string name="contact_selection__menu_finished">Завершено</string>
+  <!--refreshing push directory from menu-->
+  <string name="push_directory__menu_refresh">Оновити перелік контактів</string>
+  <!--conversation_button_context-->
+  <string name="conversation_button_context__send_secure_sms">Відправити зашифроване SMS</string>
+  <string name="conversation_button_context__send_insecure_sms">Відправити незашифроване SMS</string>
+  <string name="conversation_button_context__send_secure_mms">Відправити зашифроване MMS</string>
+  <string name="conversation_button_context__send_insecure_mms">Відправити незашифроване MMS</string>
+  <!--conversation_callable-->
+  <string name="conversation_callable__menu_call">Виклик</string>
+  <!--conversation_context-->
+  <string name="conversation_context__menu_message_details">Деталі повідомлення</string>
+  <string name="conversation_context__menu_copy_text">Скопіювати текст</string>
+  <string name="conversation_context__menu_delete_message">Видалити повідомлення</string>
+  <string name="conversation_context__menu_forward_message">Переслати повідомлення</string>
+  <string name="conversation_context__menu_resend_message">Переслати повідомлення</string>
+  <!--conversation_context_image-->
+  <string name="conversation_context_image__save_attachment">Зберегти вкладення</string>
+  <!--conversation_insecure-->
+  <string name="conversation_insecure__invite">Запросити</string>
+  <!--conversation_insecure_no_push-->
+  <string name="conversation_insecure__menu_start_secure_session">Розпочати зашифрований сеанс</string>
+  <string name="conversation_insecure__security">Безпека</string>
+  <!--conversation_list_batch-->
+  <string name="conversation_list_batch__menu_delete_selected">Видалити вибране</string>
+  <string name="conversation_list_batch__menu_select_all">Вибрати все</string>
+  <string name="conversation_list_batch__menu_send_drafts">Відправити вибрані проекти</string>
+  <string name="conversation_list_batch_archive__menu_archive_selected">Архівувати вибране</string>
+  <string name="conversation_list_batch_unarchive__menu_unarchive_selected">Розархівувати вибране</string>
+  <!--conversation_list-->
+  <string name="conversation_list__menu_search">Пошук</string>
+  <!--conversation_list_item_view-->
+  <string name="conversation_list_item_view__contact_photo_image">Іконка контакта</string>
+  <string name="conversation_list_item_view__error_alert">Попередження про помилку</string>
+  <string name="conversation_list_item_view__archived">Заархівовано</string>
+  <!--conversation_list_fragment-->
+  <string name="conversation_list_fragment__fab_content_description">Нова розмова</string>
+  <!--conversation_secure_verified-->
+  <string name="conversation_secure_verified__menu_security">Безпека</string>
+  <string name="conversation_secure_verified__menu_verify_identity">Перевірити особу</string>
+  <string name="conversation_secure_verified__menu_abort_secure_session">Завершити безпечний сеанс</string>
+  <!--conversation_muted-->
+  <string name="conversation_muted__unmute">Увімкнути сповіщення</string>
+  <!--conversation_unmuted-->
+  <string name="conversation_unmuted__mute_notifications">Вимкнути сповіщення</string>
+  <!--conversation-->
+  <string name="conversation__menu_add_attachment">Додати вкладення</string>
+  <string name="conversation__menu_delete_conversation">Видалити розмову</string>
+  <string name="conversation__menu_archive_conversation">Архівувати розмову</string>
+  <string name="conversation__menu_unarchive_conversation">Розархівувати розмову</string>
+  <string name="conversation__menu_view_media">Усі зображення</string>
+  <string name="conversation__menu_conversation_settings">Налаштування розмови</string>
+  <!--conversation_popup-->
+  <string name="conversation_popup__menu_expand_popup">Розгорнути спливне вікно</string>
+  <!--conversation_callable-->
+  <string name="conversation_add_to_contacts__menu_add_to_contacts">Додати до контактів</string>
+  <!--conversation_group_options-->
+  <string name="convesation_group_options__recipients_list">Список одержувачів</string>
+  <string name="conversation_group_options__delivery">Доставка</string>
+  <string name="conversation_group_options__conversation">Розмова</string>
+  <string name="conversation_group_options__broadcast">Трансляція</string>
+  <!--key_scanning-->
+  <string name="key_scanning__menu_compare">Порівняти</string>
+  <string name="key_scanning__menu_display_your_qr_code">Показати QR-код</string>
+  <string name="key_scanning__menu_scan_contacts_qr_code">Сканувати QR-код контакту</string>
+  <!--text_secure_normal-->
+  <string name="text_secure_normal__menu_new_message">Нове повідомлення</string>
+  <string name="text_secure_normal__menu_new_group">Нова група</string>
+  <string name="text_secure_normal__menu_settings">Налаштування</string>
+  <string name="text_secure_normal__menu_clear_passphrase">Очистити фразу-ключ</string>
+  <string name="text_secure_normal__mark_all_as_read">Позначити все як прочитане</string>
+  <string name="text_secure_normal__menu_archived_conversations">Архівувати розмови</string>
+  <!--reminder_header-->
+  <string name="reminder_header_sms_default_title">Використовувати як програму для SMS за замовчуванням?</string>
+  <string name="reminder_header_sms_default_text_mandatory">Сайленс має бути Вашою основною програмою для SMS і MMS, щоб отримувати повідомлення.</string>
+  <string name="reminder_header_sms_default_button">ВСТАНОВИТИ</string>
+  <string name="reminder_header_sms_import_title">Завантажити SMS із системи?</string>
+  <string name="reminder_header_sms_import_text">Торкніться, щоб завантажити SMS із Вашого телефону до зашифрованої бази Сайленс.</string>
+  <string name="reminder_header_sms_import_button">ЗАВАНТАЖИТИ</string>
+  <string name="reminder_header_rate_title">Оцінити цю програму</string>
+  <string name="reminder_header_rate_text">Якщо Вам подобається ця програма, будь ласка, допоможіть нам, оцінивши її.</string>
+  <string name="reminder_header_rate_button">ДАТИ ОЦІНКУ!</string>
+  <string name="reminder_header_delivery_reports_title">Увімкнути звіти про доставлення?</string>
+  <string name="reminder_header_delivery_reports_text">Звіти про доставлення дозволяють Вам знати, якщо й коли отримувач отримав Ваші повідомлення. Деякі мобільні оператори беруть за це додаткову плату.</string>
+  <string name="reminder_header_delivery_reports_button">УВІМКНУТИ</string>
+  <string name="reminder_header_close_button">ЗАКРИТИ</string>
+  <!--MediaPreviewActivity-->
+  <string name="MediaPreviewActivity_you">ВИ</string>
+  <string name="MediaPreviewActivity_cant_display">Не зміг попередньо переглянути зображення</string>
+  <string name="MediaPreviewActivity_unssuported_media_type">Вид медіа не підтримується</string>
+  <string name="MediaPreviewActivity_draft">Проект</string>
+  <!--media_preview-->
+  <string name="media_preview__save_title">Зберегти</string>
+  <string name="media_preview__forward_title">Переслати</string>
+  <string name="media_preview__overview_title">Усі зображення</string>
+  <!--media_overview-->
+  <string name="media_overview__save_all">Зберегти все</string>
+  <!--media_preview_activity-->
+  <string name="media_preview_activity__image_content_description">Попередній перегляд зображення</string>
+  <!--Trimmer-->
+  <string name="trimmer__deleting">Видалення…</string>
+  <string name="trimmer__deleting_old_messages">Видалення старих повідомлень…</string>
+  <string name="trimmer__old_messages_successfully_deleted">Старі повідомлення успішно видалено</string>
+  <!--transport_selection_list_item-->
+  <string name="transport_selection_list_item__transport_icon">Іконка транспорту</string>
+  <!--EOF-->
+</resources>

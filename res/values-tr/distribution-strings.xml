@@ -1,0 +1,29 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Şifrelenmiş SMS/MMS konuşmaları artık çok kolay!</string>
+  <string name="Distribution_description">Silence arkadaşlarınızla iletişim kurarken mahremiyetinizi korumanızı sağlayan SMS/MMS uygulamasıdır.</string>
+  <string name="Distribution_long_description">
+        Silence arkadaşlarınız ile iletişim kurarken mahremiyetinizi korumanızı sağlayan bir SMS/MMS uygulamasıdır.
+        Silence kullanarak, SMS mesajları ve medya veya eklentilerinizi gizlilikle yollayabilirsiniz.
+
+        Özellikler:
+        * Kolay. Silence normal bir SMS uygulaması gibi çalışır. Arkadaşlarınızın katılması için herhangi bir hizmete kaydolması gerekmez.
+        * Güvenilir. Silence şifrelenmiş SMS mesajları ile iletişim kurar. Hiçbir sunucu veya internet bağlantısına gereksinim duymaz.
+        * Gizli. Silence titizlikle geliştirilmiş olan Signal şifreleme protokolünü kullanarak mesajlarınızın uçtan uca şifrelenmesini sağlar.
+        * Güvenli. Tüm mesajlar yerel olarak şifrelenir, yani telefonunuz kaybolsa veya çalınsa dahi, mesajlarınız güvende.
+        * Açık Kaynaklı. Silence Ücretsiz ve Açık Kaynaklıdır, böylelikle isteyen herkes kodunu denetleyip güvenliğini görebilir.
+
+        Lütfen hataları, sorunları ve istekleri aşağıdaki adresten gönderin:
+        https://git.silence.dev/Silence/Silence-Android/issues
+
+        Kaynak kodu:
+        https://git.silence.dev/Silence/Silence-Android
+
+        Daha fazla detay:
+        https://silence.im
+
+        Gizlilik ilkesi:
+        https://silence.im/privacy
+    </string>
+</resources>

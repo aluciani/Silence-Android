@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Voer eenvoudig versleutelde SMS/MMS-gesprekken!</string>
+  <string name="Distribution_description">Silence is een SMS/MMS-programma dat je privacy beschermt wanneer je met je vrienden communiceert.</string>
+  <string name="Distribution_long_description">
+Silence is een SMS/MMS-programma dat je privacy beschermt wanneer je met je vrienden communiceert.
+Met Silence kan je volkomen vertrouwelijk SMS- en multimediaberichten versturen.
+
+Eigenschappen:
+* Eenvoudig. Silence werkt net als elke andere SMS-app. Jij en je vrienden hoeven zich nergens te registreren.
+* Betrouwbaar. Silence communiceert door middel van versleutelde SMS-berichten. Er zijn geen servers of internetverbinding nodig.
+* Privé. Silence gebruikt end-to-end-versleuteling voor je berichten en gebruikt het zorgvuldig ontworpen Signal-versleutelingsprotocol.
+* Veilig. Alle berichten zijn lokaal versleuteld, dus als je telefoon verloren of gestolen wordt zijn je berichten beveiligd.
+* Openbron. Silence is vrije software, zodat iedereen de broncode kan inzien en de beveiliging kan controleren.
+
+Als je fouten vindt, opmerkingen hebt of bepaalde functionaliteit wilt, kan je dit melden op:
+https://git.silence.dev/Silence/Silence-Android/issues (Engels)
+
+De broncode is te vinden op:
+https://git.silence.dev/Silence/Silence-Android
+
+Meer informatie:
+https://silence.im
+
+Privacybeleid:
+https://silence.im/privacy</string>
+</resources>

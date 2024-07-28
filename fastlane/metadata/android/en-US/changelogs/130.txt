@@ -1,0 +1,2 @@
+- Fixed button to download MMS messages
+- Updated translations

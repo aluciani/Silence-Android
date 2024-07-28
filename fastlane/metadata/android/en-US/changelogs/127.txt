@@ -1,0 +1,4 @@
+- Fixed issues with vibration of notifications when Silence is unlocked
+- Added button to send drafts from main screen
+- Updated emojis
+- Updated translations

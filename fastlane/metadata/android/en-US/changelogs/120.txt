@@ -1,0 +1,7 @@
+- SMSSecure is now Silence
+- Added new emojis
+- Added support for multi-SIM phones
+- Added encrypted backups
+- Fixed strings
+- Updated APN database
+- Updated translations

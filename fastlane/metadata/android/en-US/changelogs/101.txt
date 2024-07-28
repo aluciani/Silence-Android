@@ -1,0 +1,3 @@
+- Removed `READ_CALL_LOG` permission
+- Fixed Norwegian localization issues
+- Fixed problem with upgrading the database

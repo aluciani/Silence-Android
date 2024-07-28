@@ -1,0 +1,2 @@
+- Switched to a new way to send encrypted messages
+- Updated translations

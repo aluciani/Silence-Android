@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Distribution_long_description">Stilte is ’n SMS/MMS toepassing wat u in staat stel om u privaatheid te beskerm tydens kommunikasie met vriende. Met ingebruikneming van Stilte kan u SMS boodskappe en media versend met volledige privaatheid.
+\nEienskappe:
+\n* Eenvoudig. Stilte werk soos enige ander SMS toepassing. Daar is geen inteken of nuwe diens waarby u of u vriende hoef aan te sluit nie.
+\n* Betroubaar. Stilte kommunikeer deur geïnkripteerde SMS boodskappe. Geen eksterne bedieners of internetverbinding word vereis nie.
+\n* Privaat. Stilte verskaf end-tot-end enkripsie vir u boodskappe deur die deeglik ontwikkelde Signal enkripsie protokol.
+\n* Veilig. Alle boodskappe word op die toestel geïnkripteer, so selfs al raak die toestel verlore of word dit gesteel, bly boodskappe beskermd.
+\n* Oopbron. Stilte is Gratis en Oopbron wat enigiemand in staat stel om die sekuriteit daarvan te bevestig deur die kode te oudit. Dui asseblief enige goggas, frustrasies of eienskap navrae aan by: https://git.silence.dev/Silence/Silence-Android/issues
+\nDie bronkode is beskikbaar by: https://git.silence.dev/Silence/Silence-Android
+\nMeer besonderhede: https://silence.im
+\nPrivaatheidsbeleid: https://silence.im/privacy</string>
+    <string name="Distribution_description">Stilte is \'n SMS/MMS toepassing wat u in staat stel om u privaatheid te beskerm tydens kommunikasie met vriende.</string>
+    <string name="Distribution_tagline">Geïnkripteerde SMS/MMS boodskappe sonder nonsens!</string>
+</resources>

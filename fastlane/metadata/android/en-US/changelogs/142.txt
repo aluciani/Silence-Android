@@ -1,0 +1,4 @@
+- Fixed logs sending
+- Added option to share key fingerprint
+- Minor UI fixes
+- Updated translations

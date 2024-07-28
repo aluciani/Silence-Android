@@ -1,0 +1,4 @@
+- Fixed key exchanges being blue while pending
+- Fixed crash when username was null in MMS auth
+- Improved handling of requests to end non-existing sessions
+- Updated translations

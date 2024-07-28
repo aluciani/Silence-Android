@@ -1,0 +1,7 @@
+- Moved from Axolotl to Signal protocol
+- Fixed crash when opening a conversation
+- Added fallback to legacy MMS API on failure
+- Added minor UI improvements
+- Fixed minor bugs
+- Removed dead code
+- Updated translations

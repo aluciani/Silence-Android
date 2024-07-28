@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Šifrirana sporočila SMS/MMS na preprost način!</string>
+  <string name="Distribution_description">Silence je aplikacija s katero sporočila SMS/MMS zaščitite s šifriranjem in tako poskrbite za zasebnost komunikacije.</string>
+  <string name="Distribution_long_description">
+Silence je aplikacija za pošiljanje sporočil SMS/MMS, ki ščiti vašo zasebnost med komunikacijo s prijatelji.
+Z njo lahko varno pošiljate tako tekstovna, kot medijska sporočila.
+
+Komuniciranje z aplikacijo Silence je:
+* Preprosto. Deluje tako kot vsaka druga aplikacija SMS/MMS. Šifriranje poteka v ozadju, za uporabo se ni treba nikamor prijaviti. 
+* Zanesljivo. Komunikacija poteka preko šifriranih SMS sporočil. Internetna povezava ni potrebna.
+* Zasebno. Sporočila SMS se šifrirajo na vaši napravi in dešifrirajo na napravah vaših prijateljev. Za to uporabljamo napredni šifrirni protokol Signal.
+* Varno. Svoja sporočila lahko posebej zaščitite tudi tako, da jih šifrirate lokalno - na sami napravi. V tem primeru so varna tudi, če je vaša naprava ukradena.
+* Transparentno. Silence je odprtokodna aplikacija. To pomeni, da lahko vsakdo preveri njeno kodo in tudi prispeva k nadaljnemu razvoju.
+
+Prgramske hrošče in druge probleme ter želje lahko javite na:
+https://git.silence.dev/Silence/Silence-Android/issues
+
+Koda aplikacije je na voljo na:
+https://git.silence.dev/Silence/Silence-Android
+
+Več o aplikaciji Silence:
+https://silence.im
+
+Politika zasebnosti:
+https://silence.im/privacy</string>
+</resources>

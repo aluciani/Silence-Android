@@ -1,0 +1,2 @@
+- Fixed MMS issues with Android 4.x
+- Updated translations

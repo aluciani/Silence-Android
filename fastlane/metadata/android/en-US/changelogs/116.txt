@@ -1,0 +1,3 @@
+- Improved settings
+- Fixed bugs
+- Updated translations

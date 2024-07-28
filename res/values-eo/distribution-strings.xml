@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="Distribution_title">Silence</string>
+    <string name="Distribution_tagline">Facilaj ĉifritaj SMS/MMS-aj interparoladoj!</string>
+    <string name="Distribution_description">Silence estas SMS/MMS-a aplikaĵo kiu ebligas al vi protekti vian privatecon dum komunikadi kun amikoj.</string>
+    <string name="Distribution_long_description">Silence estas SMS/MMS-a aplikaĵo, kiu ebligas al vi protekti vian privatecon dum komunikadi kun amikoj. Per Silence vi povas sendi SMS-ajn mesaĝojn kaj kunhavigi aŭdvidaĵojn kaj kunsendaĵojn tute private.
+\n 
+\nEblaĵoj:
+\n * Facila: Silence laboras kiel iu ajn alia SMS-a aplikaĵo. Vi kaj viaj amikoj ne devos ie ajn ensaluti aŭ aniĝi.
+\n * Senmalfunkcia: Silence komunikadas per ĉifritaj SMS-aj mesaĝoj. Neniu servilo aŭ retkonekto estas bezonata.
+\n * Privata: Silence provizas plenan ĉifradon por viaj mesaĝoj uzante zorgege projektitan ĉifran protokolon de la aplikaĵo Signal.
+\n * Sekura: ĉiuj mesaĝoj estas ĉifritaj loke, do se via poŝtelefono estos perdita aŭ ŝtelita, viaj mesaĝoj estos protektitaj.
+\n * Malfermkoda: Silence estas libera kaj malfermkoda programaro, kiu ajn povas verigi ĝian sekurecon per kontroli la fontkodon.
+\n 
+\nBonvolu raporti ajnajn erarojn, problemojn kaj proponi novajn funkciojn ĉe: https://git.silence.dev/Silence/Silence-Android/issues
+\n Vi povas trovi la fontkodon ĉe: https://git.silence.dev/Silence/Silence-Android
+\n Pliaj detaloj: https://silence.im
+\n Politiko pri privateco: https://silence.im/privacy</string>
+</resources>

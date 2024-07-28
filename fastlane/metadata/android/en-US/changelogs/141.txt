@@ -1,0 +1,4 @@
+- Added option to hide "new message" separator
+- Updated APNs with fix for Free Mobile (FR)
+- Switched to a new way to receive encrypted messages (started in v0.15.9)
+- Updated translations

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="preferences__sound">ශබ්දය</string>
+    <string name="arrays__your_identity_key">ඔබගේ අනන්‍යතා යතුර</string>
+    <string name="MmsDatabase_downloading">බාගත වෙමින් …</string>
+    <string name="KeyExchangeInitiator_send">යවන්න</string>
+    <string name="ImportFragment_cancel">අවලංගු</string>
+    <string name="GroupCreateActivity_menu_create_title">සමූහයක් සාදන්න</string>
+    <string name="GroupMembersDialog_me">මා</string>
+    <string name="GroupCreateActivity_actionbar_title">නව සමූහය</string>
+    <string name="ConversationActivity_add_attachment">ඇමුණුම එකතු කරන්න</string>
+    <string name="ConversationItem_click_for_details">විස්තර සඳහා තට්ටු කරන්න</string>
+    <string name="Permissions_not_now">දැන් නොවේ</string>
+    <string name="AbstractNotificationBuilder_new_message">නව පණිවිඩය</string>
+    <string name="please_wait">කරුණාකර රැඳෙන්න…</string>
+    <string name="no">නැහැ</string>
+    <string name="yes">ඔව්</string>
+</resources>

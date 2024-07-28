@@ -1,0 +1,7 @@
+- Improved MMS support and quality of scaled images
+- Added Android Auto support
+- Added UI fixes on failed messages
+- Added selective permissions
+- Improved welcome screen
+- Added option to always ask for the SIM card to use to send a message
+- Updated translations

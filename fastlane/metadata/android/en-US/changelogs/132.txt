@@ -1,0 +1,5 @@
+- Added link to our Privacy policy in Settings
+- Added "New messages" divider
+- Linkified geo: and xmpp: URIs
+- Fixed occasional crash on Android 7 quick reply
+- Updated translations

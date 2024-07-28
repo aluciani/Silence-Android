@@ -1,0 +1,3 @@
+- Fixed manual key exchange completion
+- Fixed occasional generated avatar mis-sizing in conversation
+- Updated translations

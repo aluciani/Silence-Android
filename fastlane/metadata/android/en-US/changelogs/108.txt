@@ -1,0 +1,4 @@
+- Added a new, more "material" UI
+- Added support for per-contact options
+- Fixed bugs
+- Updated translations

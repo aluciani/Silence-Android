@@ -1,0 +1,6 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Zifratutako SMS/MMS elkarrizketak modu errazean!</string>
+  <string name="Distribution_description">Silence lagunekin komunikatzean pribatutasuna babestea ahalbidetzen dizun SMS/MMS aplikazio bat da.</string>
+</resources>

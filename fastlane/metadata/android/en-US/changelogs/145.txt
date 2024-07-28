@@ -1,0 +1,4 @@
+- Improved local encryption
+- Fixed duplicated MMS settings
+- Added notifications channels
+- Updated translations

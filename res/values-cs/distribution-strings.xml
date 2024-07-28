@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Šifrované SMS/MMS konverzace jednoduše!</string>
+  <string name="Distribution_description">Silence je SMS/MMS aplikace, která vám umožňuje chránit vaše soukromí při komunikaci s přáteli.</string>
+  <string name="Distribution_long_description">
+Silence je SMS/MMS aplikace, která vám umožňuje chránit vaše soukromí při komunikaci s přáteli.
+Pomocí Silence můžete odesílat SMS zprávy a sdílet média či přílohy plně soukromě.
+
+Vlastnosti:
+* Jednoduchost. Silence funguje jako každá jiná SMS aplikace. K ničemu se není třeba přihlašovat a nikdo z vašich přátel se nemusí připojit k žádné službě.
+* Spolehlivost. Silence komunikuje pomocí šifrovaných SMS zpráv. Žádný server ani připojení k internetu není potřeba.
+* Soukromí. Silence poskytuje end-to-end šifrování pro vaši komunikaci za použití důkladně konstruovaného šifrovacího protokolu Signal.
+* Bezpečí. Veškerá komunikace je lokálně šifrována, ztratíte-li tedy telefon nebo je vám odcizen, vaše komunikace je v bezpečí.
+* Open Source. Silence je Free and Open Source aplikace, umožňující komukoli prověřit její zabezpečení pomocí auditu kódu.
+
+Veškeré problémy, chyby, nebo žádosti o nové funkce prosím směřujte zde:
+https://git.silence.dev/Silence/Silence-Android/issues
+
+Zdrojový kód naleznete zde:
+https://git.silence.dev/Silence/Silence-Android
+
+Více informací:
+https://silence.im
+
+Privacy policy:
+https://silence.im/privacy</string>
+</resources>

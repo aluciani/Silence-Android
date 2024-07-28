@@ -1,0 +1,28 @@
+<?xml version='1.0' encoding='UTF-8'?>
+<resources>
+  <string name="Distribution_title">Silence</string>
+  <string name="Distribution_tagline">Conversații SMS/MMS în mod facil!</string>
+  <string name="Distribution_description">Silence este o aplicaţie SMS/MMS care îţi permite să îţi protejezi confidenţialitatea când comunici cu prietenii.</string>
+  <string name="Distribution_long_description">
+        Silence este o aplicaţie SMS/MMS care vă permite să vă protejați intimitatea atunci când comunicați cu prietenii.
+        Folosind Silence, puteți trimite mesaje SMS și partaja fișiere într-un mod complet confidențial.
+
+        Caracteristici:
+        * Ușor de folosit. Silence funcționează ca orice altă aplicație SMS. Nu trebuie să vă înscrieți nicăieri nici dumneavoastră nici prietenii.
+        * Stabil. Silence comunică folosind mesaje SMS criptate. Nu este necesar nici un server sau vreo conexiune la internet.
+        * Privat. Silence criptează mesajelor dumneavoastră de la un capăt la altul folosind protocolul de criptare Axolotl, proiectat cu migală.
+        * Sigur. Toate mesajele sunt criptate local, așa că dacă vă pierdeți telefonul sau vă este furat, ele rămân protejate.
+        * Sursă deschisă. Silence este gratis și cu sursă deschisă, permițând oricui să îi verifice securitatea prin audierea codului.
+
+        Pentru erori, probleme sau funcționalități noi folosiți:
+        https://git.silence.dev/Silence/Silence-Android/issues
+
+        Codul sursă poate fi găsit aici:
+        https://git.silence.dev/Silence/Silence-Android
+
+        Mai multe detalii:
+        https://silence.im
+
+        Politica de confidențialitate:
+        https://silence.im/privacy</string>
+</resources>

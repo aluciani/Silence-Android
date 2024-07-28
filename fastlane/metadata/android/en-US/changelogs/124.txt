@@ -1,0 +1,8 @@
+- Fixed notifications with Android N
+- Prepared for upcoming XMPP transport
+- Added reminder to enable delivery reports
+- Fixed privacy settings with Android < 5
+- Fixed SMS characters calculation
+- Updated APN database
+- Updated translations
+- Fixed lots of minor bugs

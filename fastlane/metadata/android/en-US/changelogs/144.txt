@@ -1,0 +1,3 @@
+- Fixed infinite loop when sending MMS messages
+- Fixed crash when receiving encrypted MMS message
+- Updated translations

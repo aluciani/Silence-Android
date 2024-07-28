@@ -1,0 +1,795 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Ναι</string>
+    <string name="no">Όχι</string>
+    <string name="delete">Διαγραφή</string>
+    <!--AbstractNotificationBuilder-->
+    <!--ApplicationPreferencesActivity-->
+    <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Δεν έχετε ορίσει συνθηματική φράση!</string>
+    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Διαγραφή όλων των παλιών μηνυμάτων τώρα;</string>
+    <string name="ApplicationPreferencesActivity_delete">Διαγραφή</string>
+    <string name="ApplicationPreferencesActivity_disable_storage_encryption">Απενεργοποίηση κρυπτογράφησης αποθήκευσης;</string>
+    <string name="ApplicationPreferencesActivity_warning_this_will_disable_storage_encryption_for_all_messages">Προσοχή, αυτή η ενέργεια θα απενεργοποιήσει την κρυπτογράφηση αποθήκευσης για όλα τα μηνύματα και τα κλειδιά σας. Οι κρυπτογραφημένες συνεδρίες σας θα συνεχίσουν να λειτουργούν, αλλά όποιος έχει φυσική πρόσβαση στη συσκευή σας θα μπορεί να τις διαβάσει.</string>
+    <string name="ApplicationPreferencesActivity_disable">Απενεργοποίηση</string>
+    <string name="ApplicationPreferencesActivity_sms_enabled">SMS ενεργοποιημένα</string>
+    <string name="ApplicationPreferencesActivity_sms_disabled">SMS απενεργοποιημένα</string>
+    <string name="ApplicationPreferencesActivity_on">ενεργοποιημένο</string>
+    <string name="ApplicationPreferencesActivity_On">Ενεργοποιημένο</string>
+    <string name="ApplicationPreferencesActivity_off">απενεργοποιημένο</string>
+    <string name="ApplicationPreferencesActivity_Off">Απενεργοποιημένο</string>
+    <string name="ApplicationPreferencesActivity_sms">SMS</string>
+    <string name="ApplicationPreferencesActivity_mms">MMS</string>
+    <string name="ApplicationPreferencesActivity_incoming_summary">Εισερχόμενα %s</string>
+    <!--AppProtectionPreferenceFragment-->
+    <!--DraftDatabase-->
+    <string name="DraftDatabase_Draft_image_snippet">(εικόνα)</string>
+    <string name="DraftDatabase_Draft_audio_snippet">(ήχος)</string>
+    <string name="DraftDatabase_Draft_video_snippet">(βίντεο)</string>
+    <!--AttchmentManager-->
+    <!--AttachmentTypeSelectorAdapter-->
+    <string name="AttachmentTypeSelectorAdapter_picture">Εικόνα</string>
+    <string name="AttachmentTypeSelectorAdapter_video">Βίντεο</string>
+    <string name="AttachmentTypeSelectorAdapter_audio">Ήχος</string>
+    <string name="AttachmentTypeSelectorAdapter_contact">Πληροφορίες επαφής</string>
+    <!--AudioSlidePlayer-->
+    <!--BlockedContactsActivity-->
+    <!--ConversationItem-->
+    <string name="ConversationItem_message_size_d_kb">Μέγεθος μηνύματος: %d KB</string>
+    <string name="ConversationItem_expires_s">Λήγει: %s</string>
+    <string name="ConversationItem_error_not_delivered">Δεν παραδόθηκε</string>
+    <string name="ConversationItem_view_secure_media_question">Προβολή του αρχείου πολυμέσων;</string>
+    <string name="ConversationItem_error_received_stale_key_exchange_message">Λήφθηκε μήνυμα ανταλλαγής κλειδιού μη ενημερωμένο.</string>
+    <string name="ConversationItem_group_action_left">Ο/Η %1$s αποχώρησε από την ομάδα.</string>
+    <string name="ConversationItem_click_for_details">Πατήστε για λεπτομέρειες</string>
+    <!--ConversationActivity-->
+    <string name="ConversationActivity_initiate_secure_session_question">Έναρξη κρυπτογραφημένης συνεδρίας;</string>
+    <string name="ConversationActivity_initiate_secure_session_with_s_question">Έναρξη κρυπτογραφημένης συνεδρίας με τον/την %s;</string>
+    <string name="ConversationActivity_abort_secure_session_confirmation">Τερματισμός κρυπτογραφημένης συνεδρίας;</string>
+    <string name="ConversationActivity_are_you_sure_that_you_want_to_abort_this_secure_session_question">Είστε σίγουροι ότι θέλετε να τερματίσετε αυτή την κρυπτογραφημένη συνεδρία;</string>
+    <string name="ConversationActivity_add_attachment">Προσθήκη συνημμένου</string>
+    <string name="ConversationActivity_select_contact_info">Επιλέξτε πληροφορίες επαφής</string>
+    <string name="ConversationActivity_compose_message">Νέο μήνυμα</string>
+    <string name="ConversationActivity_sorry_the_selected_video_exceeds_message_size_restrictions">Λυπούμαστε, το επιλεγμένο βίντεο υπερβαίνει το μέγιστο μέγεθος μηνύματος (%1$skB).</string>
+    <string name="ConversationActivity_sorry_the_selected_audio_exceeds_message_size_restrictions">Λυπούμαστε, το επιλεγμένο αρχείο ήχου υπερβαίνει το μέγιστο μέγεθος μηνύματος (%1$skB).</string>
+    <string name="ConversationActivity_message_is_empty_exclamation">Το μήνυμα είναι κενό!</string>
+    <string name="ConversationActivity_group_members">Μέλη ομάδας</string>
+    <string name="ConversationActivity_group_conversation">Ομαδική συνομιλία</string>
+    <string name="ConversationActivity_unnamed_group">Ομάδα χωρίς όνομα</string>
+    <string name="ConversationActivity_saved_draft">Αποθηκευμένο πρόχειρο</string>
+    <string name="ConversationActivity_invalid_recipient">Μη έγκυρος παραλήπτης!</string>
+    <string name="ConversationActivity_calls_not_supported">Δεν υποστηρίζονται κλήσεις</string>
+    <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Αυτή η συσκευή δεν φαίνεται να υποστηρίζει την πραγματοποίηση κλήσεων.</string>
+    <string name="ConversationActivity_transport_insecure_sms">Μη ασφαλές SMS</string>
+    <string name="ConversationActivity_transport_insecure_mms">Μη ασφαλές MMS</string>
+    <string name="ConversationActivity_transport_secure_sms">Κρυπτογραφημένο SMS</string>
+    <string name="ConversationActivity_transport_secure_mms">Κρυπτογραφημένο MMS</string>
+    <string name="ConversationActivity_install_smssecure">Ας συνομιλήσουμε με ασφάλεια: %s</string>
+    <string name="ConversationActivity_recipient_self">Οι κρυπτογραφημένες συνεδρίες μπορούν να πραγματοποιηθούν μόνο με άλλα άτομα.</string>
+    <string name="ConversationActivity_mms_not_supported_title">Δεν υποστηρίζονται MMS</string>
+    <string name="ConversationActivity_mms_not_supported_message">Αυτό το μήνυμα δεν μπορεί να σταλεί, γιατί ο πάροχος κινητής τηλεφωνίας δεν υποστηρίζει την υπηρεσία MMS.</string>
+    <string name="ConversationActivity_specify_recipient">Επιλέξτε μια επαφή</string>
+    <!--ConversationAdapter-->
+    <!--ConversationFragment-->
+    <string name="ConversationFragment_message_details">Λεπτομέρειες μηνύματος</string>
+    <string name="ConversationFragment_save_to_sd_card">Αποθήκευση αρχείου;</string>
+    <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">Αδύνατη η εγγραφή στον αποθηκευτικό χώρο!</string>
+    <string name="ConversationFragment_mms">MMS</string>
+    <string name="ConversationFragment_sms">SMS</string>
+    <!--ConversationListActivity-->
+    <!--ConversationListFragment-->
+    <string name="ConversationListFragment_deleting">Γίνεται διαγραφή</string>
+    <!--ConversationListItemAction-->
+    <!--CustomDefaultPreference-->
+    <string name="CustomDefaultPreference_using_custom">Χρήση προσαρμοσμένου: %s</string>
+    <string name="CustomDefaultPreference_using_default">Χρήση προεπιλεγμένου: %s</string>
+    <string name="CustomDefaultPreference_none">Κανένα</string>
+    <!--DateUtils-->
+    <string name="DateUtils_now">Τώρα</string>
+    <!--DualSimUtil-->
+    <!--ShareActivity-->
+    <string name="ShareActivity_share_with">Κοινή χρήση με</string>
+    <!--WelcomeActivity-->
+    <!--ExportFragment-->
+    <string name="ExportFragment_export">Εξαγωγή</string>
+    <string name="ExportFragment_cancel">Ακύρωση</string>
+    <string name="ExportFragment_exporting">Γίνεται εξαγωγή</string>
+    <!--GroupCreateActivity-->
+    <string name="GroupCreateActivity_actionbar_title">Νέα ομάδα</string>
+    <string name="GroupCreateActivity_actionbar_update_title">Ενημέρωση ομάδας</string>
+    <string name="GroupCreateActivity_actionbar_mms_title">Νέα ομάδα MMS</string>
+    <string name="GroupCreateActivity_contacts_mms_exception">Δεν ήταν δυνατή η δημιουργία ομάδας λόγω μη αναμενόμενου σφάλματος.</string>
+    <string name="GroupCreateActivity_contacts_no_members">Χρειάζεται τουλάχιστον ένα άτομο στην ομάδα σας!</string>
+    <string name="GroupCreateActivity_menu_create_title">Δημιουργία ομάδας</string>
+    <!--GroupMembersDialog-->
+    <string name="GroupMembersDialog_me">Εγώ</string>
+    <!--ImportExportActivity-->
+    <string name="ImportExportActivity_import">Εισαγωγή</string>
+    <string name="ImportExportActivity_export">Εξαγωγή</string>
+    <!--ImportFragment-->
+    <string name="ImportFragment_import_system_sms_database">Εισαγωγή της βάσης δεδομένων SMS του συστήματος;</string>
+    <string name="ImportFragment_import">Εισαγωγή</string>
+    <string name="ImportFragment_cancel">Ακύρωση</string>
+    <string name="ImportFragment_import_plaintext_backup">Εισαγωγή μη κρυπτογραφημένου αντιγράφου ασφαλείας;</string>
+    <string name="ImportFragment_this_will_import_messages_from_a_plaintext_backup">Θα εισαχθούν μηνύματα από ένα μη κρυπτογραφημένο αντίγραφο ασφαλείας. Αν έχει γίνει εισαγωγή του ίδιου αντιγράφου στο παρελθόν, θα δημιουργηθούν διπλότυπα μηνύματα.</string>
+    <string name="ImportFragment_importing">Γίνεται εισαγωγή</string>
+    <string name="ImportFragment_no_plaintext_backup_found">Δεν βρέθηκε μη κρυπτογραφημένο αντίγραφο ασφαλείας!</string>
+    <string name="ImportFragment_error_importing_backup">Σφάλμα κατά την εισαγωγή του αντιγράφου ασφαλείας!</string>
+    <string name="ImportFragment_import_complete">Η εισαγωγή ολοκληρώθηκε!</string>
+    <string name="ImportFragment_no_encrypted_backup_found">Δεν βρέθηκε κρυπτογραφημένο αντίγραφο ασφαλείας!</string>
+    <!--KeyScanningActivity-->
+    <string name="KeyScanningActivity_no_scanned_key_found_exclamation">Δε βρέθηκε κλειδί!</string>
+    <string name="KeyScanningActivity_install_barcode_Scanner">Θέλετε να εγκαταστήσετε το Barcode Scanner;</string>
+    <!--MessageDetailsRecipient-->
+    <string name="MessageDetailsRecipient_failed_to_send">Αποτυχία αποστολής</string>
+    <string name="MessageDetailsRecipient_new_identity">Νέα ταυτότητα</string>
+    <!--MmsDownloader-->
+    <string name="MmsDownloader_error_storing_mms">Σφάλμα κατά την αποθήκευση MMS! </string>
+    <!--NotificationMmsMessageRecord-->
+    <string name="NotificationMmsMessageRecord_multimedia_message">Μήνυμα πολυμέσων</string>
+    <!--MessageRecord-->
+    <string name="MessageRecord_left_group">Αποχωρήσατε από την ομάδα.</string>
+    <string name="MessageRecord_updated_group">Ενημερώσατε την ομάδα.</string>
+    <!--PassphraseChangeActivity-->
+    <string name="PassphraseChangeActivity_passphrases_dont_match_exclamation">Οι κωδικοί πρόσβασης δεν ταιριάζουν!</string>
+    <string name="PassphraseChangeActivity_incorrect_old_passphrase_exclamation">Λανθασμένη, παλαιότερη συνθηματική φράση!</string>
+    <string name="PassphraseChangeActivity_enter_new_passphrase_exclamation">Δεν έχει οριστεί συνθηματική φράση!</string>
+    <!--PassphrasePromptActivity-->
+    <string name="PassphrasePromptActivity_enter_passphrase">Εισαγωγή συνθηματικής φράσης</string>
+    <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Μη έγκυρη συνθηματική φράση!</string>
+    <!--ReceiveKeyActivity-->
+    <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_trusted_but">Η υπογραφή αυτής της ανταλλαγής κλειδιού είναι αξιόπιστη, αλλά η ρύθμιση «Να ολοκληρώνονται οι ανταλλαγές κλειδιών» είναι απενεργοποιημένη.</string>
+    <string name="ReceiveKeyActivity_processing">Γίνεται επεξεργασία</string>
+    <string name="ReceiveKeyActivity_processing_key_exchange">Επεξεργασία ανταλλαγής κλειδιών…</string>
+    <string name="ConfirmIdentityDialog_you_may_wish_to_verify_this_contact">Θα πρέπει να επιβεβαιώσετε αυτή την επαφή.</string>
+    <!--RecipientPreferencesActivity-->
+    <!--Slide-->
+    <!--SmsMessageRecord-->
+    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Λήφθηκε κατεστραμμένο κλειδί!</string>
+    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">Λήφθηκε μήνυμα ανταλλαγής κλειδιών για μη έγκυρη έκδοση πρωτοκόλλου.</string>
+    <string name="SmsMessageRecord_received_updated_but_unknown_identity_information">Λήφθηκαν ενημερωμένες αλλά άγνωστες πληροφορίες ταυτότητας. Πατήστε για επιβεβαίωση ταυτότητας.</string>
+    <string name="SmsMessageRecord_secure_session_ended">Η κρυπτογραφημένη συνεδρία τερματίστηκε.</string>
+    <string name="SmsMessageRecord_duplicate_message">Διπλότυπο μήνυμα.</string>
+    <!--ThreadRecord-->
+    <string name="ThreadRecord_draft">Πρόχειρο:</string>
+    <!--TransportOptions-->
+    <!--VerifyIdentityActivity-->
+    <string name="VerifyIdentityActivity_you_do_not_have_an_identity_key">Δεν έχετε κλειδί ταυτότητας.</string>
+    <string name="VerifyIdentityActivity_recipient_has_no_identity_key">Ο παραλήπτης δεν έχει κλειδί ταυτότητας.</string>
+    <string name="VerifyIdentityActivity_warning_the_scanned_key_does_not_match_please_check_the_fingerprint_text_carefully">ΠΡΟΣΟΧΗ, το σαρωμένο κλειδί ΔΕΝ ταιριάζει! Ελέγξτε προσεκτικά το κλειδί.</string>
+    <string name="VerifyIdentityActivity_not_verified_exclamation">ΔΕΝ επιβεβαιώθηκε!</string>
+    <string name="VerifyIdentityActivity_their_key_is_correct_it_is_also_necessary_to_verify_your_key_with_them_as_well">Το κλειδί της επαφής είναι σωστό. Η επαφή σας θα πρέπει να επιβεβαιώσει και το δικό σας κλειδί.</string>
+    <string name="VerifyIdentityActivity_verified_exclamation">Επιβεβαιώθηκε!</string>
+    <!--ViewIdentityActivity-->
+    <string name="ViewIdentityActivity_warning_the_scanned_key_does_not_match_exclamation">ΠΡΟΣΟΧΗ, το σαρωμένο κλειδί ΔΕΝ ταιριάζει!</string>
+    <string name="ViewIdentityActivity_the_scanned_key_matches_exclamation">Το σαρωμένο κλειδί ταιριάζει!</string>
+    <!--KeyExchangeInitiator-->
+    <string name="KeyExchangeInitiator_initiate_despite_existing_request_question">Εκκίνηση παρά την υπάρχουσα αίτηση;</string>
+    <string name="KeyExchangeInitiator_youve_already_sent_a_session_initiation_request_to_this_recipient_are_you_sure">Έχετε ήδη στείλει αίτηση έναρξης συνομιλίας με αυτόν τον παραλήπτη. Είστε σίγουροι πως θέλετε να στείλετε νέα αίτηση; Η πρώτη αίτηση θα ακυρωθεί.</string>
+    <string name="KeyExchangeInitiator_send">Αποστολή</string>
+    <!--MessageDisplayHelper-->
+    <!--EncryptingSmsDatabase-->
+    <string name="EncryptingSmsDatabase_error_decrypting_message">Σφάλμα αποκρυπτογράφησης του μηνύματος.</string>
+    <!--MmsDatabase-->
+    <string name="MmsDatabase_mms_download_failed">Η λήψη MMS απέτυχε!</string>
+    <string name="MmsDatabase_mms_pending_download">Πατήστε και διαμορφώστε τις ρυθμίσεις MMS για να συνεχίσετε τη λήψη.</string>
+    <string name="MmsDatabase_error_decrypting_message">Σφάλμα κρυπτογράφησης του μηνύματος.</string>
+    <!--MmsMessageRecord-->
+    <!--MuteDialog-->
+    <!--ApplicationMigrationService-->
+    <string name="ApplicationMigrationService_import_in_progress">Εισαγωγή σε εξέλιξη</string>
+    <string name="ApplicationMigrationService_importing_text_messages">Γίνεται εισαγωγή των μηνυμάτων κειμένου</string>
+    <!--KeyCachingService-->
+    <string name="KeyCachingService_lock">Κλείδωμα με συνθηματική φράση</string>
+    <!--MessageNotifier-->
+    <string name="MessageNotifier_media_message_with_text">Μήνυμα πολυμέσων: %s</string>
+    <string name="MessageNotifier_no_subject">(Χωρίς θέμα)</string>
+    <string name="MessageNotifier_message_delivery_failed">Η παράδοση του μηνύματος απέτυχε.</string>
+    <string name="MessageNotifier_failed_to_deliver_message">Αποτυχία παράδοσης μηνύματος.</string>
+    <string name="MessageNotifier_error_delivering_message">Σφάλμα κατά την παράδοση του μηνύματος.</string>
+    <string name="MessageNotifier_mark_all_as_read">Επισήμανση όλων ως αναγνωσμένων</string>
+    <string name="MessageNotifier_media_message">Μήνυμα πολυμέσων</string>
+    <!--QuickResponseService-->
+    <!--SingleRecipientNotificationBuilder-->
+    <!--SubscriptionInfoCompat-->
+    <!--change_passphrase_activity-->
+    <!--contact_selection_activity-->
+    <!--contact_selection_group_activity-->
+    <string name="contact_selection_group_activity__no_contacts">Δεν υπάρχουν επαφές.</string>
+    <string name="contact_selection_group_activity__finding_contacts">Φόρτωση των επαφών…</string>
+    <!--single_contact_selection_activity-->
+    <string name="SingleContactSelectionActivity_contact_photo">Φωτογραφία επαφής</string>
+    <!--ContactSelectionListFragment-->
+    <string name="ContactSelectionlistFragment_select_for">Επιλογή για</string>
+    <!--blocked_contacts_fragment-->
+    <!--contact_selection_recent_activity-->
+    <string name="contact_selection_recent_activity__no_recent_calls">Δεν υπάρχουν πρόσφατες κλήσεις.</string>
+    <!--contact_selection_list_fragment-->
+    <!--conversation_title_view-->
+    <!--conversation_activity-->
+    <string name="conversation_activity__type_message_sms_secure">Αποστολή κρυπτογραφημένου SMS</string>
+    <string name="conversation_activity__type_message_sms_insecure">Αποστολή μη κρυπτογραφημένου SMS</string>
+    <string name="conversation_activity__type_message_mms_secure">Αποστολή κρυπτογραφημένου MMS</string>
+    <string name="conversation_activity__type_message_mms_insecure">Αποστολή μη κρυπτογραφημένου MMS</string>
+    <string name="conversation_activity__send">Αποστολή</string>
+    <string name="conversation_activity__remove">Αφαίρεση</string>
+    <string name="conversation_activity__window_description">Συνομιλία με %1$s</string>
+    <string name="conversation_activity__compose_description">Δημιουργία μηνύματος</string>
+    <string name="conversation_activity__emoji_toggle_description">Εναλλαγή πληκτρολογίου emoji</string>
+    <string name="conversation_activity__attachment_thumbnail">Μικρογραφία συνημμένου</string>
+    <!--conversation_item-->
+    <string name="conversation_item__mms_downloading_description">Λήψη μηνύματος πολυμέσων</string>
+    <string name="conversation_item__mms_image_description">Μήνυμα πολυμέσων</string>
+    <string name="conversation_item__secure_message_description">Κρυπτογραφημένο μήνυμα</string>
+    <!--conversation_item_sent-->
+    <string name="conversation_item_sent__download">Λήψη</string>
+    <string name="conversation_item_sent__downloading">Γίνεται λήψη</string>
+    <string name="conversation_item_sent__send_failed_indicator_description">Η αποστολή απέτυχε</string>
+    <string name="conversation_item_sent__pending_approval_description">Έγκριση σε εκκρεμότητα</string>
+    <string name="conversation_item_sent__delivered_description">Παραδόθηκε</string>
+    <!--conversation_item_received-->
+    <string name="conversation_item_received__download">Λήψη</string>
+    <string name="conversation_item_received__contact_photo_description">Φωτογραφία επαφής</string>
+    <string name="conversation_item_received__downloading">Γίνεται λήψη</string>
+    <!--audio_view-->
+    <!--conversation_fragment_cab-->
+    <string name="conversation_fragment_cab__batch_selection_mode">Λειτουργία μαζικής επιλογής</string>
+    <string name="conversation_fragment_cab__batch_selection_amount">%s επιλέχτηκαν</string>
+    <!--conversation_fragment-->
+    <!--import_export_fragment-->
+    <!--log_submit_activity-->
+    <string name="log_submit_activity__thanks">Ευχαριστούμε για τη βοήθειά σας!</string>
+    <string name="log_submit_activity__submitting">Αποστολή</string>
+    <!--database_migration_activity-->
+    <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Η βάση δεδομένων του συστήματος δεν θα επηρεαστεί με κανέναν τρόπο.</string>
+    <string name="database_migration_activity__skip">Παράλειψη</string>
+    <string name="database_migration_activity__import">Εισαγωγή</string>
+    <string name="database_migration_activity__importing">ΓΙΝΕΤΑΙ ΕΙΣΑΓΩΓΗ</string>
+    <!--database_upgrade_activity-->
+    <string name="export_fragment__export_plaintext_backup">Εξαγωγή μη κρυπτογραφημένου αντιγράφου ασφαλείας</string>
+    <string name="import_fragment__import_system_sms_database">Εισαγωγή της βάσης δεδομένων SMS του συστήματος</string>
+    <string name="import_fragment__import_plaintext_backup">Εισαγωγή μη κρυπτογραφημένου αντιγράφου ασφαλείας</string>
+    <!--load_more_header-->
+    <!--media_overview_activity-->
+    <string name="media_overview_activity__no_images">Δεν υπάρχουν εικόνες</string>
+    <!--message_recipients_list_item-->
+    <string name="message_recipients_list_item__verify">ΕΠΑΛΗΘΕΥΣΗ</string>
+    <string name="message_recipients_list_item__resend">ΕΠΑΝΑΛΗΨΗ ΑΠΟΣΤΟΛΗΣ</string>
+    <!--prompt_passphrase_activity-->
+    <string name="prompt_passphrase_activity__unlock">Ξεκλείδωμα</string>
+    <!--prompt_mms_activity-->
+    <!--recipient_preferences_activity-->
+    <!--recipient_preferences-->
+    <!--receive_key_dialog-->
+    <string name="receive_key_activity__complete">Ολοκληρώθηκε</string>
+    <!--recipients_panel-->
+    <string name="recipients_panel__to">
+        <small>Εισαγωγή ονόματος ή αριθμού</small>
+    </string>
+    <string name="recipients_panel__add_member">Προσθήκη ατόμων</string>
+    <!--verify_identity_activity-->
+    <string name="verify_identity_activity__their_identity_they_read">Η ταυτότητα της επαφής:</string>
+    <string name="verify_identity_activity__your_identity_you_read">Η ταυτότητά σας:</string>
+    <!--message_details_header-->
+    <string name="message_details_header__issues_need_your_attention">Ορισμένα ζητήματα χρειάζονται την προσοχή σας.</string>
+    <string name="message_details_header__sent">Στάλθηκε</string>
+    <string name="message_details_header__received">Παραλήφθηκε</string>
+    <!--AndroidManifest.xml-->
+    <string name="AndroidManifest__create_passphrase">Δημιουργία συνθηματικής φράσης</string>
+    <string name="AndroidManifest__enter_passphrase">Εισαγωγή συνθηματικής φράσης</string>
+    <string name="AndroidManifest__select_contacts">Επιλογή επαφών</string>
+    <string name="AndroidManifest__public_identity_key">Δημόσιο κλειδί ταυτότητας</string>
+    <string name="AndroidManifest__change_passphrase">Αλλαγή συνθηματικής φράσης</string>
+    <string name="AndroidManifest__verify_identity">Επαλήθευση ταυτότητας</string>
+    <string name="AndroidManifest__complete_key_exchange">Ολοκλήρωση ανταλλαγής κλειδιών</string>
+    <string name="AndroidManifest__media_overview">Όλες οι εικόνες</string>
+    <string name="AndroidManifest__media_overview_named">Όλες οι εικόνες με  %1$s</string>
+    <!--arrays.xml-->
+    <string name="arrays__import_export">Εισαγωγή / εξαγωγή</string>
+    <string name="arrays__use_default">Προεπιλογή</string>
+    <string name="arrays__use_custom">Προσαρμοσμένο</string>
+    <!--plurals.xml-->
+    <plurals name="hours_ago">
+        <item quantity="one">%d ώρα</item>
+        <item quantity="other">%d ώρες</item>
+    </plurals>
+    <!--preferences.xml-->
+    <string name="preferences__general">Γενικά</string>
+    <string name="preferences__sms_mms">SMS και MMS</string>
+    <string name="preferences__pref_all_sms_title">Λήψη όλων των SMS</string>
+    <string name="preferences__pref_all_mms_title">Λήψη όλων των MMS</string>
+    <string name="preferences__display_settings">Ρυθμίσεις προβολής</string>
+    <string name="preferences__choose_your_contact_entry_from_the_contacts_list">Επιλέξτε την επαφή σας από τη λίστα επαφών.</string>
+    <string name="preferences__change_passphrase">Αλλαγή συνθηματικής φράσης</string>
+    <string name="preferences__complete_key_exchanges">Να ολοκληρώνονται οι ανταλλαγές κλειδιών</string>
+    <string name="preferences__enable_passphrase">Ενεργοποίηση συνθηματικής φράσης</string>
+    <string name="preferences__enable_local_encryption_of_messages_and_keys">Ενεργοποίηση τοπικής κρυπτογράφησης μηνυμάτων και κλειδιών</string>
+    <string name="preferences__screen_security">Ασφάλεια οθόνης</string>
+    <string name="preferences__automatically_complete_key_exchanges_for_new_sessions_or_for_existing_sessions_with_the_same_identity_key">Να ολοκληρώνονται αυτόματα οι ανταλλαγές κλειδιών για τις νέες συνεδρίες ή για τις υπάρχουσες συνεδρίες με ίδιο κλειδί</string>
+    <string name="preferences__disable_screen_security_to_allow_screen_shots">Να μην επιτρέπεται η λήψη στιγμιότυπου οθόνης στη λίστα με τα πρόσφατα και εντός της εφαρμογής</string>
+    <string name="preferences__forget_passphrase_from_memory_after_some_interval">Να ζητείται η συνθηματική φράση μετά από κάποιο χρονικό διάστημα</string>
+    <string name="preferences__timeout_passphrase">Χρονικό όριο συνθηματικής φράσης</string>
+    <string name="preferences__pref_timeout_interval_dialogtitle">Επιλογή χρονικού ορίου συνθηματικής φράσης</string>
+    <string name="preferences__pref_timeout_interval_title">Χρονικό όριο</string>
+    <string name="preferences__the_amount_of_time_to_wait_before_forgetting_passphrase">Το χρονικό διάστημα μέχρι τη διαγραφή της συνθηματικής φράσης από τη μνήμη</string>
+    <string name="preferences__notifications">Ειδοποιήσεις</string>
+    <string name="preferences__led_color">Χρώμα LED</string>
+    <string name="preferences__led_color_unknown">Άγνωστο</string>
+    <string name="preferences__pref_led_blink_title">Μοτίβο αναλαμπής LED</string>
+    <string name="preferences__pref_led_blink_custom_pattern_title">Ορισμός προσαρμοσμένου μοτίβου αναλαμπής LED</string>
+    <string name="preferences__pref_led_blink_custom_pattern_on_for">Αναμμένο για:</string>
+    <string name="preferences__pref_led_blink_custom_pattern_off_for">Σβηστό για:</string>
+    <string name="preferences__pref_led_blink_custom_pattern_set">Το μοτίβο αναλαμπής ορίστηκε!</string>
+    <string name="preferences__sound">Ήχος</string>
+    <string name="preferences__change_notification_sound">Αλλαγή ήχου ειδοποίησης</string>
+    <string name="preferences__play_inthread_notifications">Αναπαραγωγή ήχου ειδοποίησης κατά την προβολή μιας ενεργής συνομιλίας.</string>
+    <string name="preferences__repeat_alerts">Επανάληψη ειδοποιήσεων</string>
+    <string name="preferences__never">Ποτέ</string>
+    <string name="preferences__one_time">Μία φορά</string>
+    <string name="preferences__two_times">Δύο φορές</string>
+    <string name="preferences__three_times">Τρεις φορές</string>
+    <string name="preferences__five_times">Πέντε φορές</string>
+    <string name="preferences__ten_times">Δέκα φορές</string>
+    <string name="preferences__vibrate">Δόνηση</string>
+    <string name="preferences__also_vibrate_when_notified">Δόνηση στις ειδοποιήσεις</string>
+    <string name="preferences__minutes">λεπτά</string>
+    <string name="preferences__hours">ώρες</string>
+    <string name="preferences__green">Πράσινο</string>
+    <string name="preferences__red">Κόκκινο</string>
+    <string name="preferences__blue">Μπλε</string>
+    <string name="preferences__orange">Πορτοκαλί</string>
+    <string name="preferences__cyan">Γαλάζιο</string>
+    <string name="preferences__magenta">Φούξια</string>
+    <string name="preferences__white">Λευκό</string>
+    <string name="preferences__none">Κανένα</string>
+    <string name="preferences__fast">Γρήγορο</string>
+    <string name="preferences__normal">Κανονικό</string>
+    <string name="preferences__slow">Αργό</string>
+    <string name="preferences__custom">Προσαρμοσμένο</string>
+    <string name="preferences__advanced">Για προχωρημένους</string>
+    <string name="preferences__mms_user_agent">MMS User Agent</string>
+    <string name="preferences__advanced_mms_access_point_names">Μη αυτόματες ρυθμίσεις MMS</string>
+    <string name="preferences__enable_manual_mms">Χρήση μη αυτόματων ρυθμίσεων MMS</string>
+    <string name="preferences__override_system_mms_settings">Να παρακάμπτονται οι ρυθμίσεις MMS του συστήματος και να χρησιμοποιούνται οι παρακάτω.</string>
+    <string name="preferences__mmsc_url">MMSC URL</string>
+    <string name="preferences__mms_proxy_host">Διακομιστής μεσολάβησης MMS</string>
+    <string name="preferences__mms_proxy_port">Θύρα διακομιστή μεσολάβησης MMS</string>
+    <string name="preferences__mmsc_username">Όνομα χρήστη MMSC</string>
+    <string name="preferences__mmsc_password">Κωδικός πρόσβασης MMSC</string>
+    <string name="preferences__sms_delivery_reports">Αναφορές παράδοσης SMS</string>
+    <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">Να ζητείται αναφορά παράδοσης για κάθε SMS που στέλνετε</string>
+    <string name="preferences__delete_old_messages">Διαγραφή παλαιών μηνυμάτων</string>
+    <string name="preferences__conversation_length_limit">Όριο μεγέθους συνομιλίας</string>
+    <string name="preferences__light_theme">Φωτεινό</string>
+    <string name="preferences__dark_theme">Σκούρο</string>
+    <string name="preferences__appearance">Εμφάνιση</string>
+    <string name="preferences__theme">Θέμα</string>
+    <string name="preferences__default">Προεπιλογή</string>
+    <string name="preferences__language">Γλώσσα</string>
+    <string name="preferences__make_default_sms_app">Ορισμός ως προεπιλεγμένη εφαρμογή SMS</string>
+    <string name="preferences__submit_debug_log">Αποστολή αρχείου καταγραφής σφαλμάτων</string>
+    <string name="preferences__about_version">Έκδοση %s</string>
+    <!--****************************************-->
+    <!--menus-->
+    <!--****************************************-->
+    <!--contact_selection_list-->
+    <string name="contact_selection_list__menu_select_all">Επιλογή όλων</string>
+    <string name="contact_selection_list__menu_unselect_all">Κατάργηση επιλογής όλων</string>
+    <string name="contact_selection_list__header">ΟΛΕΣ ΟΙ ΕΠΑΦΕΣ</string>
+    <!--contact_selection-->
+    <string name="contact_selection__menu_finished">Ολοκληρώθηκε</string>
+    <!--refreshing push directory from menu-->
+    <string name="push_directory__menu_refresh">Ανανέωση της λίστας επαφών</string>
+    <!--conversation_button_context-->
+    <string name="conversation_button_context__send_secure_sms">Αποστολή κρυπτογραφημένου SMS</string>
+    <string name="conversation_button_context__send_insecure_sms">Αποστολή μη κρυπτογραφημένου SMS</string>
+    <string name="conversation_button_context__send_secure_mms">Αποστολή κρυπτογραφημένου MMS</string>
+    <string name="conversation_button_context__send_insecure_mms">Αποστολή μη κρυπτογραφημένου MMS</string>
+    <!--conversation_callable-->
+    <string name="conversation_callable__menu_call">Κλήση</string>
+    <!--conversation_context-->
+    <string name="conversation_context__menu_message_details">Λεπτομέρειες μηνύματος</string>
+    <string name="conversation_context__menu_copy_text">Αντιγραφή κειμένου</string>
+    <string name="conversation_context__menu_delete_message">Διαγραφή μηνύματος</string>
+    <string name="conversation_context__menu_forward_message">Προώθηση μηνύματος</string>
+    <string name="conversation_context__menu_resend_message">Επανάληψη αποστολής</string>
+    <!--conversation_context_image-->
+    <string name="conversation_context_image__save_attachment">Αποθήκευση συνημμένου</string>
+    <!--conversation_insecure-->
+    <string name="conversation_insecure__invite">Πρόσκληση</string>
+    <!--conversation_insecure_no_push-->
+    <string name="conversation_insecure__menu_start_secure_session">Έναρξη κρυπτογραφημένης συνεδρίας</string>
+    <string name="conversation_insecure__security">Ασφάλεια</string>
+    <!--conversation_list_batch-->
+    <string name="conversation_list_batch__menu_delete_selected">Διαγραφή επιλεγμένων</string>
+    <string name="conversation_list_batch__menu_select_all">Επιλογή όλων</string>
+    <!--conversation_list-->
+    <string name="conversation_list__menu_search">Αναζήτηση</string>
+    <!--conversation_list_item_view-->
+    <string name="conversation_list_item_view__contact_photo_image">Φωτογραφία επαφής</string>
+    <string name="conversation_list_item_view__error_alert">Ειδοποίηση σφάλματος</string>
+    <!--conversation_list_fragment-->
+    <string name="conversation_list_fragment__fab_content_description">Νέα συνομιλία</string>
+    <!--conversation_secure_verified-->
+    <string name="conversation_secure_verified__menu_security">Ασφάλεια</string>
+    <string name="conversation_secure_verified__menu_verify_identity">Επαλήθευση ταυτότητας</string>
+    <string name="conversation_secure_verified__menu_abort_secure_session">Τερματισμός κρυπτογραφημένης συνομιλίας</string>
+    <!--conversation_muted-->
+    <!--conversation_unmuted-->
+    <!--conversation-->
+    <string name="conversation__menu_add_attachment">Προσθήκη συνημμένου</string>
+    <string name="conversation__menu_view_media">Όλες οι εικόνες</string>
+    <!--conversation_popup-->
+    <!--conversation_callable-->
+    <string name="conversation_add_to_contacts__menu_add_to_contacts">Προσθήκη στις επαφές</string>
+    <!--conversation_group_options-->
+    <string name="convesation_group_options__recipients_list">Λίστα παραληπτών</string>
+    <string name="conversation_group_options__delivery">Παράδοση</string>
+    <string name="conversation_group_options__conversation">Συνομιλία</string>
+    <string name="conversation_group_options__broadcast">Μετάδοση</string>
+    <!--key_scanning-->
+    <string name="key_scanning__menu_compare">Σύγκριση</string>
+    <!--text_secure_normal-->
+    <string name="text_secure_normal__menu_new_message">Νέο μήνυμα</string>
+    <string name="text_secure_normal__menu_new_group">Νέα ομάδα</string>
+    <string name="text_secure_normal__menu_settings">Ρυθμίσεις</string>
+    <string name="text_secure_normal__menu_clear_passphrase">Κλείδωμα</string>
+    <string name="text_secure_normal__mark_all_as_read">Επισήμανση όλων ως αναγνωσμένων</string>
+    <!--reminder_header-->
+    <string name="reminder_header_sms_default_title">Χρήση ως προεπιλεγμένη εφαρμογή SMS;</string>
+    <string name="reminder_header_sms_import_title">Εισαγωγή των μηνυμάτων SMS του συστήματος;</string>
+    <!--MediaPreviewActivity-->
+    <string name="MediaPreviewActivity_you">Εσείς</string>
+    <string name="MediaPreviewActivity_cant_display">Δεν ήταν δυνατή η προβολή της εικόνας</string>
+    <string name="MediaPreviewActivity_unssuported_media_type">Μη υποστηριζόμενος τύπος μέσων</string>
+    <!--media_preview-->
+    <string name="media_preview__save_title">Αποθήκευση</string>
+    <!--media_overview-->
+    <!--media_preview_activity-->
+    <!--Trimmer-->
+    <string name="trimmer__old_messages_successfully_deleted">Τα παλαιά μηνύματα διαγράφηκαν με επιτυχία</string>
+    <!--transport_selection_list_item-->
+    <string name="transport_selection_list_item__transport_icon">Μεταφορά εικονιδίου</string>
+    <!--EOF-->
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="one">Θα διαγραφούν τα μηνύματα όλων των συνομιλιών εκτός από το πιο πρόσφατο.</item>
+        <item quantity="other">Θα διαγραφούν τα μηνύματα των όλων συνομιλιών εκτός από τα %d πιο πρόσφατα.</item>
+    </plurals>
+    <string name="conversation_unmuted__mute_notifications">Σίγαση ειδοποιήσεων</string>
+    <string name="preferences_advanced__always_ask_for_the_sim_card_to_use_when_sending_messages">Να γίνεται πάντα ερώτηση για τη χρήση της κάρτας SIM κατά την αποστολή μηνυμάτων</string>
+    <string name="conversation_title_view__conversation_muted">Η συνομιλία τέθηκε σε σίγαση</string>
+    <string name="ConversationListFragment_this_will_send_drafts_of_selected_conversations">Θα αποσταλούν πρόχειρα των επιλεγμένων συνομιλιών.</string>
+    <string name="AttachmentManager_cant_open_media_selection">Δεν είναι δυνατό το άνοιγμα του αρχείου πολυμέσων.</string>
+    <string name="Permissions_not_now">Όχι τώρα</string>
+    <string name="Permissions_continue">Συνέχεια</string>
+    <string name="Permissions_permission_required">Απαιτούνται δικαιώματα</string>
+    <string name="RingtonePreference_unable_to_add_ringtone">Δεν ήταν δυνατή η προσθήκη προσαρμοσμένου ήχου κλήσης</string>
+    <string name="RingtonePreference_add_ringtone_text">Προσθήκη ήχου κλήσης</string>
+    <string name="RingtonePreference_alarm_sound_default">Προεπιλεγμένος ήχος ξυπνητηριού</string>
+    <string name="RingtonePreference_notification_sound_default">Προεπιλεγμένος ήχος ειδοποίησης</string>
+    <string name="RingtonePreference_ringtone_picker_title">Ήχοι κλήσεων</string>
+    <string name="RingtonePreference_ringtone_silent">Κανένα</string>
+    <string name="RingtonePreference_ringtone_default">Προεπιλεγμένος ήχος κλήσης</string>
+    <string name="trimmer__deleting_old_messages">Διαγραφή παλαιών μηνυμάτων…</string>
+    <string name="trimmer__deleting">Διαγραφή…</string>
+    <string name="media_preview_activity__image_content_description">Προεπισκόπηση εικόνας</string>
+    <string name="media_overview__save_all">Αποθήκευση όλων</string>
+    <string name="media_preview__overview_title">Όλες οι εικόνες</string>
+    <string name="media_preview__forward_title">Προώθηση</string>
+    <string name="MediaPreviewActivity_unable_to_write_to_external_storage_without_permission">Δεν είναι δυνατή η αποθήκευση χωρίς παραχώρηση άδειας</string>
+    <string name="MediaPreviewActivity_silence_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">To Silence χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύει στον εξωτερικό χώρο αποθήκευσης. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"Αποθηκευτικός χώρος\".</string>
+    <string name="MediaPreviewActivity_draft">Πρόχειρο</string>
+    <string name="reminder_header_close_button">ΚΛΕΙΣΙΜΟ</string>
+    <string name="reminder_header_delivery_reports_button">ΕΝΕΡΓΟΠΟΙΗΣΗ</string>
+    <string name="reminder_header_delivery_reports_text">Οι αναφορές παράδοσης σας επιτρέπουν να γνωρίζετε αν και πότε ο παραλήπτης έλαβε το μήνυμά σας. Ενδέχεται αν υπάρχουν πρόσθετες χρεώσεις από τον πάροχο δικτύου.</string>
+    <string name="reminder_header_delivery_reports_title">Ενεργοποίηση αναφορών παράδοσης;</string>
+    <string name="reminder_header_rate_button">ΒΑΘΜΟΛΟΓΗΣΗ ΤΩΡΑ!</string>
+    <string name="reminder_header_rate_text">Αν σας αρέσει αυτή η εφαρμογή, βοηθήστε μας βαθμολογώντας την.</string>
+    <string name="reminder_header_rate_title">Βαθμολογήστε την εφαρμογή</string>
+    <string name="reminder_header_sms_import_button">ΕΙΣΑΓΩΓΗ</string>
+    <string name="reminder_header_sms_import_text">Πατήστε για αντιγραφή των μηνυμάτων SMS της συσκευής σας στην κρυπτογραφημένη βάση δεδομένων του Silence.</string>
+    <string name="reminder_header_sms_default_button">ΕΦΑΡΜΟΓΗ</string>
+    <string name="reminder_header_sms_default_text_mandatory">Το Silence πρέπει να είναι η προεπιλεγμένη εφαρμογή SMS/MMS για να μπορεί να λαμβάνει μηνύματα.</string>
+    <string name="text_secure_normal__menu_archived_conversations">Αρχειοθετημένες συνομιλίες</string>
+    <string name="share_identity_fingerprint">Κοινοποίηση του κλειδιού σας</string>
+    <string name="key_scanning__menu_display_your_qr_code">Εμφάνιση του κωδικού QR</string>
+    <string name="key_scanning__menu_scan_contacts_qr_code">Σάρωση του κωδικού QR της επαφής</string>
+    <string name="KeyScanningActivity_this_application_requires_barcode_scanner_would_you_like_to_install_it">Το Silence χρειάζεται το Barcode Scanner για την ανάγνωση των κωδικών QR.</string>
+    <string name="conversation_popup__menu_expand_popup">Επέκταση αναδυόμενου</string>
+    <string name="conversation__menu_conversation_settings">Ρυθμίσεις συνομιλίας</string>
+    <string name="conversation__menu_unarchive_conversation">Κατάργηση αρχειοθέτησης συνομιλίας</string>
+    <string name="conversation__menu_archive_conversation">Αρχειοθέτηση συνομιλίας</string>
+    <string name="conversation__menu_delete_conversation">Διαγραφή συνομιλίας</string>
+    <string name="conversation_muted__unmute">Διακοπή σίγασης</string>
+    <string name="conversation_list_item_view__archived">Αρχειοθετημένα</string>
+    <string name="conversation_list_batch_unarchive__menu_unarchive_selected">Κατάργηση αρχειοθέτησης επιλεγμένων</string>
+    <string name="conversation_list_batch_archive__menu_archive_selected">Αρχειοθέτηση επιλεγμένων</string>
+    <string name="conversation_list_batch__menu_send_drafts">Αποστολή επιλεγμένων προχείρων</string>
+    <string name="contact_selection_list__unknown_contact">Νέο μήνυμα σε…</string>
+    <string name="preferences_advanced__always_ask_for_sim_card">Να γίνεται πάντα ερώτηση για την κάρτα SIM</string>
+    <string name="preferences_advanced__disable_silences_built_in_emoji_support">Απενεργοποίηση της ενσωματωμένης υποστήριξης emoji του Silence</string>
+    <string name="preferences_advanced__use_system_emoji">Χρήση emoji συστήματος</string>
+    <string name="preferences_chats__message_trimming">Διαγραφή μηνυμάτων</string>
+    <string name="preferences__automatically_retrieve_mms_when_roaming">Να γίνεται αυτόματα ανάκτηση των μηνυμάτων MMS κατά την περιαγωγή</string>
+    <string name="preferences__roaming_auto_retrieve">Αυτόματη ανάκτηση κατά την περιαγωγή</string>
+    <string name="preferences__automatically_retrieve_mms_messages">Να γίνεται αυτόματα ανάκτηση των μηνυμάτων MMS</string>
+    <string name="preferences__auto_retrieve">Αυτόματη ανάκτηση</string>
+    <string name="preferences_chats__mms">MMS</string>
+    <string name="preferences__hide_unread_message_divider">Απόκρυψη διαχωριστικού για τα μη αναγνωσμένα μηνύματα</string>
+    <string name="preferences__show_sent_time_instead_of_received_time_in_conversations">Να εμφανίζεται η ώρα αποστολής αντί λήψης για τα εισερχόμενα μηνύματα</string>
+    <string name="preferences__show_sent_time">Εμφάνιση ώρας αποστολής</string>
+    <string name="preferences_notifications__display_in_notifications">Εμφάνιση</string>
+    <string name="preferences_app_protection__blocked_contacts">Αποκλεισμένες επαφές</string>
+    <string name="preferences__request_keyboard_to_disable_personalized_learning">Το πληκτρολόγιο δεν θα θυμάται, δεν θα μαθαίνει και δεν θα αποθηκεύει τις λέξεις που πληκτρολογείτε</string>
+    <string name="preferences__incognito_keyboard">Ανώνυμη πληκτρολόγηση</string>
+    <string name="preferences__privacy_policy">Πολιτική απορρήτου</string>
+    <string name="preferences__about">Σχετικά με το Silence</string>
+    <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Ενεργοποιήστε αυτή την επιλογή αν η συσκευή σας υποστηρίζει την αποστολή SMS/MMS μέσω Wi-Fi (ενεργοποίηση μόνο όταν η λειτουργία Wi-Fi Calling είναι ενεργοποιημένη στη συσκευή σας).</string>
+    <string name="preferences__support_wifi_calling">Λειτουργία συμβατότητας Wi-Fi Calling</string>
+    <string name="preferences__make_silence_the_default_sms_mms_app">Κάντε το Silence την προεπιλεγμένη εφαρμογή SMS/MMS.</string>
+    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Έλεγχος όλων των συνομιλιών και επιβολή του καθορισμένου ορίου μεγέθους</string>
+    <string name="preferences__trim_all_conversations_now">Περικοπή όλων των συνομιλιών τώρα</string>
+    <string name="preferences__chats">Συνομιλίες και πολυμέσα</string>
+    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Να διαγράφονται αυτόματα τα παλαιότερα μηνύματα όταν η συνομιλία υπερβεί ένα ορισμένο όριο</string>
+    <string name="preferences__display_a_notification_when_a_delivery_report_is_received">Να εμφανίζεται ειδοποίηση όταν λαμβάνεται η αναφορά παράδοσης</string>
+    <string name="preferences__sms_delivery_reports_notification">Ειδοποίηση αναφοράς παράδοσης SMS</string>
+    <string name="preferences__privacy">Απόρρητο</string>
+    <string name="preferences__in_conversation_notifications">Ειδοποιήσεις μέσα στη συνομιλία</string>
+    <string name="preferences__silent">Αθόρυβο</string>
+    <string name="preferences__enable_message_notifications">Ενεργοποίηση ειδοποιήσεων μηνυμάτων</string>
+    <string name="preferences__change_your_passphrase">Αλλαγή της συνθηματικής σας φράσης</string>
+    <string name="preferences__enable_this_option_if_your_keyboard_supports_emojis">Ενεργοποιήστε αυτή την επιλογή αν το πληκτρολόγιό σας υποστηρίζει τα emoji.</string>
+    <string name="preferences__disable_emoji_drawer">Απενεργοποίηση του πληκτρολογίου emoji</string>
+    <string name="preferences__keyboard_settings">Επιλογές πληκτρολογίου</string>
+    <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_text_messages">Χρήση του Silence για όλα τα εισερχόμενα μηνύματα κειμένου</string>
+    <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_multimedia_messages">Χρήση του Silence για όλα τα εισερχόμενα μηνύματα πολυμέσων</string>
+    <string name="arrays__send_key">Να εμφανίζεται το κουμπί αποστολής</string>
+    <string name="arrays__emoji_key">Να εμφανίζεται το πλήκτρο emoji</string>
+    <string name="arrays__enter_key">Να εμφανίζεται το πλήκτρο Enter</string>
+    <string name="arrays__no_name_or_message">Χωρίς όνομα ή μήνυμα</string>
+    <string name="arrays__name_only">Μόνο όνομα</string>
+    <string name="arrays__name_and_message">Όνομα και μήνυμα</string>
+    <string name="arrays__disabled">Απενεργοποιημένο</string>
+    <string name="arrays__enabled">Ενεργοποιημένο</string>
+    <string name="arrays__settings_default">Προεπιλεγμένες ρυθμίσεις</string>
+    <string name="arrays__mute_for_one_year">Σίγαση για 1 χρόνο</string>
+    <string name="arrays__mute_for_seven_days">Σίγαση για 7 μέρες</string>
+    <string name="arrays__mute_for_one_day">Σίγαση για 1 μέρα</string>
+    <string name="arrays__mute_for_two_hours">Σίγαση για 2 ώρες</string>
+    <string name="arrays__mute_for_one_hour">Σίγαση για 1 ώρα</string>
+    <string name="arrays__your_identity_key">Το κλειδί σας</string>
+    <string name="AndroidManifest_configure_mms_settings">Διαμόρφωση ρυθμίσεων MMS</string>
+    <string name="AndroidManifest_archived_conversations">Αρχειοθετημένες συνομιλίες</string>
+    <string name="AndroidManifest__message_details">Λεπτομέρειες μηνύματος</string>
+    <string name="AndroidManifest__media_preview">Προεπισκόπηση</string>
+    <string name="AndroidManifest__log_submit">Αποστολή αρχείου καταγραφής σφαλμάτων</string>
+    <string name="ApplicationPreferencesActivity_privacy_summary">Συνθηματική φράση %1$s, Ασφάλεια οθόνης %2$s</string>
+    <string name="message_details_header__with">Με</string>
+    <string name="message_details_header__from">Από</string>
+    <string name="message_details_header__to">Προς</string>
+    <string name="message_details_header__type">Τύπος</string>
+    <string name="recipient_preferences__color_for_this_contact">Χρώμα γι\' αυτή την επαφή</string>
+    <string name="recipient_preferences__color">Χρώμα</string>
+    <string name="recipient_preferences__block">Αποκλεισμός</string>
+    <string name="recipient_preferences__vibrate">Δόνηση</string>
+    <string name="recipient_preferences__notification_sound">Ήχος ειδοποίησης</string>
+    <string name="recipient_preferences__disable_notifications_for_this_conversation">Απενεργοποίηση ειδοποιήσεων γι\' αυτή τη συνομιλία</string>
+    <string name="recipient_preferences__mute_conversation">Σίγαση συνομιλίας</string>
+    <string name="recipient_preference_activity__blocked">ΑΠΟΚΛΕΙΣΜΕΝΟΣ</string>
+    <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Για την αποστολή μηνυμάτων πολυμέσων και ομαδικών μηνυμάτων, πατήστε \"ΟΚ\" και συμπληρώστε τις πληροφορίες που ζητούνται. Για να βρείτε τις ρυθμίσεις MMS, αναζητήστε το APN του παρόχου κινητής τηλεφωνίας. Αυτό θα χρειαστεί να το κάνετε μία μόνο φορά.</string>
+    <string name="prompt_mms_activity__silence_requires_mms_settings_to_deliver_media_and_group_messages">Το Silence χρειάζεται πρόσβαση στις ρυθμίσεις MMS για την αποστολή μηνυμάτων πολυμέσων και ομαδικών μηνυμάτων μέσω του παρόχου κινητής τηλεφωνίας. Οι πληροφορίες αυτές δεν είναι διαθέσιμες στη συσκευή σας, είτε γιατί είναι κλειδωμένη είτε λόγω άλλων περιοριστικών ρυθμίσεων.</string>
+    <string name="load_more_header__see_full_conversation">Προβολή ολόκληρης της συνομιλίας</string>
+    <string name="export_fragment__export_an_encrypted_backup_to_storage">Εξαγωγή κρυπτογραφημένου αντιγράφου ασφαλείας στον αποθηκευτικό χώρο</string>
+    <string name="export_fragment__export_encrypted_backup">Εξαγωγή κρυπτογραφημένου αντιγράφου ασφαλείας</string>
+    <string name="export_fragment__export_a_plaintext_backup_compatible_with">Εξαγωγή μη κρυπτογραφημένου αντιγράφου ασφαλείας. Συμβατό με το \"SMS Backup &amp; Restore\".</string>
+    <string name="import_fragment__import_a_plaintext_backup_file">Εισαγωγή μη κρυπτογραφημένου αντιγράφου ασφαλείας. Συμβατό με το \"SMS Backup &amp; Restore\".</string>
+    <string name="import_fragment__restore_a_previously_exported_encrypted_backup">Επαναφορά κρυπτογραφημένου αντιγράφου ασφαλείας που έχει ήδη εξαχθεί</string>
+    <string name="import_fragment__restore_encrypted_backup">Επαναφορά κρυπτογραφημένου αντιγράφου ασφαλείας</string>
+    <string name="import_fragment__import_the_database_from_the_default_system">Εισαγωγή της βάσης δεδομένων από την προεπιλεγμένη εφαρμογή SMS του συστήματος</string>
+    <string name="database_upgrade_activity__updating_database">Ενημέρωση της βάσης δεδομένων…</string>
+    <string name="database_migration_activity__this_could_take_a_moment_please_be_patient">Αυτό μπορεί να διαρκέσει μερικά λεπτά. Περιμένετε. Θα ειδοποιηθείτε μόλις ολοκληρωθεί η εισαγωγή.</string>
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Θέλετε να κάνετε εισαγωγή των μηνυμάτων σας στην κρυπτογραφημένη βάση δεδομένων του Silence;</string>
+    <string name="log_submit_activity__posting_logs">Καταχώρηση των αρχείων καταγραφής…</string>
+    <string name="log_submit_activity__log_fetch_failed">Αδύνατη η ανάγνωση των αρχείων καταγραφής της συσκευής σας. Μπορείτε να χρησιμοποιήστε το ADB για να δείτε το αρχείο καταγραφής σφαλμάτων.</string>
+    <string name="import_export_fragment__import">Εισαγωγή</string>
+    <string name="import_export_fragment__export">Εξαγωγή</string>
+    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Κύλιση προς τα κάτω</string>
+    <string name="audio_view__download_accessibility_description">Λήψη</string>
+    <string name="audio_view__pause_accessibility_description">Παύση</string>
+    <string name="audio_view__play_accessibility_description">Αναπαραγωγή</string>
+    <string name="conversation_activity__via_sim_name">Μέσω %1$s</string>
+    <string name="contact_selection_list_fragment__show_contacts">Εμφάνιση επαφών</string>
+    <string name="contact_selection_list_fragment__silence_needs_access_to_your_contacts_in_order_to_display_them">Το Silence χρειάζεται πρόσβαση στις επαφές σας για να μπορεί να τις εμφανίσει.</string>
+    <string name="blocked_contacts_fragment__no_blocked_contacts">Δεν υπάρχουν αποκλεισμένες επαφές</string>
+    <string name="ContactSelectionListFragment_silence_requires_the_contacts_permission_in_order_to_display_your_contacts">Το Silence χρειάζεται πρόσβαση στις επαφές σας για να μπορεί να τις εμφανίσει. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"Επαφές\".</string>
+    <string name="contact_selection_activity__enter_name_or_number">Εισαγωγή ονόματος ή αριθμού</string>
+    <string name="change_passphrase_activity__repeat_new_passphrase">Επαναλάβετε τη νέα συνθηματική φράση</string>
+    <string name="change_passphrase_activity__new_passphrase">Νέα συνθηματική φράση</string>
+    <string name="change_passphrase_activity__old_passphrase">Παλιά συνθηματική φράση</string>
+    <string name="SingleRecipientNotificationBuilder_new_message">Νέο μήνυμα</string>
+    <string name="QuickResponseService_problem_sending_message">Πρόβλημα στην αποστολή του μηνύματος!</string>
+    <string name="QuickResponseService_quick_response_unavailable_when_Silence_is_locked">Η γρήγορη απάντηση δεν είναι διαθέσιμη όταν το Silence είναι κλειδωμένο!</string>
+    <string name="NotificationChannel_other">Άλλο</string>
+    <string name="NotificationChannel_locked_status">Κατάσταση κλειδώματος</string>
+    <string name="NotificationChannel_failures">Αποτυχίες</string>
+    <string name="NotificationChannel_messages">Μηνύματα</string>
+    <string name="MessageNotifier_reply">Απάντηση</string>
+    <string name="MessageNotifier_message_received">Το μήνυμα λήφθηκε από %s.</string>
+    <string name="MessageNotifier_mark_read">Διαβάστηκε</string>
+    <string name="MessageNotifier_encrypted_message">Κρυπτογραφημένο μήνυμα</string>
+    <string name="MessageNotifier_most_recent_from_s">"Πιο πρόσφατο από:  %1$s"</string>
+    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d νέα μηνύματα σε %2$d συνομιλίες</string>
+    <string name="KeyCachingService_passphrase_cached">Το Silence δεν είναι κλειδωμένο</string>
+    <string name="KeyCachingService_silence_passphrase_cached_with_lock">Πατήστε εδώ για άνοιγμα ή πατήστε το λουκέτο για κλείσιμο.</string>
+    <string name="KeyCachingService_silence_passphrase_cached">Πατήστε για άνοιγμα.</string>
+    <string name="ApplicationMigrationService_system_database_import_is_complete">Η εισαγωγή της βάσης δεδομένων του συστήματος ολοκληρώθηκε.</string>
+    <string name="ApplicationMigrationService_import_complete">Η εισαγωγή ολοκληρώθηκε</string>
+    <string name="MuteDialog_mute_notifications">Σίγαση ειδοποιήσεων</string>
+    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">Το μήνυμα MMS κρυπτογραφήθηκε για μη υπάρχουσα συνεδρία</string>
+    <string name="MmsMessageRecord_bad_encrypted_mms_message">Μήνυμα MMS με πρόβλημα στην κρυπτογράφηση</string>
+    <string name="MmsMessageRecord_decrypting_mms_please_wait">Αποκρυπτογράφηση MMS, περιμένετε…</string>
+    <string name="MmsDatabase_downloading">Λήψη…</string>
+    <string name="MmsDatabase_downloading_mms">Λήψη MMS…</string>
+    <string name="MmsDatabase_connecting_to_mms_server">Σύνδεση με τον διακομιστή MMS…</string>
+    <string name="MessageDisplayHelper_end_session_encrypted_for_non_existing_session">Αίτηση για τερματισμό μη υπάρχουσας συνεδρίας</string>
+    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Το μήνυμα κρυπτογραφήθηκε για μη υπάρχουσα συνεδρία</string>
+    <string name="MessageDisplayHelper_decrypting_please_wait">Αποκρυπτογράφηση, περιμένετε…</string>
+    <string name="MessageDisplayHelper_bad_encrypted_message">Μήνυμα με πρόβλημα στην κρυπτογράφηση</string>
+    <string name="ViewIdentityActivity_your_identity_fingerprint">Το κλειδί σας</string>
+    <string name="ViewIdentityActivity_display_your_qr_code">Εμφάνιση του κωδικού QR</string>
+    <string name="ViewIdentityActivity_scan_contacts_qr_code">Σάρωση του κωδικού QR της επαφής</string>
+    <string name="VerifyIdentityActivity_display_your_qr_code">Εμφάνιση του κωδικού QR</string>
+    <string name="VerifyIdentityActivity_scan_contacts_qr_code">Σάρωση του κωδικού QR της επαφής</string>
+    <string name="ThreadRecord_media_message">Μήνυμα πολυμέσων</string>
+    <string name="ThreadRecord_left_the_group">Αποχώρησες από την ομάδα</string>
+    <string name="SmsMessageRecord_received_message_with_unknown_identity_key_tap_to_process">Λήφθηκε μήνυμα με άγνωστο κλειδί ταυτότητας. Πατήστε για επεξεργασία και εμφάνιση.</string>
+    <string name="Slide_video">Βίντεο</string>
+    <string name="Slide_audio">Ήχος</string>
+    <string name="Slide_image">Εικόνα</string>
+    <string name="RecipientPreferenceActivity_disabled">Απενεργοποιημένο</string>
+    <string name="RecipientPreferenceActivity_enabled">Ενεργοποιημένο</string>
+    <string name="RecipientPreferenceActivity_unblock">Κατάργηση αποκλεισμού</string>
+    <string name="RecipientPreferenceActivity_are_you_sure_you_want_to_unblock_this_contact">Είστε σίγουροι ότι θέλετε να καταργήσετε τον αποκλεισμό αυτής της επαφής;</string>
+    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Κατάργηση αποκλεισμού επαφής;</string>
+    <string name="RecipientPreferenceActivity_block">Αποκλεισμός</string>
+    <string name="RecipientPreferenceActivity_you_will_no_longer_see_messages_from_this_user">Δεν θα λαμβάνετε πλέον μηνύματα από αυτή την επαφή.</string>
+    <string name="RecipientPreferenceActivity_block_this_contact_question">Αποκλεισμός επαφής;</string>
+    <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_different">Η υπογραφή αυτής της ανταλλαγής κλειδιού έχει αλλάξει. Αυτό μπορεί να σημαίνει είτε ότι κάποιος προσπαθεί να υποκλέψει τη συνομιλία σας είτε ότι απλώς η επαφή επανεγκατέστησε το Silence και άρα χρησιμοποιεί νέο κλειδί ταυτότητας.</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Εικονίδιο του Silence</string>
+    <string name="MessageRecord_key_exchange_message">Μήνυμα ανταλλαγής κλειδιού</string>
+    <string name="MessageRecord_the_exchange_message_you_got_came_from_a_version_of_silence_that_is_too_outdated">Το μήνυμα ανταλλαγής κλειδιού που λάβατε προέρχεται από παλαιότερη έκδοση του Silence η οποία δεν είναι συμβατή με τη δική σας. Θα πρέπει να το στείλετε εσείς για να να ξεκινήσετε κρυπτογραφημένη συνεδρία. Πατήστε εδώ για να στείλετε μήνυμα ανταλλαγής κλειδιού.</string>
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Λήφθηκε κρυπτογραφημένο μήνυμα από παλαιότερη έκδοση του Silence η οποία δεν υποστηρίζεται πλέον. Ζητήστε από τον αποστολέα να κάνει αναβάθμιση στην πιο πρόσφατη έκδοση και να στείλει ξανά το μήνυμα.</string>
+    <string name="MmsDownloader_error_reading_mms_settings">Σφάλμα ανάγνωσης των ρυθμίσεων MMS του παρόχου κινητής τηλεφωνίας</string>
+    <string name="MmsDownloader_error_connecting_to_mms_provider">Σφάλμα σύνδεσης με τον πάροχο MMS</string>
+    <string name="ImportExportFragment_silence_needs_the_storage_permission_in_order_to_write_to_external_storage">Το Silence χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύσει στον εξωτερικό χώρο αποθήκευσης.</string>
+    <string name="ImportExportFragment_silence_needs_the_storage_permission_in_order_to_write_to_external_storage_but_it_has_been_permanently_denied">To Silence χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να αποθηκεύει στον εξωτερικό χώρο αποθήκευσης. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"Αποθηκευτικός χώρος\".</string>
+    <string name="ImportExportFragment_silence_needs_the_storage_permission_in_order_to_read_from_external_storage">Το Silence χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να διαβάσει τον εξωτερικό χώρο αποθήκευσης.</string>
+    <string name="ImportExportFragment_silence_needs_the_storage_permission_in_order_to_read_from_external_storage_but_it_has_been_permanently_denied">To Silence χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να διαβάζει το περιεχόμενο του εξωτερικού χώρου αποθήκευσης. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"Αποθηκευτικός χώρος\".</string>
+    <string name="ImportExportFragment_silence_needs_the_sms_permission_in_order_to_import_sms_messages_toast">Το Silence χρειάζεται πρόσβαση στα SMS για την εισαγωγή των μηνυμάτων</string>
+    <string name="ImportExportFragment_silence_needs_the_sms_permission_in_order_to_import_sms_messages">Το Silence χρειάζεται πρόσβαση στα SMS για να μπορεί να εισάγει μηνύματα. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"SMS\".</string>
+    <string name="ImportFragment_restoring_encrypted_backup">Επαναφορά κρυπτογραφημένου αντιγράφου ασφαλείας…</string>
+    <string name="ImportFragment_import_plaintext_backup_elipse">Εισαγωγή μη κρυπτογραφημένου αντιγράφου ασφαλείας…</string>
+    <string name="ImportFragment_restoring_an_encrypted_backup_will_completely_replace_your_existing_keys">Η επαναφορά κρυπτογραφημένου αντιγράφου ασφαλείας θα αντικαταστήσει τα τρέχοντα κλειδιά, προτιμήσεις και μηνύματα και θα χάσετε όλες τις πληροφορίες της τρέχουσας ρύθμισης του Silence εκτός από αυτές του αντιγράφου ασφαλείας. Το Silence θα κλείσει μετά την ολοκλήρωση της εισαγωγής.</string>
+    <string name="ImportFragment_restore_encrypted_backup">Επαναφορά κρυπτογραφημένου αντιγράφου ασφαλείας;</string>
+    <string name="ImportFragment_this_will_import_messages_from_the_system">Θα εισαχθούν μηνύματα από τη βάση δεδομένων SMS του συστήματος στο Silence. Αν έχει γίνει εισαγωγή της βάσης δεδομένων SMS στο παρελθόν, θα δημιουργηθούν διπλότυπα μηνύματα.</string>
+    <string name="ExportFragment_exporting_keys_settings_and_messages">Εξαγωγή κρυπτογραφημένων κλειδιών, ρυθμίσεων και μηνυμάτων…</string>
+    <string name="ExportFragment_this_will_export_your_encrypted_keys_settings_and_messages">Τα κρυπτογραφημένα κλειδιά, οι ρυθμίσεις και τα μηνύματά σας θα εξαχθούν στον αποθηκευτικό χώρο.</string>
+    <string name="ExportFragment_export_encrypted_backup">Εξαγωγή κρυπτογραφημένου αντιγράφου ασφαλείας;</string>
+    <string name="ExportFragment_export_successful">Η εξαγωγή ολοκληρώθηκε με επιτυχία.</string>
+    <string name="ExportFragment_error_while_writing_to_storage">Σφάλμα κατά την εγγραφή στον αποθηκευτικό χώρο.</string>
+    <string name="ExportFragment_error_unable_to_write_to_storage">Σφάλμα, αδύνατη η εγγραφή στον αποθηκευτικό χώρο.</string>
+    <string name="ExportFragment_exporting_plaintext_to_storage">Εξαγωγή απλού κειμένου στον αποθηκευτικό χώρο…</string>
+    <string name="ExportFragment_warning_this_will_export_the_contents_of_your_messages_to_storage_in_plaintext">Προειδοποίηση, το περιεχόμενο των μηνυμάτων σας θα εξαχθεί στον αποθηκευτικό χώρο σε μορφή απλού κειμένου.</string>
+    <string name="ExportFragment_export_plaintext_to_storage">Εξαγωγή κειμένου στον αποθηκευτικό χώρο;</string>
+    <string name="WelcomeActivity_silence_requires_the_phone_and_sms_permissions_in_order_to_work_but_it_has_been_permanently_denied">Το Silence χρειάζεται πρόσβαση στο τηλέφωνο και στα SMS για να λειτουργήσει. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε τις επιλογές \"Τηλέφωνο\" και \"SMS\".</string>
+    <string name="WelcomeActivity_silence_needs_the_phone_permission_in_order_to_manage_encryption_keys_and_bind_them_to_your_sim_cards_and_sms_permission_in_order_to_receive_sms_messages">Το Silence χρειάζεται πρόσβαση στο τηλέφωνο, για να διαχειρίζεται τα κλειδιά κρυπτογράφησης και να τα συνδέει με την κάρτα SIM σας, και στα SMS, για να λαμβάνει μηνύματα.</string>
+    <string name="WelcomeActivity_you_need_to_grant_some_permissions_to_silence_in_order_to_continue_to_use_it">"Πρέπει να εκχωρήσετε κάποια δικαιώματα στο Silence για να  μπορείτε να το χρησιμοποιείτε. Πατήστε εδώ για να συνεχίσετε."</string>
+    <string name="WelcomeActivity_you_need_to_grant_some_permissions_to_silence">Πρέπει να εκχωρήσετε κάποια δικαιώματα στο Silence.</string>
+    <string name="WelcomeActivity_action_required">Απαιτείται ενέργεια!</string>
+    <string name="WelcomeActivity_continue">Συνέχεια</string>
+    <string name="WelcomeActivity_silence_needs_access_to_your_contacts_phone_status_and_sms">Το Silence χρειάζεται πρόσβαση στις επαφές σας, στην κατάσταση του τηλεφώνου και στα SMS για να μπορείτε να συνδέεστε με φίλους, να διαχειρίζεστε τα κλειδιά κρυπτογράφησης και να πραγματοποιείτε συνομιλίες.</string>
+    <string name="WelcomeActivity_encrypt_your_messages">Ανταλλάξτε κρυπτογραφημένα μηνύματα με άλλους χρήστες Silence ενώ χρησιμοποιείτε κανονικά SMS/MMS με όλους τους άλλους.</string>
+    <string name="WelcomeActivity_improve_your_privacy_talk_to_everyone">Βελτιώστε το ιδιωτικό σας απόρρητο, μιλήστε με όλους</string>
+    <string name="DateUtils_yesterday">Χθες</string>
+    <string name="DateUtils_today">Σήμερα</string>
+    <string name="DateUtils_minutes_ago">%d λεπτά</string>
+    <string name="ConversationListItemAction_archived_conversations_d">Αρχειοθετημένες συνομιλίες (%d)</string>
+    <string name="ConversationListFragment_sending_selected_drafts">Αποστολή επιλεγμένων προχείρων…</string>
+    <string name="ConversationListFragment_sending">Γίνεται αποστολή</string>
+    <string name="ConversationListFragment_send">Αποστολή</string>
+    <string name="ConversationListFragment_send_drafts">Αποστολή προχείρων</string>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="one">Η συνομιλία μετακινήθηκε στα εισερχόμενα</item>
+        <item quantity="other">%d συνομιλίες μετακινήθηκαν στα εισερχόμενα</item>
+    </plurals>
+    <string name="ConversationListFragment_undo">ΑΝΑΙΡΕΣΗ</string>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="one">Η συνομιλία αρχειοθετήθηκε</item>
+        <item quantity="other">Αρχειοθετήθηκαν %d συνομιλίες</item>
+    </plurals>
+    <string name="ConversationListFragment_deleting_selected_conversations">Διαγραφή επιλεγμένων συνομιλιών…</string>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="one">Η επιλεγμένη συνομιλία θα διαγραφεί οριστικά.</item>
+        <item quantity="other">%1$d συνομιλίες θα διαγραφούν οριστικά.</item>
+    </plurals>
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="one">Διαγραφή επιλεγμένης συνομιλίας;</item>
+        <item quantity="other">Διαγραφή επιλεγμένων συνομιλιών;</item>
+    </plurals>
+    <string name="ConversationListActivity_search">Αναζήτηση</string>
+    <string name="ConversationFragment_deleting_messages">Διαγραφή μηνυμάτων…</string>
+    <string name="ConversationFragment_deleting">Διαγραφή…</string>
+    <string name="ConversationFragment_pending">Σε εκκρεμότητα…</string>
+    <string name="ConversationFragment_collecting_attahments">Συλλογή συνημμένων…</string>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="one">Αποθήκευση του συνημμένου στον αποθηκευτικό χώρο της συσκευής…</item>
+        <item quantity="other">Αποθήκευση %1$d συνημμένων στον αποθηκευτικό χώρο της συσκευής…</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="one">Γίνεται αποθήκευση του συνημμένου</item>
+        <item quantity="other">Γίνεται αποθήκευση %1$d συνημμένων</item>
+    </plurals>
+    <plurals name="ConversationFragment_files_saved_successfully">
+        <item quantity="one">Το αρχείο αποθηκεύτηκε.</item>
+        <item quantity="other">Τα αρχεία αποθηκεύτηκαν.</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="one">Σφάλμα κατά την αποθήκευση του συνημμένου!</item>
+        <item quantity="other">Σφάλμα κατά την αποθήκευση των συνημμένων!</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="one">Αν αποθηκεύσετε αυτό το αρχείο πολυμέσων στη συσκευή σας, θα επιτρέψετε σε άλλες εφαρμογές να έχουν πρόσβαση σε αυτό.
+\n
+\nΘέλετε να συνεχίσετε;</item>
+        <item quantity="other">Αν αποθηκεύσετε τα %1$d αυτά αρχεία πολυμέσων στη συσκευή σας, θα επιτρέψετε σε άλλες εφαρμογές να έχουν πρόσβαση σε αυτά.
+\n
+\nΘέλετε να συνεχίσετε;</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="one">Το επιλεγμένο μήνυμα θα διαγραφεί οριστικά.</item>
+        <item quantity="other">%1$d μηνύματα θα διαγραφούν οριστικά.</item>
+    </plurals>
+    <string name="AttachmentManager_silence_requires_the_external_storage_permission_in_order_to_attach_photos_videos_or_audio">To Silence χρειάζεται πρόσβαση στον αποθηκευτικό χώρο για να μπορεί να επισυνάπτει φωτογραφίες, βίντεο ή αρχεία ήχου. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"Αποθηκευτικός χώρος\".</string>
+    <string name="ConversationActivity_silence_needs_sms_permission_in_order_to_send_an_sms">Το Silence χρειάζεται πρόσβαση στα SMS για να μπορεί να στέλνει μηνύματα. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"SMS\".</string>
+    <string name="ConversationActivity_cant_open_link">Δεν βρέθηκε εφαρμογή για το άνοιγμα αυτού του συνδέσμου.</string>
+    <string name="ConversationActivity_detected_silence_initiate_session_question">Ο αποστολέας χρησιμοποιεί Silence. Θέλετε να ξεκινήσετε κρυπτογραφημένη συνεδρία;</string>
+    <string name="ConversationItem_this_media_has_been_stored_in_an_encrypted_database_external_viewer_warning">Το αρχείο πολυμέσων είναι αποθηκευμένο σε κρυπτογραφημένη βάση δεδομένων. Δυστυχώς, για την προβολή του με εξωτερικό πρόγραμμα προβολής χρειάζεται προσωρινή αποκρυπτογράφηση των δεδομένων και εγγραφή τους στον αποθηκευτικό χώρο. Θέλετε να συνεχίσετε;</string>
+    <string name="AttachmentManager_silence_requires_contacts_permission_in_order_to_attach_contact_information">Το Silence χρειάζεται πρόσβαση στις επαφές για να μπορεί να επισυνάπτει πληροφορίες επαφών. Πηγαίνετε στις ρυθμίσεις της εφαρμογής, επιλέξτε \"Άδειες\" και ενεργοποιήστε την επιλογή \"Επαφές\".</string>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="one">Διαγραφή επιλεγμένου μηνύματος;</item>
+        <item quantity="other">Διαγραφή επιλεγμένων μηνυμάτων;</item>
+    </plurals>
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="one">%d μη αναγνωσμένο μήνυμα</item>
+        <item quantity="other">%d μη αναγνωσμένα μηνύματα</item>
+    </plurals>
+    <string name="ConversationActivity_attachment_exceeds_size_limits">Το συνημμένο υπερβαίνει το όριο μεγέθους.</string>
+    <plurals name="ConversationActivity_d_recipients_in_group">
+        <item quantity="one">1 άτομο</item>
+        <item quantity="other">%d άτομα</item>
+    </plurals>
+    <string name="ConversationActivity_recipient_is_not_a_valid_sms_or_email_address_exclamation">Μη έγκυρος αριθμός ή διεύθυνση email!</string>
+    <string name="ConversationActivity_the_gif_you_selected_was_too_big">Το GIF που επιλέξατε ήταν πολύ μεγάλο!</string>
+    <string name="ConversationActivity_sorry_there_was_an_error_adding_your_attachment">Λυπούμαστε. Παρουσιάστηκε κάποιο σφάλμα κατά την επισύναψη.</string>
+    <string name="ConversationActivity_this_will_permanently_delete_all_messages_in_this_conversation">Όλα τα μηνύματα αυτής της συνομιλίας θα διαγραφούν οριστικά.</string>
+    <string name="ConversationActivity_delete_thread_question">Διαγραφή συνομιλίας;</string>
+    <string name="ConversationItem_xmpp_address_update_silence">Διεύθυνση XMPP. Ενημερώστε το Silence για να ενεργοποιήσετε αυτή τη λειτουργία.</string>
+    <string name="ConversationItem_via_s">μέσω %s</string>
+    <string name="ConversationItem_unable_to_open_media">Δεν βρέθηκε εφαρμογή για το άνοιγμα αυτού του αρχείου πολυμέσων.</string>
+    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Λήφθηκε μήνυμα ανταλλαγής κλειδιού, πατήστε για επεξεργασία.</string>
+    <string name="BlockedContactsActivity_blocked_contacts">Αποκλεισμένες επαφές</string>
+    <string name="AudioSlidePlayer_error_playing_audio">Σφάλμα αναπαραγωγής ήχου!</string>
+    <string name="AttachmentTypeSelectorAdapter_camera">Φωτογραφική μηχανή</string>
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="one">1 λεπτό</item>
+        <item quantity="other">%d λεπτά</item>
+    </plurals>
+    <string name="ApplicationPreferencesActivity_appearance_summary">"Θέμα %1$s, Γλώσσα  %2$s"</string>
+    <string name="ApplicationPreferencesActivity_tap_to_make_silence_your_default_sms_app">Πατήστε εδώ για να κάνετε το Silence την προεπιλεγμένη εφαρμογή SMS</string>
+    <string name="ApplicationPreferencesActivity_tap_to_change_your_default_sms_app">Πατήστε εδώ για να αλλάξετε την προεπιλεγμένη εφαρμογή SMS</string>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="one">1 μήνυμα ανά συνομιλία</item>
+        <item quantity="other">%d μηνύματα ανά συνομιλία</item>
+    </plurals>
+    <string name="AbstractNotificationBuilder_new_message">Νέο μήνυμα</string>
+    <string name="please_wait">Περιμένετε…</string>
+</resources>

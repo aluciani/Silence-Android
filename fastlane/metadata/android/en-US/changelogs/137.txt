@@ -1,0 +1,7 @@
+- Updated emojis to Android O
+- Improved build reproducibility
+- Fixed crash on malformed messages
+- Enabled incognito keyboard mode by default
+- Removed cleartext password that may leak
+- Enabled Czech and Portuguese (Brazil) languages
+- Updated translations

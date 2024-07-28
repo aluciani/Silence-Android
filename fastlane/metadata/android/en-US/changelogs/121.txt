@@ -1,0 +1,2 @@
+- Fixed APN issues
+- Updated translations

@@ -1,0 +1,11 @@
+- Fixed keyboard/focus regressions
+- Fixed debug logs
+- Fixed click interception on failed messages
+- Fixed silent in-thread notification
+- Fixed notification LED and sound
+- Fixed contact sorting
+- Fixed crash on invalid image
+- Fixed database migration from 0.12.3 to 0.13.1
+- Updated APN database
+- Added Esperanto translation
+- Updated translations

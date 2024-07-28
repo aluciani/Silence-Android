@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <style name="Silence.LightWelcomeTheme" parent="Silence.LightNoActionBar">
+        <item name="android:windowLightStatusBar">true</item>
+        <item name="android:statusBarColor">@color/core_grey_02</item>
+    </style>
+
+    <style name="Silence.DarkWelcomeTheme" parent="Silence.DarkNoActionBar">
+        <item name="android:windowLightStatusBar">false</item>
+        <item name="android:statusBarColor">@color/core_black</item>
+    </style>
+</resources>

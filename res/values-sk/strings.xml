@@ -1,0 +1,806 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="yes">Áno</string>
+    <string name="no">Nie</string>
+    <string name="delete">Zmaž</string>
+    <string name="please_wait">Čakajte prosím...</string>
+    <!--AbstractNotificationBuilder-->
+    <string name="AbstractNotificationBuilder_new_message">Nová správa</string>
+    <!--ApplicationPreferencesActivity-->
+    <string name="ApplicationPreferenceActivity_you_havent_set_a_passphrase_yet">Ešte ste si nenastavili heslo!</string>
+    <plurals name="ApplicationPreferencesActivity_messages_per_conversation">
+        <item quantity="one">1 správa na konverzáciu</item>
+        <item quantity="few">%d správy na konverzáciu</item>
+        <item quantity="many">%d správ na konverzáciu</item>
+        <item quantity="other">%d správ na konverzáciu</item>
+    </plurals>
+    <string name="ApplicationPreferencesActivity_delete_all_old_messages_now">Zmazať všetky staré správy?</string>
+    <plurals name="ApplicationPreferencesActivity_this_will_immediately_trim_all_conversations_to_the_d_most_recent_messages">
+        <item quantity="one">Týmto odstránite správy zo všetkých konverzácií okrem najnovšej.</item>
+        <item quantity="few">Týmto odstránite správy zo všetkých konverzácií okrem %d najnovších.</item>
+        <item quantity="many">Týmto odstránite správy zo všetkých konverzácií okrem %d najnovších.</item>
+        <item quantity="other">Týmto odstránite správy zo všetkých konverzácií okrem %d najnovších.</item>
+    </plurals>
+    <string name="ApplicationPreferencesActivity_delete">Zmaž</string>
+    <string name="ApplicationPreferencesActivity_disable_storage_encryption">Vypnúť šifrovanie úložiska?</string>
+    <string name="ApplicationPreferencesActivity_warning_this_will_disable_storage_encryption_for_all_messages">
+Upozornenie! Týmto vypnete šifrovanie úložiska správ a kľúčov. Vaše konverzácie budú naďalej zabezpečené, ale ktokoľvek s fyzickým prístupom zariadeniu k nim získa prístup.</string>
+    <string name="ApplicationPreferencesActivity_disable">Vypnúť</string>
+    <string name="ApplicationPreferencesActivity_sms_enabled">Prichádzajúce SMS povolené</string>
+    <string name="ApplicationPreferencesActivity_tap_to_change_your_default_sms_app">Nastaviť predvolenú SMS aplikáciu</string>
+    <string name="ApplicationPreferencesActivity_sms_disabled">Prichádzajúce SMS zakazané </string>
+    <string name="ApplicationPreferencesActivity_tap_to_make_silence_your_default_sms_app">Nastaviť Silence ako predvolenú SMS aplikáciu</string>
+    <string name="ApplicationPreferencesActivity_on">povolené</string>
+    <string name="ApplicationPreferencesActivity_On">Zapnuté</string>
+    <string name="ApplicationPreferencesActivity_off">zakázané</string>
+    <string name="ApplicationPreferencesActivity_Off">Vypnuté</string>
+    <string name="ApplicationPreferencesActivity_sms">SMS</string>
+    <string name="ApplicationPreferencesActivity_mms">MMS</string>
+    <string name="ApplicationPreferencesActivity_incoming_summary">Prichádzajúce %s</string>
+    <string name="ApplicationPreferencesActivity_privacy_summary">Heslo %1$s, Zabezpečenie obrazovky %2$s</string>
+    <string name="ApplicationPreferencesActivity_appearance_summary">Motív: %1$s, Jazyk: %2$s</string>
+    <!--AppProtectionPreferenceFragment-->
+    <plurals name="AppProtectionPreferenceFragment_minutes">
+        <item quantity="one">1 minúta</item>
+        <item quantity="few">%d minúty</item>
+        <item quantity="many">%d minút</item>
+        <item quantity="other">%d minút</item>
+    </plurals>
+    <!--DraftDatabase-->
+    <string name="DraftDatabase_Draft_image_snippet">(obrázok)</string>
+    <string name="DraftDatabase_Draft_audio_snippet">(zvuk)</string>
+    <string name="DraftDatabase_Draft_video_snippet">(video)</string>
+    <!--AttchmentManager-->
+    <string name="AttachmentManager_cant_open_media_selection">Nenašla sa aplikácia pre voľbu súborov.</string>
+    <!--AttachmentTypeSelectorAdapter-->
+    <string name="AttachmentTypeSelectorAdapter_camera">Kamera</string>
+    <string name="AttachmentTypeSelectorAdapter_picture">Obrázok</string>
+    <string name="AttachmentTypeSelectorAdapter_video">Video</string>
+    <string name="AttachmentTypeSelectorAdapter_audio">Zvuk</string>
+    <string name="AttachmentTypeSelectorAdapter_contact">Informácie o kontakte</string>
+    <!--AudioSlidePlayer-->
+    <string name="AudioSlidePlayer_error_playing_audio">Chyba pri prehrávaní zvuku!</string>
+    <!--BlockedContactsActivity-->
+    <string name="BlockedContactsActivity_blocked_contacts">Blokované kontakty</string>
+    <!--ConversationItem-->
+    <string name="ConversationItem_message_size_d_kb">Veľkosť správy: %d KB</string>
+    <string name="ConversationItem_expires_s">Vyprší: %s</string>
+    <string name="ConversationItem_error_not_delivered">Nedoručená</string>
+    <string name="ConversationItem_view_secure_media_question">Zobraziť zabezpečené súbory?</string>
+    <string name="ConversationItem_this_media_has_been_stored_in_an_encrypted_database_external_viewer_warning">Tento súbor je uložený v šifrovanej databáze. Pre otvorenie v externej aplikácii je potreba súbor dočasne dešifrovať a uložiť do pamäte. Chcete pokračovať?</string>
+    <string name="ConversationItem_error_received_stale_key_exchange_message">Bola prijatá neplatná správa výmeny kľúčov.</string>
+    <string name="ConversationItem_received_key_exchange_message_tap_to_process">Prijatá správa výmeny kľúčov. Pokračovať v spracovaní.</string>
+    <string name="ConversationItem_group_action_left">%1$s opustil/a skupinu.</string>
+    <string name="ConversationItem_click_for_details">Ukázať podrobnosti</string>
+    <string name="ConversationItem_unable_to_open_media">Nenašla sa aplikácia schopná otvoriť tento súbor.</string>
+    <string name="ConversationItem_xmpp_address_update_silence">XMPP adresa. Aktualizujte Silence pre pokračovanie.</string>
+    <!--ConversationActivity-->
+    <string name="ConversationActivity_initiate_secure_session_question">Vytvoriť bezpečné spojenie?</string>
+    <string name="ConversationActivity_initiate_secure_session_with_s_question">Vytvoriť bezpečné spojenie s %s?</string>
+    <string name="ConversationActivity_detected_silence_initiate_session_question">Správa prijatá od užívateľa Silence, vytvoriť bezpečné šifrované spojenie?</string>
+    <string name="ConversationActivity_abort_secure_session_confirmation">Ukončiť bezpečné spojenie?</string>
+    <string name="ConversationActivity_are_you_sure_that_you_want_to_abort_this_secure_session_question">Ste si istí že chcete zrušiť bezpečné spojenie?</string>
+    <string name="ConversationActivity_delete_thread_question">Vymazať konverzáciu?</string>
+    <string name="ConversationActivity_this_will_permanently_delete_all_messages_in_this_conversation">Týmto navždy vymažete všetky správy v tejto konverzácii.</string>
+    <string name="ConversationActivity_add_attachment">Pridať prílohu</string>
+    <string name="ConversationActivity_select_contact_info">Vyber kontaktné informácie </string>
+    <string name="ConversationActivity_compose_message">Vytvoriť správu</string>
+    <string name="ConversationActivity_sorry_there_was_an_error_adding_your_attachment">Pri pridávaní prílohy sa vyskytla chyba.</string>
+    <string name="ConversationActivity_the_gif_you_selected_was_too_big">Zvolený GIF bol príliš veľký!</string>
+    <string name="ConversationActivity_sorry_the_selected_video_exceeds_message_size_restrictions">Zvolené video presahuje maximálnu veľkosť správy (%1$skB).</string>
+    <string name="ConversationActivity_sorry_the_selected_audio_exceeds_message_size_restrictions">Zvolený zvukový súbor presahuje maximálnu veľkosť správy (%1$skB).</string>
+    <string name="ConversationActivity_recipient_is_not_a_valid_sms_or_email_address_exclamation">Príjemca nemá validnú SMS alebo emailovú adresu!</string>
+    <string name="ConversationActivity_message_is_empty_exclamation">Správa je prázdna!</string>
+    <string name="ConversationActivity_group_members">Členovia skupiny</string>
+    <string name="ConversationActivity_group_conversation">Skupinová konverzácia</string>
+    <string name="ConversationActivity_unnamed_group">Nepomenovaná skupina</string>
+    <plurals name="ConversationActivity_d_recipients_in_group">
+        <item quantity="one">1 člen</item>
+        <item quantity="few">%d členovia</item>
+        <item quantity="many">%d členov</item>
+        <item quantity="other">%d členov</item>
+    </plurals>
+    <string name="ConversationActivity_saved_draft">Uložený koncept</string>
+    <string name="ConversationActivity_invalid_recipient">Neplatný príjemca!</string>
+    <string name="ConversationActivity_calls_not_supported">Hovory nie sú podporované</string>
+    <string name="ConversationActivity_this_device_does_not_appear_to_support_dial_actions">Zdá sa, že toto zariadenie nepodporuje vytáčanie.</string>
+    <string name="ConversationActivity_cant_open_link">Nenašla sa aplikácia schopná otvoriť tento odkaz.</string>
+    <string name="ConversationActivity_transport_insecure_sms">Nezabezpečená SMS správa</string>
+    <string name="ConversationActivity_transport_insecure_mms">Nezabezpečená MMS správa</string>
+    <string name="ConversationActivity_transport_secure_sms">Zabezpečená SMS správa</string>
+    <string name="ConversationActivity_transport_secure_mms">Zabezpečená MMS správa</string>
+    <string name="ConversationActivity_install_smssecure">Píšme si bezpečne: %s</string>
+    <string name="ConversationActivity_recipient_self">Bezpečné spojenia je možné vytvoriť len s inými osobami.</string>
+    <string name="ConversationActivity_mms_not_supported_title">MMS správy nie sú podporované</string>
+    <string name="ConversationActivity_mms_not_supported_message">Táto správa nemože byť poslaná, pretože Váš operátor nepodporuje MMS správy.</string>
+    <string name="ConversationActivity_specify_recipient">Prosím, vyberte kontakt</string>
+    <string name="ConversationActivity_attachment_exceeds_size_limits">Príloha je príliš veľká.</string>
+    <!--ConversationAdapter-->
+    <plurals name="ConversationAdapter_n_unread_messages">
+        <item quantity="one">%d nová správa</item>
+        <item quantity="few">%d nové správy</item>
+        <item quantity="many">%d nových správ</item>
+        <item quantity="other">%d nových správ</item>
+    </plurals>
+    <!--ConversationFragment-->
+    <string name="ConversationFragment_message_details">Detaily správy</string>
+    <plurals name="ConversationFragment_delete_selected_messages">
+        <item quantity="one">Vymazať vybranú správu?</item>
+        <item quantity="few">Vymazať vybrané správy?</item>
+        <item quantity="many">Vymazať vybrané správy?</item>
+        <item quantity="other">Vymazať vybrané správy?</item>
+    </plurals>
+    <plurals name="ConversationFragment_this_will_permanently_delete_all_n_selected_messages">
+        <item quantity="one">Týmto navždy vymažete zvolenú správu.</item>
+        <item quantity="few">Týmto navždy vymažete %1$d označené správy.</item>
+        <item quantity="many">Týmto navždy vymažete všetkých %1$d označených správ.</item>
+        <item quantity="other">Týmto navždy vymažete všetkých %1$d označených správ.</item>
+    </plurals>
+    <string name="ConversationFragment_save_to_sd_card">Uložiť na úložisko?</string>
+    <plurals name="ConversationFragment_saving_n_media_to_storage_warning">
+        <item quantity="one">Po uložení tohto súboru na úložisko k nemu umožníte prístup ďalším aplikáciám na tomto zariadení.
+
+Chcete pokračovať?</item>
+        <item quantity="few">Po uložení týchto %1$d súborov na úložisko k nim umožníte prístup ďalším aplikáciám na tomto zariadení.
+
+Chcete pokračovať?</item>
+        <item quantity="many">Po uložení týchto %1$d súborov na úložisko k nim umožníte prístup ďalším aplikáciám na tomto zariadení.
+
+Chcete pokračovať?</item>
+        <item quantity="other">Po uložení týchto %1$d súborov na úložisko k nim umožníte prístup ďalším aplikáciám na tomto zariadení.
+
+Chcete pokračovať?</item>
+    </plurals>
+    <plurals name="ConversationFragment_error_while_saving_attachments_to_sd_card">
+        <item quantity="one">Pri ukladaní prílohy na úložisko sa vyskytla chyba!</item>
+        <item quantity="few">Pri ukladaní príloh na úložisko sa vyskytla chyba!</item>
+        <item quantity="many">Pri ukladaní príloh na úložisko sa vyskytla chyba!</item>
+        <item quantity="other">Pri ukladaní príloh na úložisko sa vyskytla chyba!</item>
+    </plurals>
+    <plurals name="ConversationFragment_files_saved_successfully">
+        <item quantity="one">Súbor bol uložený.</item>
+        <item quantity="few">Súbory boli uložené.</item>
+        <item quantity="many">Súbory boli uložené.</item>
+        <item quantity="other">Súbory boli uložené.</item>
+    </plurals>
+    <string name="ConversationFragment_unable_to_write_to_sd_card_exclamation">Na úložisko sa nedá zapisovať!</string>
+    <plurals name="ConversationFragment_saving_n_attachments">
+        <item quantity="one">Ukladám prílohu</item>
+        <item quantity="few">Ukladám %1$d prílohy</item>
+        <item quantity="many">Ukladám %1$d príloh</item>
+        <item quantity="other">Ukladám %1$d príloh</item>
+    </plurals>
+    <plurals name="ConversationFragment_saving_n_attachments_to_sd_card">
+        <item quantity="one">Ukladám prílohu na úložisko...</item>
+        <item quantity="few">Ukladám %1$d prílohy na úložisko...</item>
+        <item quantity="many">Ukladám %1$d príloh na úložisko...</item>
+        <item quantity="other">Ukladám %1$d príloh na úložisko...</item>
+    </plurals>
+    <string name="ConversationFragment_collecting_attahments">Zhromažďujem prílohy...</string>
+    <string name="ConversationFragment_pending">Odosielam…</string>
+    <string name="ConversationFragment_mms">MMS</string>
+    <string name="ConversationFragment_sms">SMS</string>
+    <string name="ConversationFragment_deleting">Odstraňujem...</string>
+    <string name="ConversationFragment_deleting_messages">Odstraňujem správy...</string>
+    <!--ConversationListActivity-->
+    <string name="ConversationListActivity_search">Hľadať</string>
+    <!--ConversationListFragment-->
+    <plurals name="ConversationListFragment_delete_selected_conversations">
+        <item quantity="one">Vymazať vybranú konverzáciu?</item>
+        <item quantity="few">Vymazať vybrané konverzácie?</item>
+        <item quantity="many">Vymazať vybrané konverzácie?</item>
+        <item quantity="other">Vymazať vybrané konverzácie?</item>
+    </plurals>
+    <plurals name="ConversationListFragment_this_will_permanently_delete_all_n_selected_conversations">
+        <item quantity="one">Týmto navždy vymažete označenú konverzáciu.</item>
+        <item quantity="few">Týmto navždy vymažete %1$d označené konverzácie.</item>
+        <item quantity="many">Týmto navždy vymažete všetkých %1$d označených konverzácií.</item>
+        <item quantity="other">Týmto navždy vymažete všetkých %1$d označených konverzácií.</item>
+    </plurals>
+    <string name="ConversationListFragment_deleting">Odstraňujem</string>
+    <string name="ConversationListFragment_deleting_selected_conversations">Odstraňujem vybrané konverzácie...</string>
+    <plurals name="ConversationListFragment_conversations_archived">
+        <item quantity="one">Konverzácia archivovaná</item>
+        <item quantity="few">%d konverzácie archivované</item>
+        <item quantity="many">%d konverzácií archivovaných</item>
+        <item quantity="other"> %d konverzácií archivovaných</item>
+    </plurals>
+    <string name="ConversationListFragment_undo">SPÄŤ</string>
+    <plurals name="ConversationListFragment_moved_conversations_to_inbox">
+        <item quantity="one">Konverzácia posunutá do prijatých</item>
+        <item quantity="few">%d konverzácie posunuté do prijatých</item>
+        <item quantity="many">%d konverzácií posunutých do prijatých</item>
+        <item quantity="other">%d konverzácií posunutých do prijatých</item>
+    </plurals>
+    <string name="ConversationListFragment_send_drafts">Odoslať koncepty</string>
+    <string name="ConversationListFragment_this_will_send_drafts_of_selected_conversations">Týmto odošlete koncepty vybraných konverzácií.</string>
+    <string name="ConversationListFragment_send">Poslať</string>
+    <string name="ConversationListFragment_sending">Posielam</string>
+    <string name="ConversationListFragment_sending_selected_drafts">Posielam vybrané koncepty…</string>
+    <!--ConversationListItemAction-->
+    <string name="ConversationListItemAction_archived_conversations_d">Archivované konverzácie (%d)</string>
+    <!--CustomDefaultPreference-->
+    <string name="CustomDefaultPreference_using_custom">Používa sa vlastné: %s</string>
+    <string name="CustomDefaultPreference_using_default">Používa sa predvolené: %s</string>
+    <string name="CustomDefaultPreference_none">Žiadna</string>
+    <!--DateUtils-->
+    <string name="DateUtils_now">Teraz</string>
+    <string name="DateUtils_minutes_ago">%d min</string>
+    <string name="DateUtils_today">Dnes</string>
+    <string name="DateUtils_yesterday">Včera</string>
+    <!--DualSimUtil-->
+    <string name="DualSimUtil__new_sim_card_detected">Objavená nová SIM karta</string>
+    <string name="DualSimUtil__a_new_key_has_been_generated">Bol vygenerovaný nový kľúč.</string>
+    <string name="DualSimUtil__a_new_key_has_been_generated_for_that_new_sim_card">Pre túto SIM kartu sa vygeneroval nový kľúč.</string>
+    <!--ShareActivity-->
+    <string name="ShareActivity_share_with">Zdieľať s</string>
+    <!--WelcomeActivity-->
+    <!--ExportFragment-->
+    <string name="ExportFragment_export">Export</string>
+    <string name="ExportFragment_export_plaintext_to_storage">Exportovať nešifrovaný text na úložisko?</string>
+    <string name="ExportFragment_warning_this_will_export_the_contents_of_your_messages_to_storage_in_plaintext">Upozornenie! Týmto exportujete obsah Vašich Silence správ do úložiska v čitateľnej podobe.</string>
+    <string name="ExportFragment_cancel">Zrušiť</string>
+    <string name="ExportFragment_exporting">Prebieha export</string>
+    <string name="ExportFragment_exporting_plaintext_to_storage">Prebieha export nešifrovaného textu na úložisko…</string>
+    <string name="ExportFragment_error_unable_to_write_to_storage">Chyba: Na úložisko sa nedá zapisovať.</string>
+    <string name="ExportFragment_error_while_writing_to_storage">Pri zápisu na úložisko sa vyskytla chyba.</string>
+    <string name="ExportFragment_export_successful">Export úspešne dokončený.</string>
+    <string name="ExportFragment_export_encrypted_backup">Exportovať šifrovanú zálohu?</string>
+    <string name="ExportFragment_this_will_export_your_encrypted_keys_settings_and_messages">Týmto exportujete Vaše šifrované kľúče, nastavenia a správy na úložisko.</string>
+    <string name="ExportFragment_exporting_keys_settings_and_messages">Prebieha export šifrovaných kľúčov, nastavení a správ…</string>
+    <!--GroupCreateActivity-->
+    <string name="GroupCreateActivity_actionbar_title">Nová skupina</string>
+    <string name="GroupCreateActivity_actionbar_update_title">Aktualizácia skupiny</string>
+    <string name="GroupCreateActivity_actionbar_mms_title">Nová MMS skupina</string>
+    <string name="GroupCreateActivity_contacts_mms_exception">Z dôvodu nečakanej chyby sa nepodarilo vytvoriť skupinu.</string>
+    <string name="GroupCreateActivity_contacts_no_members">V skupine musí byť aspoň jedna osoba!</string>
+    <string name="GroupCreateActivity_menu_create_title">Vytvoriť skupinu</string>
+    <!--GroupMembersDialog-->
+    <string name="GroupMembersDialog_me">Ja</string>
+    <!--ImportExportActivity-->
+    <string name="ImportExportActivity_import">Import</string>
+    <string name="ImportExportActivity_export">Export</string>
+    <!--ImportFragment-->
+    <string name="ImportFragment_import_system_sms_database">Importovať systémovú databázu SMS?</string>
+    <string name="ImportFragment_this_will_import_messages_from_the_system">Týmto importujete SMS správy zo systémovej databázy do Silence. Keď ste už import vykonali, opätovný import spôsobí duplikáty správ.</string>
+    <string name="ImportFragment_import">Import</string>
+    <string name="ImportFragment_cancel">Zrušiť</string>
+    <string name="ImportFragment_restore_encrypted_backup">Obnoviť zo šifrovanej zálohy?</string>
+    <string name="ImportFragment_restoring_an_encrypted_backup_will_completely_replace_your_existing_keys">Obnovenie zo šifrovanej zálohy kompletne nahradí vaše existujúce kľúče, nastavenia a správy. Stratíte všetky údaje z aktuálnej inštalácie Silence, ktoré sa nenachádzajú v zálohe. Po dokončení importu sa Silence zastaví.</string>
+    <string name="ImportFragment_import_plaintext_backup">Importovať nešifrovanú zálohu?</string>
+    <string name="ImportFragment_this_will_import_messages_from_a_plaintext_backup">Týmto importujete SMS správy z nešifrovanej zálohy. Keď ste už import vykonali, opätovný import spôsobí duplikáty správ.</string>
+    <string name="ImportFragment_importing">Prebieha import</string>
+    <string name="ImportFragment_import_plaintext_backup_elipse">Prebieha import nešifrovanej zálohy…</string>
+    <string name="ImportFragment_no_plaintext_backup_found">Nenašla sa nešifrovaná záloha!</string>
+    <string name="ImportFragment_error_importing_backup">Chyba pri importu zálohy!</string>
+    <string name="ImportFragment_import_complete">Import dokončený!</string>
+    <string name="ImportFragment_restoring_encrypted_backup">Prebieha obnova šifrovanej zálohy…</string>
+    <string name="ImportFragment_no_encrypted_backup_found">Nenašla sa šifrovaná záloha!</string>
+    <!--KeyScanningActivity-->
+    <string name="KeyScanningActivity_no_scanned_key_found_exclamation">Scanovaný kľúč sa nenašiel!</string>
+    <string name="KeyScanningActivity_install_barcode_Scanner">Nainštalovať Barcode Scanner?</string>
+    <string name="KeyScanningActivity_this_application_requires_barcode_scanner_would_you_like_to_install_it">Silence potrebuje Barcode Scanner na scanovanie QR kódov.</string>
+    <!--MessageDetailsRecipient-->
+    <string name="MessageDetailsRecipient_failed_to_send">Správa nebola odoslaná</string>
+    <string name="MessageDetailsRecipient_new_identity">Nová identita</string>
+    <!--MmsDownloader-->
+    <string name="MmsDownloader_error_storing_mms">Chyba pri ukladaní MMS!</string>
+    <string name="MmsDownloader_error_connecting_to_mms_provider">Chyba spojenia s poskytovateľom MMS</string>
+    <string name="MmsDownloader_error_reading_mms_settings">Chyba pri získavaní konfigurácie MMS od poskytovateľa</string>
+    <!--NotificationMmsMessageRecord-->
+    <string name="NotificationMmsMessageRecord_multimedia_message">Multimediálna správa</string>
+    <!--MessageRecord-->
+    <string name="MessageRecord_message_encrypted_with_a_legacy_protocol_version_that_is_no_longer_supported">Prijatá správa je zašifrovaná starou verziou Silence, ktorá už nie je podporovaná. Požiadajte odosielateľa, aby Silence aktualizoval na najnovšiu verziu a poslal správu znovu.</string>
+    <string name="MessageRecord_the_exchange_message_you_got_came_from_a_version_of_silence_that_is_too_outdated">Správa výmeny kľúčov ktorú ste obdržali pochádza zo starej verzie Silence, ktorá nedokáže komunikovať s vašou verziou. Pre zahájenie bezpečnej komunikácie ju musíte poslať ručne. Poslať správu výmeny kľúčov.</string>
+    <string name="MessageRecord_left_group">Opustili ste skupinu.</string>
+    <string name="MessageRecord_updated_group">Skupina bola aktualizovaná.</string>
+    <string name="MessageRecord_key_exchange_message">Správa výmeny kľúčov</string>
+    <!--PassphraseChangeActivity-->
+    <string name="PassphraseChangeActivity_passphrases_dont_match_exclamation">Heslá sa nezhodujú!</string>
+    <string name="PassphraseChangeActivity_incorrect_old_passphrase_exclamation">Nesprávne staré heslo!</string>
+    <string name="PassphraseChangeActivity_enter_new_passphrase_exclamation">Nebolo zadané žiadne heslo!</string>
+    <!--PassphrasePromptActivity-->
+    <string name="PassphrasePromptActivity_enter_passphrase">Zadajte heslo</string>
+    <string name="PassphrasePromptActivity_watermark_content_description">Ikona Silence</string>
+    <string name="PassphrasePromptActivity_invalid_passphrase_exclamation">Nesprávne heslo!</string>
+    <!--ReceiveKeyActivity-->
+    <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_different">Podpis v tejto správe výmeny kľúčov sa nezhoduje s podpisom ktorý ste obdržali od tohto kontaktu v minulosti. Môže to znamenať, že sa niekto snaží odpočúvať vašu komunikáciu, alebo si len tento kontakt znovu nainštaloval Silence a získal tak nový kľúč.</string>
+    <string name="ReceiveKeyActivity_the_signature_on_this_key_exchange_is_trusted_but">Podpis tejto správy výmeny kľúčov je dôveryhodný, ale možnosť \"dokončiť vzájomnú výmenu kľúčov\" je zakázaná.</string>
+    <string name="ReceiveKeyActivity_processing">Spracováva sa</string>
+    <string name="ReceiveKeyActivity_processing_key_exchange">Spracováva sa výmena kľúčov…</string>
+    <string name="ConfirmIdentityDialog_you_may_wish_to_verify_this_contact">Mali by ste overiť identitu tohto kontaktu.</string>
+    <!--RecipientPreferencesActivity-->
+    <string name="RecipientPreferenceActivity_block_this_contact_question">Blokovať tento kontakt?</string>
+    <string name="RecipientPreferenceActivity_you_will_no_longer_see_messages_from_this_user">Správy poslané týmto užívateľom budú blokované.</string>
+    <string name="RecipientPreferenceActivity_block">Blokovať</string>
+    <string name="RecipientPreferenceActivity_unblock_this_contact_question">Odblokovať tento kontakt?</string>
+    <string name="RecipientPreferenceActivity_are_you_sure_you_want_to_unblock_this_contact">Naozaj chcete odblokovať tento kontakt?</string>
+    <string name="RecipientPreferenceActivity_unblock">Odbokovať</string>
+    <string name="RecipientPreferenceActivity_enabled">Povolené</string>
+    <string name="RecipientPreferenceActivity_disabled">Zakázané</string>
+    <!--Slide-->
+    <string name="Slide_image">Obrázok</string>
+    <string name="Slide_audio">Zvuk</string>
+    <string name="Slide_video">Video</string>
+    <!--SmsMessageRecord-->
+    <string name="SmsMessageRecord_received_corrupted_key_exchange_message">Prijatá neplatná správa výmeny kľúčov!</string>
+    <string name="SmsMessageRecord_received_key_exchange_message_for_invalid_protocol_version">
+Prijatá správa výmeny kľúčov s nesprávnou verziou protokolu.</string>
+    <string name="SmsMessageRecord_received_message_with_unknown_identity_key_tap_to_process">Prijatá správa s neznámym kľúčom identity. Spracovať a zobraziť.</string>
+    <string name="SmsMessageRecord_received_updated_but_unknown_identity_information">Prijatá platná ale neznáma informácia o identite. Overiť.</string>
+    <string name="SmsMessageRecord_secure_session_ended">Bezpečné spojenie ukončené.</string>
+    <string name="SmsMessageRecord_duplicate_message">Duplicitná správa.</string>
+    <!--ThreadRecord-->
+    <string name="ThreadRecord_left_the_group">Opustil/a skupinu</string>
+    <string name="ThreadRecord_draft">Koncept:</string>
+    <string name="ThreadRecord_media_message">Multimediálna správa</string>
+    <!--TransportOptions-->
+    <string name="TransportOptions_sms_disabled">SMS správy zakázané</string>
+    <string name="TransportOptions_no_sim_card_found">Nenašla sa žiadna SIM karta</string>
+    <!--VerifyIdentityActivity-->
+    <string name="VerifyIdentityActivity_you_do_not_have_an_identity_key">Nevlastníte kľúč identity.</string>
+    <string name="VerifyIdentityActivity_recipient_has_no_identity_key">Príjemca nevlastní kľúč identity.</string>
+    <string name="VerifyIdentityActivity_scan_contacts_qr_code">Skenovať QR kód kontaktu</string>
+    <string name="VerifyIdentityActivity_display_your_qr_code">Zobraziť váš QR kód</string>
+    <string name="VerifyIdentityActivity_warning_the_scanned_key_does_not_match_please_check_the_fingerprint_text_carefully">POZOR, skenovaný kľúč sa NEZHODUJE s uloženým! Dôsledne skontrolujte text odtlačku.</string>
+    <string name="VerifyIdentityActivity_not_verified_exclamation">Verifikácia NEÚSPEŠNÁ!</string>
+    <string name="VerifyIdentityActivity_their_key_is_correct_it_is_also_necessary_to_verify_your_key_with_them_as_well">Kľúče ostatných sú v poriadku. Poskytnite aj váš kľúč ostatným pre verifikáciu.</string>
+    <string name="VerifyIdentityActivity_verified_exclamation">Verifikované!</string>
+    <!--ViewIdentityActivity-->
+    <string name="ViewIdentityActivity_scan_contacts_qr_code">Skenovať QR kód kontaktu</string>
+    <string name="ViewIdentityActivity_display_your_qr_code">Zobraziť váš QR kód</string>
+    <string name="ViewIdentityActivity_warning_the_scanned_key_does_not_match_exclamation">POZOR, skenovaný kľúč sa NEZHODUJE s uloženým!</string>
+    <string name="ViewIdentityActivity_the_scanned_key_matches_exclamation">Skenovaný kľúč je v poriadku!</string>
+    <string name="ViewIdentityActivity_your_identity_fingerprint">Odtlačok vašej identity</string>
+    <!--KeyExchangeInitiator-->
+    <string name="KeyExchangeInitiator_initiate_despite_existing_request_question">Začať napriek existujúcej žiadosti?</string>
+    <string name="KeyExchangeInitiator_youve_already_sent_a_session_initiation_request_to_this_recipient_are_you_sure">Tomuto príjemcovi ste už poslali požiadavku na vytvorenie bezpečného spojenia. Určite chcete poslať ďalšiu požiadavku ktorá zneplatní predchádzajúcu požiadavku?</string>
+    <string name="KeyExchangeInitiator_send">Poslať</string>
+    <!--MessageDisplayHelper-->
+    <string name="MessageDisplayHelper_bad_encrypted_message">Nesprávne šifrovaná správa</string>
+    <string name="MessageDisplayHelper_decrypting_please_wait">Prebieha dešifrovanie, čakajte prosím…</string>
+    <string name="MessageDisplayHelper_message_encrypted_for_non_existing_session">Správa šifrovaná pre neexistujúcu reláciu</string>
+    <string name="MessageDisplayHelper_end_session_encrypted_for_non_existing_session">Požiadavka pre ukončenie neexistujúcej relácie</string>
+    <!--EncryptingSmsDatabase-->
+    <string name="EncryptingSmsDatabase_error_decrypting_message">Chyba pri dešifrovaní správy.</string>
+    <!--MmsDatabase-->
+    <string name="MmsDatabase_connecting_to_mms_server">Pripájanie k MMS serveru…</string>
+    <string name="MmsDatabase_downloading_mms">Sťahovanie MMS…</string>
+    <string name="MmsDatabase_mms_download_failed">Sťahovanie MMS zlyhalo!</string>
+    <string name="MmsDatabase_downloading">Sťahovanie…</string>
+    <string name="MmsDatabase_mms_pending_download">Ťuknite pre konfiguráciu MMS a pokračujte v sťahovaní.</string>
+    <string name="MmsDatabase_error_decrypting_message">Chyba pri dešifrovaní správy.</string>
+    <!--MmsMessageRecord-->
+    <string name="MmsMessageRecord_decrypting_mms_please_wait">Dešifrovanie MMS, čakajte prosím...</string>
+    <string name="MmsMessageRecord_bad_encrypted_mms_message">Zle zašifrovaná MMS správa</string>
+    <string name="MmsMessageRecord_mms_message_encrypted_for_non_existing_session">MMS správa zašifrovaná pre neexistujúce spojenie</string>
+    <!--MuteDialog-->
+    <string name="MuteDialog_mute_notifications">Stlmiť upozornenia</string>
+    <!--ApplicationMigrationService-->
+    <string name="ApplicationMigrationService_import_in_progress">Prebieha import</string>
+    <string name="ApplicationMigrationService_importing_text_messages">Nahrávanie textových správ</string>
+    <string name="ApplicationMigrationService_import_complete">Import dokončený</string>
+    <string name="ApplicationMigrationService_system_database_import_is_complete">Import systémovej databázy bol dokončený.</string>
+    <!--KeyCachingService-->
+    <string name="KeyCachingService_silence_passphrase_cached">Ťuknite pre otvorenie.</string>
+    <string name="KeyCachingService_silence_passphrase_cached_with_lock">Ťuknite pre otvorenie, alebo ťuknite na zámok pre zatvorenie.</string>
+    <string name="KeyCachingService_passphrase_cached">Silence je odomknutý</string>
+    <string name="KeyCachingService_lock">Zamknúť heslom</string>
+    <!--MessageNotifier-->
+    <string name="MessageNotifier_d_new_messages_in_d_conversations">%1$d nové správy v %2$d konverzáciách</string>
+    <string name="MessageNotifier_most_recent_from_s">Najnovšia od: %1$s</string>
+    <string name="MessageNotifier_encrypted_message">Šifrovaná správa</string>
+    <string name="MessageNotifier_media_message_with_text">Multimediálna správa: %s</string>
+    <string name="MessageNotifier_no_subject">(bez predmetu)</string>
+    <string name="MessageNotifier_message_delivery_failed">Doručenie správy zlyhalo.</string>
+    <string name="MessageNotifier_failed_to_deliver_message">Správa nebola doručená.</string>
+    <string name="MessageNotifier_error_delivering_message">Chyba pri doručovaní správy.</string>
+    <string name="MessageNotifier_mark_all_as_read">Označiť všetko ako prečítané</string>
+    <string name="MessageNotifier_mark_read">Označiť ako prečítané</string>
+    <string name="MessageNotifier_media_message">Multimediálna správa</string>
+    <string name="MessageNotifier_message_received">%s správu prijal(a).</string>
+    <string name="MessageNotifier_reply">Odpovedať</string>
+    <!--QuickResponseService-->
+    <string name="QuickResponseService_quick_response_unavailable_when_Silence_is_locked">Rýchla odpoveď nie je k dispozícii keď Silence je uzamknutý!</string>
+    <string name="QuickResponseService_problem_sending_message">Problém pri odosielaní správy!</string>
+    <!--SingleRecipientNotificationBuilder-->
+    <string name="SingleRecipientNotificationBuilder_silence">Silence</string>
+    <string name="SingleRecipientNotificationBuilder_new_message">Nová správa</string>
+    <!--SubscriptionInfoCompat-->
+    <string name="SubscriptionInfoCompat_slot">Slot %1$s</string>
+    <string name="SubscriptionInfoCompat_display_name">%1$s (slot %2$s)</string>
+    <!--change_passphrase_activity-->
+    <string name="change_passphrase_activity__old_passphrase">Staré heslo</string>
+    <string name="change_passphrase_activity__new_passphrase">Nové heslo</string>
+    <string name="change_passphrase_activity__repeat_new_passphrase">Zopakujte nové heslo</string>
+    <!--contact_selection_activity-->
+    <string name="contact_selection_activity__enter_name_or_number">Zadajte meno, alebo číslo</string>
+    <!--contact_selection_group_activity-->
+    <string name="contact_selection_group_activity__no_contacts">Žiadne kontakty.</string>
+    <string name="contact_selection_group_activity__finding_contacts">Načítavanie kontaktov...</string>
+    <!--single_contact_selection_activity-->
+    <string name="SingleContactSelectionActivity_contact_photo">Fotka kontaktu</string>
+    <!--ContactSelectionListFragment-->
+    <string name="ContactSelectionlistFragment_select_for">Vyber pre</string>
+    <!--blocked_contacts_fragment-->
+    <string name="blocked_contacts_fragment__no_blocked_contacts">Žiadne blokované kontakty</string>
+    <!--contact_selection_recent_activity-->
+    <string name="contact_selection_recent_activity__no_recent_calls">Žiadne nedávne hovory.</string>
+    <!--contact_selection_list_fragment-->
+    <!--conversation_title_view-->
+    <string name="conversation_title_view__conversation_muted">Konverzácia stlmená</string>
+    <!--conversation_activity-->
+    <string name="conversation_activity__type_message_sms_secure">Poslať šifrovanú SMS</string>
+    <string name="conversation_activity__type_message_sms_insecure">Poslať nešifrovanú SMS</string>
+    <string name="conversation_activity__type_message_mms_secure">Poslať šifrovanú MMS</string>
+    <string name="conversation_activity__type_message_mms_insecure">Poslať nešifrovanú MMS</string>
+    <string name="conversation_activity__send">Odoslať</string>
+    <string name="conversation_activity__remove">Odstrániť</string>
+    <string name="conversation_activity__window_description">Konverzácia s %1$s</string>
+    <string name="conversation_activity__compose_description">Písanie správy</string>
+    <string name="conversation_activity__emoji_toggle_description">Zobraziť emoji klávesnicu</string>
+    <string name="conversation_activity__attachment_thumbnail">Náhľad prílohy</string>
+    <!--conversation_item-->
+    <string name="conversation_item__mms_downloading_description">Sťahovanie multimediálnej správy</string>
+    <string name="conversation_item__mms_image_description">Multimediálna správa</string>
+    <string name="conversation_item__secure_message_description">Šifrovaná správa</string>
+    <!--conversation_item_sent-->
+    <string name="conversation_item_sent__download">Stiahnuť</string>
+    <string name="conversation_item_sent__downloading">Prebieha sťahovanie</string>
+    <string name="conversation_item_sent__send_failed_indicator_description">Odosielanie zlyhalo</string>
+    <string name="conversation_item_sent__pending_approval_description">Čaká na schválenie</string>
+    <string name="conversation_item_sent__delivered_description">Doručená</string>
+    <!--conversation_item_received-->
+    <string name="conversation_item_received__download">Stiahnuť</string>
+    <string name="conversation_item_received__contact_photo_description">Fotka kontaktu</string>
+    <string name="conversation_item_received__downloading">Prebieha sťahovanie</string>
+    <!--audio_view-->
+    <string name="audio_view__play_accessibility_description">Prehrať</string>
+    <string name="audio_view__pause_accessibility_description">Pozastaviť</string>
+    <string name="audio_view__download_accessibility_description">Stiahnuť</string>
+    <!--conversation_fragment_cab-->
+    <string name="conversation_fragment_cab__batch_selection_mode">Mód hromadného výberu</string>
+    <string name="conversation_fragment_cab__batch_selection_amount">%s vybraných</string>
+    <!--conversation_fragment-->
+    <string name="conversation_fragment__scroll_to_the_bottom_content_description">Skočiť na koniec</string>
+    <!--import_export_fragment-->
+    <string name="import_export_fragment__export">Export</string>
+    <string name="import_export_fragment__import">Import</string>
+    <!--log_submit_activity-->
+    <string name="log_submit_activity__log_fetch_failed">Nepodarilo sa získať záznam z vášho zariadenia, avšak tále môžete použiť ADB pre získanie ladiaceho záznamu.</string>
+    <string name="log_submit_activity__thanks">Ďakujem za vašu pomoc!</string>
+    <string name="log_submit_activity__submitting">Posiela sa</string>
+    <string name="log_submit_activity__posting_logs">Posielanie záznamov do gistu…</string>
+    <!--database_migration_activity-->
+    <string name="database_migration_activity__would_you_like_to_import_your_existing_text_messages">Chcete importovať Vaše existujúce textové správy do šifrovanej databázy Silence?</string>
+    <string name="database_migration_activity__the_default_system_database_will_not_be_modified">Systémová databáza nebude modifikovaná alebo pozmenená žiadnym spôsobom.</string>
+    <string name="database_migration_activity__skip">Preskočiť</string>
+    <string name="database_migration_activity__import">Import</string>
+    <string name="database_migration_activity__this_could_take_a_moment_please_be_patient">Môže to chvíľu trvať. Prosím, buďte trpezlivý, dokončenie importu Vám oznámime.</string>
+    <string name="database_migration_activity__importing">PREBIEHA IMPORT</string>
+    <!--database_upgrade_activity-->
+    <string name="database_upgrade_activity__updating_database">Aktualizácia databázy</string>
+    <string name="export_fragment__export_plaintext_backup">Exportovať nešifrovanú zálohu</string>
+    <string name="export_fragment__export_a_plaintext_backup_compatible_with">Exportovať nešifrovanú zálohu kompatibilnú s \"SMS Backup &amp; Restore\" na úložisko</string>
+    <string name="import_fragment__import_system_sms_database">Importovať systémovú databázu SMS</string>
+    <string name="import_fragment__import_the_database_from_the_default_system">Importovať databázu zo systémovej aplikácie pre správy</string>
+    <string name="import_fragment__restore_encrypted_backup">Obnoviť šifrovanú zálohu</string>
+    <string name="import_fragment__restore_a_previously_exported_encrypted_backup">Obnoviť pred tým exportovanú, šifrovanú zálohu</string>
+    <string name="import_fragment__import_plaintext_backup">Importovať nešifrovanú zálohu</string>
+    <string name="import_fragment__import_a_plaintext_backup_file">Importovať nešifrovanú zálohu kompatibilnú s \"SMS Backup &amp; Restore\".</string>
+    <string name="export_fragment__export_encrypted_backup">Exportovať šifrovanú zálohu</string>
+    <string name="export_fragment__export_an_encrypted_backup_to_storage">Exportovať šifrovanú zálohu na úložisko</string>
+    <!--load_more_header-->
+    <string name="load_more_header__see_full_conversation">Zobraziť celú konverzáciu</string>
+    <!--media_overview_activity-->
+    <string name="media_overview_activity__no_images">Žiadne obrázky</string>
+    <!--message_recipients_list_item-->
+    <string name="message_recipients_list_item__verify">OVERIŤ</string>
+    <string name="message_recipients_list_item__resend">POSLAŤ ZNOVU</string>
+    <!--prompt_passphrase_activity-->
+    <string name="prompt_passphrase_activity__unlock">Odomknúť</string>
+    <!--prompt_mms_activity-->
+    <string name="prompt_mms_activity__silence_requires_mms_settings_to_deliver_media_and_group_messages">Silence vyžaduje nastavenia MMS na doručenie médií a skupinových správ cez vášho poskytovateľa pripojenia. Vaše zariadenie neposkytuje tieto informácie, čo občas spôsobujú uzamknuté zariadenia alebo iné obmedzenia v nastaveniach.</string>
+    <string name="prompt_mms_activity__to_send_media_and_group_messages_tap_ok">Pre odoslanie médií a skupinových správ stlačte OK, a dokončite príslušné nastavenia. MMS nastavenia vášho poskytovateľa sa väčšinov dajú nájsť vyhľadaním \"váš poskytovateľ APN\". Toto nastavenie musíte urobiť len raz.</string>
+    <!--recipient_preferences_activity-->
+    <string name="recipient_preference_activity__blocked">BLOKOVANÝ</string>
+    <!--recipient_preferences-->
+    <string name="recipient_preferences__mute_conversation">Stlmiť konverzáciu</string>
+    <string name="recipient_preferences__disable_notifications_for_this_conversation">Vypnúť upozornenia pre túto konverzáciu</string>
+    <string name="recipient_preferences__notification_sound">Zvuk upozornenia</string>
+    <string name="recipient_preferences__vibrate">Vibrácie</string>
+    <string name="recipient_preferences__block">Blokovať</string>
+    <string name="recipient_preferences__color">Farba</string>
+    <string name="recipient_preferences__color_for_this_contact">Farba pre tento kontakt</string>
+    <!--receive_key_dialog-->
+    <string name="receive_key_activity__complete">Dokončené</string>
+    <!--recipients_panel-->
+    <string name="recipients_panel__to">
+        <small>Zadajte meno alebo číslo</small>
+    </string>
+    <string name="recipients_panel__add_member">Pridať člena</string>
+    <!--verify_identity_activity-->
+    <string name="verify_identity_activity__their_identity_they_read">Ich identita (oni vidia):</string>
+    <string name="verify_identity_activity__your_identity_you_read">Vaša identita (vy vidíte):</string>
+    <!--message_details_header-->
+    <string name="message_details_header__issues_need_your_attention">Niektoré problémy vyžadujú Vašu pozornosť.</string>
+    <string name="message_details_header__sent">Odoslaná</string>
+    <string name="message_details_header__received">Prijatá</string>
+    <!--AndroidManifest.xml-->
+    <string name="AndroidManifest__create_passphrase">Vytvoriť heslo</string>
+    <string name="AndroidManifest__enter_passphrase">Zadajte heslo</string>
+    <string name="AndroidManifest__select_contacts">Vyberte kontakty</string>
+    <string name="AndroidManifest__public_identity_key">Verejný kľúč identity</string>
+    <string name="AndroidManifest__change_passphrase">Zmeniť heslo</string>
+    <string name="AndroidManifest__verify_identity">Overiť identitu</string>
+    <string name="AndroidManifest__complete_key_exchange">Dokončiť vzájomnú výmenu kľúčov</string>
+    <string name="AndroidManifest__log_submit">Odoslať ladiaci záznam</string>
+    <string name="AndroidManifest__media_preview">Ukážka média</string>
+    <string name="AndroidManifest__media_overview">Všetky obrázky</string>
+    <string name="AndroidManifest__media_overview_named">Všetky obrázky s %1$s</string>
+    <string name="AndroidManifest__message_details">Detaily správy</string>
+    <string name="AndroidManifest_archived_conversations">Archivované konverzácie</string>
+    <string name="AndroidManifest_configure_mms_settings">Konfigurovať MMS nastavenia</string>
+    <!--arrays.xml-->
+    <string name="arrays__import_export">Import / export</string>
+    <string name="arrays__your_identity_key">Váš kľúč identity</string>
+    <string name="arrays__use_default">Použiť predvolené</string>
+    <string name="arrays__use_custom">Použiť vlastné</string>
+    <string name="arrays__mute_for_one_hour">Stlmiť na 1 hodinu</string>
+    <string name="arrays__mute_for_two_hours">Stlmiť na 2 hodiny</string>
+    <string name="arrays__mute_for_one_day">Stlmiť na 1 deň</string>
+    <string name="arrays__mute_for_seven_days">Stlmiť na 7 dní</string>
+    <string name="arrays__mute_for_one_year">Stlmiť na 1 rok</string>
+    <string name="arrays__settings_default">Predvolené nastavenie</string>
+    <string name="arrays__enabled">Povolené</string>
+    <string name="arrays__disabled">Zakázané</string>
+    <string name="arrays__name_and_message">Meno a správu</string>
+    <string name="arrays__name_only">Iba meno</string>
+    <string name="arrays__no_name_or_message">Bez mena a správy</string>
+    <string name="arrays__enter_key">Zobraziť klávesu enter</string>
+    <string name="arrays__emoji_key">Zobraziť klávesu emoji</string>
+    <string name="arrays__send_key">Zobraziť tlačidlo odoslať</string>
+    <!--plurals.xml-->
+    <plurals name="hours_ago">
+        <item quantity="one">%d hodina</item>
+        <item quantity="few">%d hodiny</item>
+        <item quantity="many">%d hodín</item>
+        <item quantity="other">%d hodín</item>
+    </plurals>
+    <!--preferences.xml-->
+    <string name="preferences__general">Všeobecné</string>
+    <string name="preferences__sms_mms">SMS a MMS</string>
+    <string name="preferences__pref_all_sms_title">Prijímať všetky SMS</string>
+    <string name="preferences__pref_all_mms_title">Prijímať všetky MMS</string>
+    <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_text_messages">Použiť Silence na zobrazenie a ukladanie všetkých textových správ</string>
+    <string name="preferences__use_silence_for_viewing_and_storing_all_incoming_multimedia_messages">Použiť Silence na zobrazenie a ukladanie všetkých multimediálnych správ</string>
+    <string name="preferences__keyboard_settings">Nastavenia klávesnice</string>
+    <string name="preferences__disable_emoji_drawer">Zakázať emoji aplikácie</string>
+    <string name="preferences__enable_this_option_if_your_keyboard_supports_emojis">Zapnite túto možnosť, ak vaša klávesnica podporuje emoji.</string>
+    <string name="preferences__display_settings">Nastavenia zobrazenia</string>
+    <string name="preferences__choose_your_contact_entry_from_the_contacts_list">Vyberte Váš kontakt zo zoznamu kontaktov.</string>
+    <string name="preferences__change_passphrase">Zmeniť heslo</string>
+    <string name="preferences__change_your_passphrase">Zmeniť Vaše heslo</string>
+    <string name="preferences__complete_key_exchanges">Dokončiť vzájomnú výmenu kľúčov</string>
+    <string name="preferences__enable_passphrase">Použiť heslo</string>
+    <string name="preferences__enable_local_encryption_of_messages_and_keys">Povoliť lokálne šifrovanie správ a kľúčov</string>
+    <string name="preferences__screen_security">Bezpečnosť obrazovky</string>
+    <string name="preferences__automatically_complete_key_exchanges_for_new_sessions_or_for_existing_sessions_with_the_same_identity_key">Automaticky dokonči vzájomné výmeny kľúčov pre nové spojenia alebo pre existujúce spojenie s rovnakým kľúčom identity</string>
+    <string name="preferences__disable_screen_security_to_allow_screen_shots">Blokovať snímky obrazovky pri zozname nedávnych správ a v celej aplikácii</string>
+    <string name="preferences__forget_passphrase_from_memory_after_some_interval">Po určitom čase požadovať heslo pre prístup ku konverzáciám</string>
+    <string name="preferences__timeout_passphrase">Doba pamätania hesla</string>
+    <string name="preferences__pref_timeout_interval_dialogtitle">Vybrať dobu pamätania hesla</string>
+    <string name="preferences__pref_timeout_interval_title">Interval vypršania</string>
+    <string name="preferences__the_amount_of_time_to_wait_before_forgetting_passphrase">Časový interval po ktorom sa vymaže heslo z pamäte</string>
+    <string name="preferences__notifications">Upozornenia</string>
+    <string name="preferences__enable_message_notifications">Povoliť upozornenia na správy</string>
+    <string name="preferences__led_color">LED farba</string>
+    <string name="preferences__led_color_unknown">Neznáma</string>
+    <string name="preferences__pref_led_blink_title">Vzor blikania LED</string>
+    <string name="preferences__pref_led_blink_custom_pattern_title">Nastav vlastný vzor blikania LED</string>
+    <string name="preferences__pref_led_blink_custom_pattern_on_for">Zapnutá na:</string>
+    <string name="preferences__pref_led_blink_custom_pattern_off_for">Vypnutá na:</string>
+    <string name="preferences__pref_led_blink_custom_pattern_set">Vlastný vzor LED blikania nastavený!</string>
+    <string name="preferences__sound">Zvuk</string>
+    <string name="preferences__change_notification_sound">Zmeniť zvuk upozornenia</string>
+    <string name="preferences__silent">Tichý</string>
+    <string name="preferences__in_conversation_notifications">Upozornenia počas konverzácie</string>
+    <string name="preferences__play_inthread_notifications">Prehrať zvuk upozornenia pri aktívnej konverzácii.</string>
+    <string name="preferences__repeat_alerts">Opakovať upozornenia</string>
+    <string name="preferences__never">Nikdy</string>
+    <string name="preferences__one_time">Raz</string>
+    <string name="preferences__two_times">Dvakrát</string>
+    <string name="preferences__three_times">Trikrát</string>
+    <string name="preferences__five_times">Päťkrát</string>
+    <string name="preferences__ten_times">Desaťkrát</string>
+    <string name="preferences__vibrate">Vibrácie</string>
+    <string name="preferences__also_vibrate_when_notified">Vibrovať pri notifikácii</string>
+    <string name="preferences__minutes">minúty</string>
+    <string name="preferences__hours">hodiny</string>
+    <string name="preferences__green">Zelená</string>
+    <string name="preferences__red">Červená</string>
+    <string name="preferences__blue">Modrá</string>
+    <string name="preferences__orange">Oranžová</string>
+    <string name="preferences__cyan">Azúrová</string>
+    <string name="preferences__magenta">Purpurová</string>
+    <string name="preferences__white">Biela</string>
+    <string name="preferences__none">Žiadna</string>
+    <string name="preferences__fast">Rýchlo</string>
+    <string name="preferences__normal">Normálne</string>
+    <string name="preferences__slow">Pomaly</string>
+    <string name="preferences__custom">Vlastné</string>
+    <string name="preferences__advanced">Rozšírené</string>
+    <string name="preferences__privacy">Súkromie</string>
+    <string name="preferences__mms_user_agent">MMS používateľský agent</string>
+    <string name="preferences__advanced_mms_access_point_names">Manuálne MMS nastavenia</string>
+    <string name="preferences__enable_manual_mms">Použiť manuálne MMS nastavenia</string>
+    <string name="preferences__override_system_mms_settings">Namiesto systémových nastavení MMS použiť informácie nižšie.</string>
+    <string name="preferences__mmsc_url">MMSC URL</string>
+    <string name="preferences__mms_proxy_host">MMS Proxy hostiteľ</string>
+    <string name="preferences__mms_proxy_port">MMS Proxy port</string>
+    <string name="preferences__mmsc_username">MMSC meno</string>
+    <string name="preferences__mmsc_password">MMSC heslo</string>
+    <string name="preferences__sms_delivery_reports">Správy o doručení SMS</string>
+    <string name="preferences__request_a_delivery_report_for_each_sms_message_you_send">Pre každú odoslanú SMS vyžiadať správu o doručení</string>
+    <string name="preferences__sms_delivery_reports_notification">Upozornenie na doručenie SMS</string>
+    <string name="preferences__display_a_notification_when_a_delivery_report_is_received">Zobraziť upozornenie pri prijatí správy o doručení</string>
+    <string name="preferences__automatically_delete_older_messages_once_a_conversation_exceeds_a_specified_length">Automaticky vymazať staršie správy keď konvezrácia presiahne určitú dĺžku</string>
+    <string name="preferences__delete_old_messages">Vymazať staré správy</string>
+    <string name="preferences__chats">Konverzácie a médiá</string>
+    <string name="preferences__conversation_length_limit">Obmedzenie dĺžky konverzácie</string>
+    <string name="preferences__trim_all_conversations_now">Orezať konverzácie teraz</string>
+    <string name="preferences__scan_through_all_conversations_and_enforce_conversation_length_limits">Prejsť všetky konverzácie a vynútiť dĺžkový limit</string>
+    <string name="preferences__light_theme">Svetlý</string>
+    <string name="preferences__dark_theme">Tmavý</string>
+    <string name="preferences__appearance">Vzhľad</string>
+    <string name="preferences__theme">Motív</string>
+    <string name="preferences__default">Predvolený</string>
+    <string name="preferences__language">Jazyk</string>
+    <string name="preferences__make_default_sms_app">Nastaviť ako predvolenú SMS aplikáciu</string>
+    <string name="preferences__make_silence_the_default_sms_mms_app">Nastaviť Silence ako predvolenú SMS/MMS aplikáciu.</string>
+    <string name="preferences__submit_debug_log">Odoslať ladiaci záznam</string>
+    <string name="preferences__support_wifi_calling">\"Wi-Fi Volanie\" režim kompatibility</string>
+    <string name="preferences__enable_if_your_device_supports_sms_mms_delivery_over_wifi">Zapnite, keď Vaše zariadenie používa doručovanie SMS/MMS cez Wi-Fi (zapnite len keď je \"Wi-Fi volanie\" aktívne na Vašom zariadení).</string>
+    <string name="preferences__about">O Silence</string>
+    <string name="preferences__about_version">Verzia %s</string>
+    <string name="preferences__privacy_policy">Zásady ochrany osobných údajov</string>
+    <string name="preferences__incognito_keyboard">Inkognito klávesnica</string>
+    <string name="preferences__request_keyboard_to_disable_personalized_learning">Keď je táto funkcia zapnutá, klávesnica si nebude pamätať a učiť slová ktoré zadávate</string>
+    <string name="preferences_app_protection__blocked_contacts">Blokované kontakty</string>
+    <string name="preferences_notifications__display_in_notifications">Zobraziť v upozorneniach</string>
+    <string name="preferences__show_sent_time">Zobraziť čas poslania</string>
+    <string name="preferences__show_sent_time_instead_of_received_time_in_conversations">Zobraziť čas poslania, namiesto času prijatia prichádzajúcich správ</string>
+    <string name="preferences__hide_unread_message_divider">Skryť oddelovač neprečítaných správ</string>
+    <string name="preferences_chats__mms">MMS</string>
+    <string name="preferences__auto_retrieve">Automatické stiahnutie</string>
+    <string name="preferences__automatically_retrieve_mms_messages">Automaticky stiahnuť MMS správy</string>
+    <string name="preferences__roaming_auto_retrieve">Automatické stiahnutie v roamingu</string>
+    <string name="preferences__automatically_retrieve_mms_when_roaming">Automaticky stiahnuť MMS správy v režimu roaming</string>
+    <string name="preferences_chats__message_trimming">Orezanie správ</string>
+    <string name="preferences_advanced__use_system_emoji">Použiť systémové emoji</string>
+    <string name="preferences_advanced__disable_silences_built_in_emoji_support">Vypnúť vnútornú podporu emoji aplikácie</string>
+    <!--****************************************-->
+    <!--menus-->
+    <!--****************************************-->
+    <!--contact_selection_list-->
+    <string name="contact_selection_list__menu_select_all">Označiť všetko</string>
+    <string name="contact_selection_list__menu_unselect_all">Odznačiť všetko</string>
+    <string name="contact_selection_list__header">VŠETKY KONTAKTY</string>
+    <string name="contact_selection_list__unknown_contact">Nová správa pre…</string>
+    <!--contact_selection-->
+    <string name="contact_selection__menu_finished">Hotovo</string>
+    <!--refreshing push directory from menu-->
+    <string name="push_directory__menu_refresh">Obnoviť zoznam kontaktov</string>
+    <!--conversation_button_context-->
+    <string name="conversation_button_context__send_secure_sms">Poslať šifrovanú SMS</string>
+    <string name="conversation_button_context__send_insecure_sms">Poslať nešifrovanú SMS</string>
+    <string name="conversation_button_context__send_secure_mms">Poslať šifrovanú MMS</string>
+    <string name="conversation_button_context__send_insecure_mms">Poslať nešifrovanú MMS</string>
+    <!--conversation_callable-->
+    <string name="conversation_callable__menu_call">Volať</string>
+    <!--conversation_context-->
+    <string name="conversation_context__menu_message_details">Podrobnosti správy</string>
+    <string name="conversation_context__menu_copy_text">Kopírovať text</string>
+    <string name="conversation_context__menu_delete_message">Vymazať správu</string>
+    <string name="conversation_context__menu_forward_message">Preposlať správu</string>
+    <string name="conversation_context__menu_resend_message">Poslať správu znovu</string>
+    <!--conversation_context_image-->
+    <string name="conversation_context_image__save_attachment">Uložiť prílohu </string>
+    <!--conversation_insecure-->
+    <string name="conversation_insecure__invite">Pozvať</string>
+    <!--conversation_insecure_no_push-->
+    <string name="conversation_insecure__menu_start_secure_session">Začať bezpečné spojenie</string>
+    <string name="conversation_insecure__security">Bezpečnosť</string>
+    <!--conversation_list_batch-->
+    <string name="conversation_list_batch__menu_delete_selected">Odstrániť označené</string>
+    <string name="conversation_list_batch__menu_select_all">Označiť všetko</string>
+    <string name="conversation_list_batch__menu_send_drafts">Poslať označené koncepty</string>
+    <string name="conversation_list_batch_archive__menu_archive_selected">Archivovať označené</string>
+    <string name="conversation_list_batch_unarchive__menu_unarchive_selected">Odobrať označené z archívu</string>
+    <!--conversation_list-->
+    <string name="conversation_list__menu_search">Hľadať</string>
+    <!--conversation_list_item_view-->
+    <string name="conversation_list_item_view__contact_photo_image">Fotka kontaktu</string>
+    <string name="conversation_list_item_view__error_alert">Upozornenie na chybu</string>
+    <string name="conversation_list_item_view__archived">Archivované</string>
+    <!--conversation_list_fragment-->
+    <string name="conversation_list_fragment__fab_content_description">Nová konverzácia</string>
+    <!--conversation_secure_verified-->
+    <string name="conversation_secure_verified__menu_security">Bezpečnosť</string>
+    <string name="conversation_secure_verified__menu_verify_identity">Overiť totožnosť</string>
+    <string name="conversation_secure_verified__menu_abort_secure_session">Ukončiť bezpečné spojenie</string>
+    <!--conversation_muted-->
+    <string name="conversation_muted__unmute">Zosilniť</string>
+    <!--conversation_unmuted-->
+    <string name="conversation_unmuted__mute_notifications">Stlmiť upozornenia</string>
+    <!--conversation-->
+    <string name="conversation__menu_add_attachment">Pridať prílohu</string>
+    <string name="conversation__menu_delete_conversation">Vymazať konverzáciu</string>
+    <string name="conversation__menu_archive_conversation">Archivovať konverzáciu</string>
+    <string name="conversation__menu_unarchive_conversation">Odobrať konverzáciu z archívu</string>
+    <string name="conversation__menu_view_media">Všetky obrázky</string>
+    <string name="conversation__menu_conversation_settings">Nastavenia konverzácie</string>
+    <!--conversation_popup-->
+    <string name="conversation_popup__menu_expand_popup">Rozbaliť vyskakujúcu správu</string>
+    <!--conversation_callable-->
+    <string name="conversation_add_to_contacts__menu_add_to_contacts">Pridať medzi kontakty</string>
+    <!--conversation_group_options-->
+    <string name="convesation_group_options__recipients_list">Zoznam príjemcov</string>
+    <string name="conversation_group_options__delivery">Doručenie</string>
+    <string name="conversation_group_options__conversation">Konverzácia</string>
+    <string name="conversation_group_options__broadcast">Poslať všetkým</string>
+    <!--key_scanning-->
+    <string name="key_scanning__menu_compare">Porovnať</string>
+    <string name="key_scanning__menu_display_your_qr_code">Zobraziť váš QR kód</string>
+    <string name="key_scanning__menu_scan_contacts_qr_code">Skenovať QR kód kontaktu</string>
+    <!--text_secure_normal-->
+    <string name="text_secure_normal__menu_new_message">Nová správa</string>
+    <string name="text_secure_normal__menu_new_group">Nová skupina</string>
+    <string name="text_secure_normal__menu_settings">Nastavenia</string>
+    <string name="text_secure_normal__menu_clear_passphrase">Zamknúť</string>
+    <string name="text_secure_normal__mark_all_as_read">Označiť všetky ako prečítané</string>
+    <string name="text_secure_normal__menu_archived_conversations">Archivované konverzácie</string>
+    <!--reminder_header-->
+    <string name="reminder_header_sms_default_title">Použiť ako predvolenú SMS aplikáciu?</string>
+    <string name="reminder_header_sms_default_text_mandatory">Silence musí byť Vaša predvolená SMS/MMS aplikácia aby dokázala prijímať správy.</string>
+    <string name="reminder_header_sms_default_button">NASTAVIŤ</string>
+    <string name="reminder_header_sms_import_title">Importovať systémové SMS?</string>
+    <string name="reminder_header_sms_import_text"> Ťuknite pre import textových správ z Vášho telefónu do šifrovanej databázy Silence</string>
+    <string name="reminder_header_sms_import_button">IMPORTOVAŤ</string>
+    <string name="reminder_header_rate_title">Ohodnitiť túto aplikáciu</string>
+    <string name="reminder_header_rate_text">Keď sa Vám táto aplikácia páči, pomôžte nám tým, že ju ohodnotíte.</string>
+    <string name="reminder_header_rate_button">OHODNOTIŤ TERAZ!</string>
+    <string name="reminder_header_delivery_reports_title">Zapnúť správy o doručení?</string>
+    <string name="reminder_header_delivery_reports_text">Správy o doručení Vám umožnia zistiť kedy, a či vôbec boli Vaše správy doručené. Niektorí mobilní operátori za to môžu účtovať poplatky. </string>
+    <string name="reminder_header_delivery_reports_button">ZAPNÚŤ</string>
+    <string name="reminder_header_close_button">ZATVORIŤ</string>
+    <!--MediaPreviewActivity-->
+    <string name="MediaPreviewActivity_you">Vy</string>
+    <string name="MediaPreviewActivity_cant_display">Nepodarilo sa vytvoriť náhľad</string>
+    <string name="MediaPreviewActivity_unssuported_media_type">Nepodporovaný typ média</string>
+    <string name="MediaPreviewActivity_draft">Koncept</string>
+    <!--media_preview-->
+    <string name="media_preview__save_title">Uložiť</string>
+    <string name="media_preview__forward_title">Dopredu</string>
+    <string name="media_preview__overview_title">Všetky obrázky</string>
+    <!--media_overview-->
+    <string name="media_overview__save_all">Uložiť všetko</string>
+    <!--media_preview_activity-->
+    <string name="media_preview_activity__image_content_description">Náhľad obrázka</string>
+    <!--Trimmer-->
+    <string name="trimmer__deleting">Mazanie…</string>
+    <string name="trimmer__deleting_old_messages">Mazanie starých správ…</string>
+    <string name="trimmer__old_messages_successfully_deleted">Staré správy úspešne vymazané</string>
+    <!--transport_selection_list_item-->
+    <string name="transport_selection_list_item__transport_icon">Transportná ikona</string>
+    <!--EOF-->
+    <string name="Permissions_not_now">Teraz nie</string>
+    <string name="Permissions_continue">Pokračovať</string>
+    <string name="message_details_header__from">Od</string>
+    <string name="message_details_header__to">Pre</string>
+    <string name="message_details_header__type">Typ</string>
+    <string name="conversation_activity__via_sim_name">Cez %1$s</string>
+    <string name="contact_selection_list_fragment__show_contacts">Ukázať kontakty</string>
+    <string name="WelcomeActivity_continue">Pokračovať</string>
+    <string name="ConversationItem_via_s">cez %s</string>
+</resources>
